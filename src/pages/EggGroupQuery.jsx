@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { loadPets } from '../utils/data'
+import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
 
 export default function EggGroupQuery() {
@@ -87,7 +88,7 @@ export default function EggGroupQuery() {
                 >
                   <div className="flex justify-center mb-3">
                     <img
-                      src={`/icons/pets1024/${pet.JL_res?.split('/').pop()?.split('.')[0]}.png`}
+                      src={petIconUrl(pet.JL_res)}
                       alt={pet.name}
                       className="w-16 h-16 object-contain"
                       onError={e => { e.target.style.display = 'none' }}

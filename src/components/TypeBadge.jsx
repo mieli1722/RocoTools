@@ -40,12 +40,14 @@ const TYPE_ICON_MAP = {
   '幻': 'ui_icon_species_20.png',
 };
 
+const base = import.meta.env.BASE_URL
+
 export default function TypeBadge({ type, className = '', showIcon = true, size = 20 }) {
   const iconFile = TYPE_ICON_MAP[type];
   if (showIcon && iconFile) {
     return (
       <img
-        src={`/icons/species/${iconFile}`}
+        src={`${base}icons/species/${iconFile}`}
         alt={type}
         title={type}
         width={size}

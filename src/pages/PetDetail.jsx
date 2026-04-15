@@ -13,6 +13,8 @@ const XUEMAI_ICON_MAP = {
   '幽': 'img_youling.png', '地': 'img_shan.png',
 };
 
+const base = import.meta.env.BASE_URL;
+
 function getForms(pet, petMap) {
   if (!pet) return []
   return Object.values(petMap).filter(
@@ -274,7 +276,7 @@ export default function PetDetail() {
           <div className="flex items-center gap-3">
             {feature.icon && (
               <img
-                src={`/icons/features/${feature.icon.split('/').pop().split('.')[0]}.png`}
+                src={`${base}icons/features/${feature.icon.split('/').pop().split('.')[0]}.png`}
                 alt={feature.name}
                 className="w-12 h-12 object-contain bg-gray-50 rounded"
                 onError={e => { e.target.style.display = 'none' }}
@@ -311,7 +313,7 @@ export default function PetDetail() {
                 <div key={s.skill_id} className="flex items-center gap-2 bg-gray-50 rounded px-3 py-2" title={s.type}>
                   {XUEMAI_ICON_MAP[s.type] && (
                     <img
-                      src={`/icons/xuemai/${XUEMAI_ICON_MAP[s.type]}`}
+                      src={`${base}icons/xuemai/${XUEMAI_ICON_MAP[s.type]}`}
                       alt={s.type}
                       width={24}
                       height={24}

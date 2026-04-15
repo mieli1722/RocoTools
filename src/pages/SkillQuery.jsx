@@ -31,10 +31,11 @@ export default function SkillQuery() {
     })
   }, [skills, query, typeFilter])
 
+  const base = import.meta.env.BASE_URL
   function iconUrl(skill) {
     if (!skill.icon) return null
     const name = skill.icon.split('/').pop()?.split('.')[0]
-    return name ? `/icons/skills/${name}.png` : null
+    return name ? `${base}icons/skills/${name}.png` : null
   }
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
