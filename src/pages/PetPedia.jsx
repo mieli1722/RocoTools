@@ -38,14 +38,14 @@ export default function PetPedia() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
-      <h1 className="text-xl font-bold mb-4">宠物图鉴</h1>
+      <h1 className="text-xl font-bold mb-4">精灵图鉴</h1>
       <div className="flex flex-col sm:flex-row gap-3 mb-4">
         <div className="relative flex-1">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
           <input
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="搜索宠物名称或描述"
+            placeholder="搜索精灵名称或描述"
             className="w-full pl-10 pr-3 py-2 rounded-lg border bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -58,7 +58,7 @@ export default function PetPedia() {
         </select>
       </div>
 
-      <div className="text-sm text-gray-500 mb-2">共 {filtered.length} 只宠物</div>
+      <div className="text-sm text-gray-500 mb-2">共 {filtered.length} 只精灵</div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {filtered.map(pet => (

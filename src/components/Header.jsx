@@ -1,13 +1,14 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Home, BookOpen, Zap, Sword, Smile, Egg } from 'lucide-react';
+import { Home, BookOpen, Zap, Sword, Smile, Egg, Search } from 'lucide-react';
 
 const NAV = [
   { to: '/', label: '首页', icon: Home },
-  { to: '/pets', label: '宠物图鉴', icon: BookOpen },
+  { to: '/pets', label: '精灵图鉴', icon: BookOpen },
   { to: '/types', label: '属性克制', icon: Zap },
   { to: '/skills', label: '技能查询', icon: Sword },
   { to: '/natures', label: '性格查询', icon: Smile },
   { to: '/egg-groups', label: '蛋组查询', icon: Egg },
+  { to: '/egg-predictor', label: '蛋推测', icon: Search },
 ];
 
 export default function Header() {

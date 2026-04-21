@@ -168,7 +168,7 @@ export default function PetDetail() {
   }, [id])
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
-  if (!pet) return <div className="p-10 text-center text-gray-500">未找到该宠物</div>
+  if (!pet) return <div className="p-10 text-center text-gray-500">未找到该精灵</div>
 
   const stats = [
     { label: '生命', value: pet.hp_max_race },

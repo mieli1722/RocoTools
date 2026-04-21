@@ -1107,6 +1107,23 @@
     "damage_type": 1
   },
   {
+    "id": 7001200,
+    "name": "护主犬专用",
+    "desc": "空",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'",
+    "dam_para": [
+      0
+    ],
+    "energy_cost": [
+      0
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "无",
+    "skill_type": "",
+    "damage_type": 1
+  },
+  {
     "id": 7010080,
     "name": "机警",
     "desc": "精灵警戒起来了，正在寻找逃走的机会。",
@@ -6483,8 +6500,8 @@
     "dam_para": [
       60,
       4,
-      60,
-      65,
+      0,
+      40,
       70,
       80,
       90,
@@ -10438,8 +10455,8 @@
     "dam_para": [
       60,
       6,
-      60,
-      65,
+      0,
+      40,
       70,
       80,
       90,

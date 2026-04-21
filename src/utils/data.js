@@ -22,3 +22,8 @@ export async function loadNatures() {
   const mod = await import('../assets/data/natures.json');
   return mod.default;
 }
+
+export async function loadEggConf() {
+  const mod = await import('../assets/data/egg_conf.json');
+  return mod.default;
+}
