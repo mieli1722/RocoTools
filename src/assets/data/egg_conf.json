@@ -1451,6 +1451,25 @@
     }
   },
   {
+    "id": 3234001,
+    "pet_id": 3234001,
+    "name": "牵线木偶",
+    "weight_low": 2090,
+    "weight_high": 3480,
+    "height_low": 27,
+    "height_high": 38,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3234,
+      "name": "牵线木偶",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_qianxianmuou.JL_qianxianmuou'",
+      "types": [
+        "幻"
+      ],
+      "pictorial_book_id": 373
+    }
+  },
+  {
     "id": 3237001,
     "pet_id": 3237001,
     "name": "小怂猫",
@@ -2115,6 +2134,25 @@
     }
   },
   {
+    "id": 3392001,
+    "pet_id": 3392001,
+    "name": "凡雀",
+    "weight_low": 1078,
+    "weight_high": 2400,
+    "height_low": 15,
+    "height_high": 21,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3392,
+      "name": "凡雀",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_fanque.JL_fanque'",
+      "types": [
+        "翼"
+      ],
+      "pictorial_book_id": 351
+    }
+  },
+  {
     "id": 3395001,
     "pet_id": 3395001,
     "name": "里奥",
@@ -2525,6 +2563,25 @@
     }
   },
   {
+    "id": 3487001,
+    "pet_id": 3487001,
+    "name": "小丑豆豆的蛋",
+    "weight_low": 1698,
+    "weight_high": 2540,
+    "height_low": 20,
+    "height_high": 27,
+    "hatch_data": 43200,
+    "pet": {
+      "id": 3487,
+      "name": "小丑豆豆",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xiaochoudoudou.JL_xiaochoudoudou'",
+      "types": [
+        "恶"
+      ],
+      "pictorial_book_id": 362
+    }
+  },
+  {
     "id": 3490001,
     "pet_id": 3490001,
     "name": "吸泥鸥",
@@ -2740,6 +2797,25 @@
     }
   },
   {
+    "id": 3531001,
+    "pet_id": 3531001,
+    "name": "小雪人的蛋",
+    "weight_low": 15155,
+    "weight_high": 35000,
+    "height_low": 32,
+    "height_high": 39,
+    "hatch_data": 72000,
+    "pet": {
+      "id": 3531,
+      "name": "小雪人",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xiaoxueren.JL_xiaoxueren'",
+      "types": [
+        "冰"
+      ],
+      "pictorial_book_id": 354
+    }
+  },
+  {
     "id": 3533001,
     "pet_id": 3533001,
     "name": "雪绒鸟",
@@ -2893,6 +2969,26 @@
         "普通"
       ],
       "pictorial_book_id": 121
+    }
+  },
+  {
+    "id": 3572001,
+    "pet_id": 3572001,
+    "name": "爆焰仔的蛋",
+    "weight_low": 7350,
+    "weight_high": 15400,
+    "height_low": 28,
+    "height_high": 35,
+    "hatch_data": 72000,
+    "pet": {
+      "id": 3572,
+      "name": "爆焰仔",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_baoyanzai.JL_baoyanzai'",
+      "types": [
+        "火",
+        "龙"
+      ],
+      "pictorial_book_id": 356
     }
   },
   {
@@ -3113,6 +3209,84 @@
     }
   },
   {
+    "id": 3620001,
+    "pet_id": 3620001,
+    "name": "学院呱呱",
+    "weight_low": 1687,
+    "weight_high": 2200,
+    "height_low": 21,
+    "height_high": 27,
+    "hatch_data": 43200,
+    "pet": {
+      "id": 3620,
+      "name": "学院呱呱",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xueyuanguagua.JL_xueyuanguagua'",
+      "types": [
+        "武"
+      ],
+      "pictorial_book_id": 375
+    }
+  },
+  {
+    "id": 3659001,
+    "pet_id": 3659001,
+    "name": "加油海葵",
+    "weight_low": 1015,
+    "weight_high": 1660,
+    "height_low": 15,
+    "height_high": 20,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3659,
+      "name": "加油海葵",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_jiayouhaikui.JL_jiayouhaikui'",
+      "types": [
+        "水",
+        "萌"
+      ],
+      "pictorial_book_id": 360
+    }
+  },
+  {
+    "id": 3677001,
+    "pet_id": 3677001,
+    "name": "烟花团的蛋",
+    "weight_low": 1768,
+    "weight_high": 2528,
+    "height_low": 14,
+    "height_high": 21,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3677,
+      "name": "烟花团",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_yanhuatuan.JL_yanhuatuan'",
+      "types": [
+        "火",
+        "毒"
+      ],
+      "pictorial_book_id": 365
+    }
+  },
+  {
+    "id": 3683001,
+    "pet_id": 3683001,
+    "name": "咕咕帽",
+    "weight_low": 763,
+    "weight_high": 2304,
+    "height_low": 16,
+    "height_high": 23,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3683,
+      "name": "咕咕帽",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_gugumao.JL_gugumao'",
+      "types": [
+        "幽"
+      ],
+      "pictorial_book_id": 367
+    }
+  },
+  {
     "id": 3704001,
     "pet_id": 3704001,
     "name": "优优的蛋",
@@ -3130,6 +3304,84 @@
         "光"
       ],
       "pictorial_book_id": 270
+    }
+  },
+  {
+    "id": 3708001,
+    "pet_id": 3708001,
+    "name": "小鼓象",
+    "weight_low": 1806,
+    "weight_high": 3320,
+    "height_low": 27,
+    "height_high": 34,
+    "hatch_data": 57600,
+    "pet": {
+      "id": 3708,
+      "name": "小鼓象",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xiaoguxiang.JL_xiaoguxiang'",
+      "types": [
+        "机械"
+      ],
+      "pictorial_book_id": 371
+    }
+  },
+  {
+    "id": 3729001,
+    "pet_id": 3729001,
+    "name": "猴麦仔",
+    "weight_low": 2940,
+    "weight_high": 7040,
+    "height_low": 24,
+    "height_high": 33,
+    "hatch_data": 43200,
+    "pet": {
+      "id": 3729,
+      "name": "猴麦仔",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_houmaizai.JL_houmaizai'",
+      "types": [
+        "普通",
+        "机械"
+      ],
+      "pictorial_book_id": 358
+    }
+  },
+  {
+    "id": 3733002,
+    "pet_id": 3733002,
+    "name": "钨丝贝贝",
+    "weight_low": 3395,
+    "weight_high": 5920,
+    "height_low": 23,
+    "height_high": 30,
+    "hatch_data": 100,
+    "pet": {
+      "id": 3733,
+      "name": "钨丝贝贝",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_wusibeibei.JL_wusibeibei'",
+      "types": [
+        "机械"
+      ],
+      "pictorial_book_id": 348
+    }
+  },
+  {
+    "id": 3736001,
+    "pet_id": 3736001,
+    "name": "炫光迪迪",
+    "weight_low": 9100,
+    "weight_high": 14840,
+    "height_low": 20,
+    "height_high": 28,
+    "hatch_data": 72000,
+    "pet": {
+      "id": 3736,
+      "name": "炫光迪迪",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xuanguangdidi.JL_xuanguangdidi'",
+      "types": [
+        "电",
+        "光"
+      ],
+      "pictorial_book_id": 369
     }
   },
   {

@@ -9,7 +9,8 @@ export default function PetPedia() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState('')
-  const [typeFilter, setTypeFilter] = useState('全部')
+  const [selectedTypes, setSelectedTypes] = useState([])
+  const [onlyShiny, setOnlyShiny] = useState(false)
 
   useEffect(() => {
     loadPets().then(data => {
@@ -22,40 +23,75 @@ export default function PetPedia() {
   const allTypes = useMemo(() => {
     const set = new Set()
     pets.forEach(p => p.types?.forEach(t => { if (t) set.add(t) }))
-    return ['全部', ...Array.from(set).sort()]
+    return Array.from(set).sort()
   }, [pets])
+
+  const toggleType = (type) => {
+    setSelectedTypes(prev =>
+      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
+    )
+  }
 
   const filtered = useMemo(() => {
     return pets.filter(p => {
       const matchName = (p.name || '').toLowerCase().includes(query.toLowerCase())
-        || (p.description || '').toLowerCase().includes(query.toLowerCase())
-      const matchType = typeFilter === '全部' || (p.types || []).includes(typeFilter)
-      return matchName && matchType
+      const matchType = selectedTypes.length === 0 || (p.types || []).some(t => selectedTypes.includes(t))
+      const matchShiny = !onlyShiny || !!p.have_shiny
+      return matchName && matchType && matchShiny
     })
-  }, [pets, query, typeFilter])
+  }, [pets, query, selectedTypes, onlyShiny])
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
-      <h1 className="text-xl font-bold mb-4">精灵图鉴</h1>
-      <div className="flex flex-col sm:flex-row gap-3 mb-4">
-        <div className="relative flex-1">
+      <div className="flex items-center gap-3 mb-4">
+        <h1 className="text-xl font-bold">精灵图鉴</h1>
+        <button
+          onClick={() => setOnlyShiny(v => !v)}
+          className={`px-3 py-1 rounded-lg border text-sm transition ${onlyShiny ? 'bg-amber-50 border-amber-300 text-amber-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
+        >
+          {onlyShiny ? '✦ 仅异色' : '仅异色'}
+        </button>
+      </div>
+
+      <div className="flex flex-col gap-3 mb-4">
+        <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
           <input
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="搜索精灵名称或描述"
+            placeholder="搜索精灵名称"
             className="w-full pl-10 pr-3 py-2 rounded-lg border bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
-        <select
-          value={typeFilter}
-          onChange={e => setTypeFilter(e.target.value)}
-          className="px-3 py-2 rounded-lg border bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          {allTypes.map(t => <option key={t} value={t}>{t}</option>)}
-        </select>
+
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm text-gray-500">属性：</span>
+          {allTypes.map(type => {
+            const active = selectedTypes.includes(type)
+            return (
+              <button
+                key={type}
+                onClick={() => toggleType(type)}
+                className={`flex items-center gap-1 px-2 py-1 rounded-lg border text-sm transition ${active ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-white hover:bg-gray-50'}`}
+                title={type}
+              >
+                <TypeBadge type={type} size={16} />
+                <span>{type}</span>
+              </button>
+            )
+          })}
+        </div>
+
+        {(selectedTypes.length > 0 || onlyShiny) && (
+          <button
+            onClick={() => { setSelectedTypes([]); setOnlyShiny(false) }}
+            className="text-sm text-gray-500 hover:text-gray-700 self-start"
+          >
+            清除筛选
+          </button>
+        )}
       </div>
 
       <div className="text-sm text-gray-500 mb-2">共 {filtered.length} 只精灵</div>

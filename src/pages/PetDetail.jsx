@@ -13,6 +13,12 @@ const XUEMAI_ICON_MAP = {
   '幽': 'img_youling.png', '地': 'img_shan.png',
 };
 
+const TYPE_ID_MAP = {
+  1: '草', 2: '普通', 3: '虫', 4: '火', 5: '水', 6: '光', 7: '光（不确定）',
+  8: '地', 9: '冰', 10: '龙', 11: '电', 12: '毒', 13: '武', 14: '萌',
+  15: '幽', 16: '翼', 17: '恶', 18: '机械', 19: '幻', 20: '?',
+};
+
 const base = import.meta.env.BASE_URL;
 
 function getForms(pet, petMap) {
@@ -20,6 +26,84 @@ function getForms(pet, petMap) {
   return Object.values(petMap).filter(
     p => p.id !== pet.id && p.name === pet.name && p.pictorial_book_id === pet.pictorial_book_id
   )
+}
+
+function formatTimeRange(arr) {
+  if (!Array.isArray(arr) || arr.length < 2) return String(arr)
+  const a = arr[0], b = arr[1]
+  if (a < b) return `${a}时-${b}时`
+  if (a > b) return `${a}时-次日${b}时`
+  return `${a}时`
+}
+
+function formatCondition(node, weatherMap) {
+  const parts = []
+  if (node.evolution_need_level) {
+    parts.push(`Lv.${node.evolution_need_level}`)
+  }
+  const needs = node.evolution_need || []
+  for (const need of needs) {
+    const type = need.evolution_need_type
+    const d1 = need.evolution_need_data1
+    const d2 = need.evolution_need_data2
+    if (type === 1) continue
+    if (type === 2) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(v === 1 ? '雄性' : v === 2 ? '雌性' : `性别=${v}`)
+    } else if (type === 4) {
+      parts.push(`时间:${formatTimeRange(d1)}`)
+    } else if (type === 5) {
+      if (Array.isArray(d1) && d1.length >= 2) {
+        const w1 = weatherMap.get(d1[0]) || d1[0]
+        const w2 = weatherMap.get(d1[1]) || d1[1]
+        parts.push(`天气:${w1}~${w2}`)
+      } else {
+        const w = weatherMap.get(Array.isArray(d1) ? d1[0] : d1) || d1
+        parts.push(`天气:${w}`)
+      }
+    } else if (type === 6) {
+      parts.push('位面互访')
+    } else if (type === 7) {
+      const v1 = Array.isArray(d1) ? d1[0] : d1
+      const v2 = Array.isArray(d2) ? d2[0] : d2
+      const tname = TYPE_ID_MAP[v2] || v2
+      parts.push(`击败${v1}只${tname}系精灵`)
+    } else if (type === 8) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(`采集资源${v}次`)
+    } else if (type === 11) {
+      parts.push('随机进化')
+    } else if (type === 12) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(`成长星级${v}`)
+    } else if (type === 13) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(`血脉${v}`)
+    } else if (type === 14) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(`身高范围${v}`)
+    } else if (type === 16) {
+      const v1 = Array.isArray(d1) ? d1[0] : d1
+      const v2 = Array.isArray(d2) ? d2[0] : d2
+      parts.push(`使用技能${v1}×${v2}次`)
+    } else if (type === 18) {
+      const v1 = Array.isArray(d1) ? d1[0] : d1
+      const v2 = Array.isArray(d2) ? d2[0] : d2
+      parts.push(`击败#${v1}×${v2}次`)
+    } else if (type === 20) {
+      const v1 = Array.isArray(d1) ? d1[0] : d1
+      const v2 = Array.isArray(d2) ? d2[0] : d2
+      parts.push(`收集地图资源${v1}×${v2}次`)
+    } else if (type === 21) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(`收集星光值${v}`)
+    } else {
+      const v1 = Array.isArray(d1) ? d1[0] : d1
+      const v2 = Array.isArray(d2) ? d2[0] : d2
+      parts.push(`未知(type=${type}${v1 !== undefined ? `,d1=${v1}` : ''}${v2 !== undefined ? `,d2=${v2}` : ''})`)
+    }
+  }
+  return parts.length > 0 ? parts.join(' + ') : null
 }
 
 function buildEvolutionTree(rootId, petMap) {
@@ -30,7 +114,6 @@ function buildEvolutionTree(rootId, petMap) {
     .map(nextId => buildEvolutionTree(nextId, petMap))
     .filter(Boolean)
 
-  // Add boss forms at the end if they exist and aren't already in branches
   const bossIds = pet.bosspetbase_id_arry || []
   const existingIds = new Set(nextIds)
   bossIds.forEach(bid => {
@@ -46,6 +129,8 @@ function buildEvolutionTree(rootId, petMap) {
     stage: pet.stage || 1,
     form: pet.form,
     JL_res: pet.JL_res,
+    evolution_need_level: pet.evolution_need_level,
+    evolution_need: pet.evolution_need,
     branches,
   }
 }
@@ -65,7 +150,7 @@ function NameLabel({ node }) {
   )
 }
 
-function EvolutionNode({ node, petId }) {
+function EvolutionNode({ node, petId, weatherMap }) {
   const isCurrent = node.id === petId
   const branches = node.branches || []
 
@@ -91,6 +176,7 @@ function EvolutionNode({ node, petId }) {
             {branches.map((child, idx) => {
               const isFirst = idx === 0
               const isLast = idx === branches.length - 1
+              const childCondition = formatCondition(child, weatherMap)
               return (
                 <div key={child.id} className="flex-1 flex flex-col items-center relative min-w-[5rem] px-1">
                   {branches.length > 1 && (
@@ -103,7 +189,15 @@ function EvolutionNode({ node, petId }) {
                     />
                   )}
                   <div className="h-3 w-px bg-gray-300"></div>
-                  <EvolutionNode node={child} petId={petId} />
+                  {childCondition && (
+                    <>
+                      <div className="text-[10px] text-blue-600 font-medium text-center px-1.5 py-0.5 bg-blue-50 rounded border border-blue-100 whitespace-nowrap">
+                        {childCondition}
+                      </div>
+                      <div className="h-3 w-px bg-gray-300"></div>
+                    </>
+                  )}
+                  <EvolutionNode node={child} petId={petId} weatherMap={weatherMap} />
                 </div>
               )
             })}
@@ -120,20 +214,29 @@ export default function PetDetail() {
   const [feature, setFeature] = useState(null)
   const [petMap, setPetMap] = useState({})
   const [evoTrees, setEvoTrees] = useState([])
+  const [weatherMap, setWeatherMap] = useState(new Map())
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    Promise.all([loadPets(), loadFeatures()]).then(([pets, features]) => {
+    Promise.all([loadPets(), loadFeatures()]).then(async ([pets, features]) => {
       const map = Object.fromEntries(pets.map(p => [p.id, p]))
       setPetMap(map)
       const found = map[Number(id)]
       setPet(found || null)
+
+      try {
+        const mod = await import('../assets/data/weathers.json')
+        const wm = new Map((mod.default || []).map(w => [w.id, w.name]))
+        setWeatherMap(wm)
+      } catch (e) {
+        setWeatherMap(new Map())
+      }
+
       if (found) {
         if (found.pet_feature) {
           const f = features.find(x => x.id === found.pet_feature)
           setFeature(f || null)
         }
-        // Find all related pets and build evolution trees for each stage-1 root
         const parentMap = {}
         Object.values(map).forEach(p => {
           const nextIds = [...(p.evolution_pet_id || []), ...(p.bosspetbase_id_arry || [])]
@@ -264,7 +367,7 @@ export default function PetDetail() {
           <h2 className="font-semibold mb-4">进化链</h2>
           <div className="flex justify-center gap-8 min-w-max">
             {evoTrees.map(tree => (
-              <EvolutionNode key={tree.id} node={tree} petId={pet.id} />
+              <EvolutionNode key={tree.id} node={tree} petId={pet.id} weatherMap={weatherMap} />
             ))}
           </div>
         </div>

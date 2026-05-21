@@ -9,6 +9,7 @@ export default function EggGroupQuery() {
   const [loading, setLoading] = useState(true)
   const [searchParams, setSearchParams] = useSearchParams()
   const currentGroup = searchParams.get('group') || ''
+  const onlyShiny = searchParams.get('shiny') === '1'
 
   useEffect(() => {
     loadPets().then(data => {
@@ -32,10 +33,17 @@ export default function EggGroupQuery() {
   const allGroups = useMemo(() => Object.keys(groupMap).sort(), [groupMap])
 
   const filtered = useMemo(() => {
-    if (!currentGroup) return []
-    const list = pets.filter(p =>
-      p.egg_groups?.some(g => g.name === currentGroup)
-    )
+    let list
+    if (currentGroup) {
+      list = pets.filter(p => p.egg_groups?.some(g => g.name === currentGroup))
+    } else if (onlyShiny) {
+      list = pets.filter(p => !!p.have_shiny)
+    } else {
+      return []
+    }
+    if (onlyShiny) {
+      list = list.filter(p => !!p.have_shiny)
+    }
     list.sort((a, b) => {
       const aSingle = a.egg_groups?.length === 1 ? 0 : 1
       const bSingle = b.egg_groups?.length === 1 ? 0 : 1
@@ -43,19 +51,49 @@ export default function EggGroupQuery() {
       return (a.pictorial_book_id || 0) - (b.pictorial_book_id || 0)
     })
     return list
-  }, [pets, currentGroup])
+  }, [pets, currentGroup, onlyShiny])
+
+  const setGroup = (g) => {
+    const params = new URLSearchParams()
+    if (g) params.set('group', g)
+    if (onlyShiny) params.set('shiny', '1')
+    setSearchParams(params)
+  }
+
+  const toggleShiny = () => {
+    const params = new URLSearchParams()
+    if (currentGroup) params.set('group', currentGroup)
+    if (!onlyShiny) params.set('shiny', '1')
+    setSearchParams(params)
+  }
+
+  const clearShiny = () => {
+    const params = new URLSearchParams()
+    if (currentGroup) params.set('group', currentGroup)
+    setSearchParams(params)
+  }
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
 
+  const showList = currentGroup || onlyShiny
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
-      <h1 className="text-xl font-bold mb-4">蛋组查询</h1>
+      <div className="flex items-center gap-3 mb-4">
+        <h1 className="text-xl font-bold">蛋组查询</h1>
+        <button
+          onClick={toggleShiny}
+          className={`px-3 py-1 rounded-lg border text-sm transition ${onlyShiny ? 'bg-amber-50 border-amber-300 text-amber-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
+        >
+          {onlyShiny ? '✦ 仅异色' : '仅异色'}
+        </button>
+      </div>
 
       <div className="flex flex-wrap gap-2 mb-4">
         {allGroups.map(g => (
           <button
             key={g}
-            onClick={() => setSearchParams({ group: g })}
+            onClick={() => setGroup(currentGroup === g ? '' : g)}
             className={`px-3 py-1.5 rounded-lg border text-sm transition ${currentGroup === g ? 'bg-blue-50 border-blue-200 text-blue-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
           >
             {g}
@@ -63,13 +101,17 @@ export default function EggGroupQuery() {
         ))}
       </div>
 
-      {currentGroup && (
+      {showList && (
         <>
           <div className="mb-3">
             <div className="text-sm text-gray-500 mb-1">
-              蛋组 <span className="font-medium text-gray-800">{currentGroup}</span> 下共 {filtered.length} 只精灵
+              {currentGroup ? (
+                <>蛋组 <span className="font-medium text-gray-800">{currentGroup}</span> 下共 {filtered.length} 只精灵</>
+              ) : (
+                <>全部异色精灵共 {filtered.length} 只</>
+              )}
             </div>
-            {groupMap[currentGroup] && (
+            {currentGroup && groupMap[currentGroup] && (
               <div className="text-xs text-gray-400">{groupMap[currentGroup]}</div>
             )}
           </div>
@@ -78,8 +120,7 @@ export default function EggGroupQuery() {
             const single = filtered.filter(p => p.egg_groups?.length === 1)
             const double = filtered.filter(p => p.egg_groups?.length > 1)
             const renderCard = (pet) => {
-              const isSingle = pet.egg_groups?.length === 1
-              const otherGroups = pet.egg_groups?.filter(g => g.name !== currentGroup) || []
+              const groups = pet.egg_groups || []
               return (
                 <Link
                   key={pet.id}
@@ -99,26 +140,19 @@ export default function EggGroupQuery() {
                   <div className="flex flex-wrap justify-center gap-1 mb-2">
                     {(pet.types || []).map(t => <TypeBadge key={t} type={t} size={16} />)}
                   </div>
-                  <div className="text-xs text-center">
-                    {isSingle ? (
-                      <span className="text-gray-400">单蛋组</span>
-                    ) : (
-                      <span className="text-gray-500">
-                        双蛋组 /
-                        {otherGroups.map((g, idx) => (
-                          <span key={g.name}>
-                            <Link
-                              to={`/egg-groups?group=${encodeURIComponent(g.name)}`}
-                              className="text-blue-600 hover:underline ml-1"
-                              onClick={e => e.stopPropagation()}
-                            >
-                              {g.name}
-                            </Link>
-                            {idx < otherGroups.length - 1 && <span className="text-gray-300">、</span>}
-                          </span>
-                        ))}
+                  <div className="text-xs text-center text-gray-500">
+                    {groups.map((g, idx) => (
+                      <span key={g.name}>
+                        <Link
+                          to={`/egg-groups?group=${encodeURIComponent(g.name)}`}
+                          className="text-blue-600 hover:underline"
+                          onClick={e => e.stopPropagation()}
+                        >
+                          {g.name}
+                        </Link>
+                        {idx < groups.length - 1 && <span className="text-gray-300 mx-0.5">/</span>}
                       </span>
-                    )}
+                    ))}
                   </div>
                 </Link>
               )
