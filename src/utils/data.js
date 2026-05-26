@@ -27,3 +27,8 @@ export async function loadEggConf() {
   const mod = await import('../assets/data/egg_conf.json');
   return mod.default;
 }
+
+export async function loadDescNotes() {
+  const mod = await import('../assets/data/desc_notes.json');
+  return mod.default;
+}

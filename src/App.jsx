@@ -8,6 +8,7 @@ import SkillQuery from './pages/SkillQuery'
 import NatureQuery from './pages/NatureQuery'
 import EggGroupQuery from './pages/EggGroupQuery'
 import EggPredictor from './pages/EggPredictor'
+import SkillDetail from './pages/SkillDetail'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/pets/:id" element={<PetDetail />} />
           <Route path="/types" element={<TypeCalc />} />
           <Route path="/skills" element={<SkillQuery />} />
+          <Route path="/skills/:id" element={<SkillDetail />} />
           <Route path="/natures" element={<NatureQuery />} />
           <Route path="/egg-groups" element={<EggGroupQuery />} />
           <Route path="/egg-predictor" element={<EggPredictor />} />

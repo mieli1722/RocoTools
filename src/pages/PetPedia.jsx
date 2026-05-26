@@ -5,17 +5,20 @@ import { loadPets } from '../utils/data'
 import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
 
+const WISH_NUMBERS = [16, 20, 24, 28, 32, 40, 42, 56, 60, 80]
+
 export default function PetPedia() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState('')
   const [selectedTypes, setSelectedTypes] = useState([])
+  const [selectedWishes, setSelectedWishes] = useState([])
   const [onlyShiny, setOnlyShiny] = useState(false)
+  const [sortBy, setSortBy] = useState('pictorial_book_id')
 
   useEffect(() => {
     loadPets().then(data => {
-      const sorted = [...data].sort((a, b) => (a.pictorial_book_id || 0) - (b.pictorial_book_id || 0))
-      setPets(sorted)
+      setPets(data)
       setLoading(false)
     })
   }, [])
@@ -32,14 +35,29 @@ export default function PetPedia() {
     )
   }
 
+  const toggleWish = (num) => {
+    setSelectedWishes(prev =>
+      prev.includes(num) ? prev.filter(n => n !== num) : [...prev, num]
+    )
+  }
+
+  const hasFilter = selectedTypes.length > 0 || selectedWishes.length > 0 || onlyShiny
+
   const filtered = useMemo(() => {
-    return pets.filter(p => {
+    const list = pets.filter(p => {
       const matchName = (p.name || '').toLowerCase().includes(query.toLowerCase())
       const matchType = selectedTypes.length === 0 || (p.types || []).some(t => selectedTypes.includes(t))
+      const matchWish = selectedWishes.length === 0 || selectedWishes.includes(p.wish_number)
       const matchShiny = !onlyShiny || !!p.have_shiny
-      return matchName && matchType && matchShiny
+      return matchName && matchType && matchWish && matchShiny
     })
-  }, [pets, query, selectedTypes, onlyShiny])
+    if (sortBy === 'wish_number') {
+      list.sort((a, b) => (b.wish_number || 0) - (a.wish_number || 0))
+    } else {
+      list.sort((a, b) => (a.pictorial_book_id || 0) - (b.pictorial_book_id || 0))
+    }
+    return list
+  }, [pets, query, selectedTypes, selectedWishes, onlyShiny, sortBy])
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
 
@@ -53,6 +71,21 @@ export default function PetPedia() {
         >
           {onlyShiny ? '✦ 仅异色' : '仅异色'}
         </button>
+        <div className="flex items-center gap-1 text-sm">
+          <span className="text-gray-500">排序：</span>
+          <button
+            onClick={() => setSortBy('pictorial_book_id')}
+            className={`px-2 py-1 rounded border text-xs transition ${sortBy === 'pictorial_book_id' ? 'bg-blue-50 border-blue-200 text-blue-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
+          >
+            图鉴编号
+          </button>
+          <button
+            onClick={() => setSortBy('wish_number')}
+            className={`px-2 py-1 rounded border text-xs transition ${sortBy === 'wish_number' ? 'bg-blue-50 border-blue-200 text-blue-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
+          >
+            星光值
+          </button>
+        </div>
       </div>
 
       <div className="flex flex-col gap-3 mb-4">
@@ -84,9 +117,25 @@ export default function PetPedia() {
           })}
         </div>
 
-        {(selectedTypes.length > 0 || onlyShiny) && (
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm text-gray-500">星光值：</span>
+          {WISH_NUMBERS.map(num => {
+            const active = selectedWishes.includes(num)
+            return (
+              <button
+                key={num}
+                onClick={() => toggleWish(num)}
+                className={`px-2 py-1 rounded-lg border text-sm transition ${active ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-white hover:bg-gray-50'}`}
+              >
+                {num}
+              </button>
+            )
+          })}
+        </div>
+
+        {hasFilter && (
           <button
-            onClick={() => { setSelectedTypes([]); setOnlyShiny(false) }}
+            onClick={() => { setSelectedTypes([]); setSelectedWishes([]); setOnlyShiny(false) }}
             className="text-sm text-gray-500 hover:text-gray-700 self-start"
           >
             清除筛选

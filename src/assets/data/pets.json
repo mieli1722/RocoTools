@@ -14,7 +14,6 @@
     "phy_defence_race": 49,
     "spe_defence_race": 91,
     "speed_race": 33,
-    "SUM_race": 346,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -402,7 +401,6 @@
     "phy_defence_race": 56,
     "spe_defence_race": 79,
     "speed_race": 51,
-    "SUM_race": 361,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -756,7 +754,6 @@
     "phy_defence_race": 56,
     "spe_defence_race": 43,
     "speed_race": 78,
-    "SUM_race": 382,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -1115,7 +1112,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 92,
-    "SUM_race": 410,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -1471,7 +1467,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 132,
     "speed_race": 85,
-    "SUM_race": 600,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -1830,7 +1825,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 72,
     "speed_race": 130,
-    "SUM_race": 636,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -2194,7 +2188,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 151,
     "speed_race": 55,
-    "SUM_race": 577,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -2587,7 +2580,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 50,
     "speed_race": 92,
-    "SUM_race": 458,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -2945,7 +2937,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 56,
     "speed_race": 84,
-    "SUM_race": 436,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -3281,7 +3272,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 63,
     "speed_race": 120,
-    "SUM_race": 547,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -3609,7 +3599,6 @@
     "phy_defence_race": 55,
     "spe_defence_race": 45,
     "speed_race": 105,
-    "SUM_race": 485,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -3933,7 +3922,6 @@
     "phy_defence_race": 121,
     "spe_defence_race": 77,
     "speed_race": 75,
-    "SUM_race": 522,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -4280,7 +4268,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 42,
     "speed_race": 45,
-    "SUM_race": 382,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -4656,7 +4643,6 @@
     "phy_defence_race": 89,
     "spe_defence_race": 56,
     "speed_race": 60,
-    "SUM_race": 508,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -5040,7 +5026,6 @@
     "phy_defence_race": 112,
     "spe_defence_race": 70,
     "speed_race": 75,
-    "SUM_race": 635,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -5423,7 +5408,6 @@
     "phy_defence_race": 44,
     "spe_defence_race": 63,
     "speed_race": 51,
-    "SUM_race": 337,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -5812,7 +5796,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 84,
     "speed_race": 68,
-    "SUM_race": 449,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -6208,7 +6191,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 105,
     "speed_race": 85,
-    "SUM_race": 563,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -6601,7 +6583,6 @@
     "phy_defence_race": 72,
     "spe_defence_race": 51,
     "speed_race": 66,
-    "SUM_race": 353,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -6970,7 +6951,6 @@
     "phy_defence_race": 97,
     "spe_defence_race": 68,
     "speed_race": 88,
-    "SUM_race": 470,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -7346,7 +7326,6 @@
     "phy_defence_race": 121,
     "spe_defence_race": 85,
     "speed_race": 110,
-    "SUM_race": 588,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -7720,7 +7699,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 121,
     "speed_race": 44,
-    "SUM_race": 463,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -8116,7 +8094,6 @@
     "phy_defence_race": 87,
     "spe_defence_race": 111,
     "speed_race": 72,
-    "SUM_race": 72,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -8466,7 +8443,6 @@
     "phy_defence_race": 129,
     "spe_defence_race": 97,
     "speed_race": 65,
-    "SUM_race": 582,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -8842,7 +8818,6 @@
     "phy_defence_race": 86,
     "spe_defence_race": 59,
     "speed_race": 92,
-    "SUM_race": 453,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -9205,7 +9180,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 57,
     "speed_race": 48,
-    "SUM_race": 334,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -9592,7 +9566,6 @@
     "phy_defence_race": 97,
     "spe_defence_race": 76,
     "speed_race": 64,
-    "SUM_race": 443,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -9986,7 +9959,6 @@
     "phy_defence_race": 121,
     "spe_defence_race": 95,
     "speed_race": 80,
-    "SUM_race": 554,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -10378,7 +10350,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 58,
     "speed_race": 104,
-    "SUM_race": 510,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -10744,7 +10715,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 106,
     "speed_race": 68,
-    "SUM_race": 480,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -11106,7 +11076,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 78,
     "speed_race": 52,
-    "SUM_race": 466,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -11478,7 +11447,6 @@
     "phy_defence_race": 109,
     "spe_defence_race": 139,
     "speed_race": 90,
-    "SUM_race": 591,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -11832,7 +11800,6 @@
     "phy_defence_race": 45,
     "spe_defence_race": 55,
     "speed_race": 105,
-    "SUM_race": 485,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -12156,7 +12123,6 @@
     "phy_defence_race": 108,
     "spe_defence_race": 74,
     "speed_race": 115,
-    "SUM_race": 565,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -12517,7 +12483,6 @@
     "phy_defence_race": 97,
     "spe_defence_race": 61,
     "speed_race": 60,
-    "SUM_race": 417,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -12860,7 +12825,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 73,
     "speed_race": 105,
-    "SUM_race": 544,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -13201,7 +13165,6 @@
     "phy_defence_race": 49,
     "spe_defence_race": 40,
     "speed_race": 78,
-    "SUM_race": 319,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -13555,7 +13518,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 53,
     "speed_race": 104,
-    "SUM_race": 426,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -13916,7 +13878,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 67,
     "speed_race": 130,
-    "SUM_race": 533,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -14275,7 +14236,6 @@
     "phy_defence_race": 76,
     "spe_defence_race": 76,
     "speed_race": 72,
-    "SUM_race": 446,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -14645,7 +14605,6 @@
     "phy_defence_race": 95,
     "spe_defence_race": 95,
     "speed_race": 90,
-    "SUM_race": 557,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -15020,7 +14979,6 @@
     "phy_defence_race": 72,
     "spe_defence_race": 49,
     "speed_race": 66,
-    "SUM_race": 331,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -15370,7 +15328,6 @@
     "phy_defence_race": 96,
     "spe_defence_race": 65,
     "speed_race": 88,
-    "SUM_race": 442,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -15728,7 +15685,6 @@
     "phy_defence_race": 120,
     "spe_defence_race": 81,
     "speed_race": 110,
-    "SUM_race": 552,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -16084,7 +16040,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 66,
     "speed_race": 45,
-    "SUM_race": 430,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -16452,7 +16407,6 @@
     "phy_defence_race": 141,
     "spe_defence_race": 79,
     "speed_race": 70,
-    "SUM_race": 509,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -16794,7 +16748,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 81,
     "speed_race": 45,
-    "SUM_race": 354,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -17146,7 +17099,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 107,
     "speed_race": 60,
-    "SUM_race": 472,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -17505,7 +17457,6 @@
     "phy_defence_race": 107,
     "spe_defence_race": 134,
     "speed_race": 75,
-    "SUM_race": 591,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -17863,7 +17814,6 @@
     "phy_defence_race": 27,
     "spe_defence_race": 27,
     "speed_race": 26,
-    "SUM_race": 197,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -18267,7 +18217,6 @@
     "phy_defence_race": 36,
     "spe_defence_race": 36,
     "speed_race": 35,
-    "SUM_race": 263,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -18683,7 +18632,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 81,
     "speed_race": 69,
-    "SUM_race": 379,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -19061,7 +19009,6 @@
     "phy_defence_race": 78,
     "spe_defence_race": 108,
     "speed_race": 92,
-    "SUM_race": 506,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -19451,7 +19398,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 74,
     "speed_race": 84,
-    "SUM_race": 483,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -19813,7 +19759,6 @@
     "phy_defence_race": 77,
     "spe_defence_race": 92,
     "speed_race": 105,
-    "SUM_race": 604,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -20183,7 +20128,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 123,
     "speed_race": 80,
-    "SUM_race": 568,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -20536,7 +20480,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 56,
     "speed_race": 104,
-    "SUM_race": 488,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -20904,7 +20847,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 70,
     "speed_race": 130,
-    "SUM_race": 612,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -21277,7 +21219,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 63,
     "speed_race": 115,
-    "SUM_race": 573,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -21641,7 +21582,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 81,
     "speed_race": 105,
-    "SUM_race": 535,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -21991,7 +21931,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 66,
     "speed_race": 96,
-    "SUM_race": 473,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -22330,7 +22269,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 82,
     "speed_race": 120,
-    "SUM_race": 589,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -22674,7 +22612,6 @@
     "phy_defence_race": 48,
     "spe_defence_race": 67,
     "speed_race": 36,
-    "SUM_race": 348,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -23032,7 +22969,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 90,
     "speed_race": 48,
-    "SUM_race": 464,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -23397,7 +23333,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 112,
     "speed_race": 60,
-    "SUM_race": 582,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -23761,7 +23696,6 @@
     "phy_defence_race": 50,
     "spe_defence_race": 64,
     "speed_race": 60,
-    "SUM_race": 357,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -24141,7 +24075,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 86,
     "speed_race": 80,
-    "SUM_race": 475,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -24528,7 +24461,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 107,
     "speed_race": 100,
-    "SUM_race": 594,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -24913,7 +24845,6 @@
     "phy_defence_race": 60,
     "spe_defence_race": 76,
     "speed_race": 54,
-    "SUM_race": 330,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -25280,7 +25211,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 101,
     "speed_race": 72,
-    "SUM_race": 439,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -25653,7 +25583,6 @@
     "phy_defence_race": 86,
     "spe_defence_race": 67,
     "speed_race": 36,
-    "SUM_race": 410,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -26026,7 +25955,6 @@
     "phy_defence_race": 115,
     "spe_defence_race": 89,
     "speed_race": 48,
-    "SUM_race": 547,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -26406,7 +26334,6 @@
     "phy_defence_race": 143,
     "spe_defence_race": 111,
     "speed_race": 60,
-    "SUM_race": 683,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -26784,7 +26711,6 @@
     "phy_defence_race": 61,
     "spe_defence_race": 52,
     "speed_race": 66,
-    "SUM_race": 374,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -27123,7 +27049,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 70,
     "speed_race": 88,
-    "SUM_race": 500,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -27471,7 +27396,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 87,
     "speed_race": 110,
-    "SUM_race": 624,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -27871,7 +27795,6 @@
     "phy_defence_race": 111,
     "spe_defence_race": 70,
     "speed_race": 95,
-    "SUM_race": 609,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -28249,7 +28172,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 56,
     "speed_race": 39,
-    "SUM_race": 337,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -28609,7 +28531,6 @@
     "phy_defence_race": 108,
     "spe_defence_race": 74,
     "speed_race": 52,
-    "SUM_race": 450,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -28976,7 +28897,6 @@
     "phy_defence_race": 135,
     "spe_defence_race": 93,
     "speed_race": 65,
-    "SUM_race": 561,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -29342,7 +29262,6 @@
     "phy_defence_race": 68,
     "spe_defence_race": 79,
     "speed_race": 57,
-    "SUM_race": 332,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -29725,7 +29644,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 105,
     "speed_race": 76,
-    "SUM_race": 443,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -30115,7 +30033,6 @@
     "phy_defence_race": 113,
     "spe_defence_race": 132,
     "speed_race": 95,
-    "SUM_race": 554,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -30502,7 +30419,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 52,
     "speed_race": 48,
-    "SUM_race": 346,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -30882,7 +30798,6 @@
     "phy_defence_race": 89,
     "spe_defence_race": 70,
     "speed_race": 64,
-    "SUM_race": 461,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -31269,7 +31184,6 @@
     "phy_defence_race": 111,
     "spe_defence_race": 87,
     "speed_race": 80,
-    "SUM_race": 576,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -31655,7 +31569,6 @@
     "phy_defence_race": 108,
     "spe_defence_race": 88,
     "speed_race": 60,
-    "SUM_race": 573,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -32034,7 +31947,6 @@
     "phy_defence_race": 135,
     "spe_defence_race": 110,
     "speed_race": 75,
-    "SUM_race": 718,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -32410,7 +32322,6 @@
     "phy_defence_race": 95,
     "spe_defence_race": 90,
     "speed_race": 42,
-    "SUM_race": 448,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -32783,7 +32694,6 @@
     "phy_defence_race": 127,
     "spe_defence_race": 120,
     "speed_race": 56,
-    "SUM_race": 598,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -33163,7 +33073,6 @@
     "phy_defence_race": 159,
     "spe_defence_race": 150,
     "speed_race": 70,
-    "SUM_race": 747,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -33541,7 +33450,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 45,
     "speed_race": 57,
-    "SUM_race": 320,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -33920,7 +33828,6 @@
     "phy_defence_race": 87,
     "spe_defence_race": 60,
     "speed_race": 76,
-    "SUM_race": 427,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -34306,7 +34213,6 @@
     "phy_defence_race": 109,
     "spe_defence_race": 75,
     "speed_race": 95,
-    "SUM_race": 532,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -34691,7 +34597,6 @@
     "phy_defence_race": 69,
     "spe_defence_race": 71,
     "speed_race": 51,
-    "SUM_race": 350,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -35087,7 +34992,6 @@
     "phy_defence_race": 92,
     "spe_defence_race": 95,
     "speed_race": 68,
-    "SUM_race": 466,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -35490,7 +35394,6 @@
     "phy_defence_race": 115,
     "spe_defence_race": 119,
     "speed_race": 85,
-    "SUM_race": 581,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -35891,7 +35794,6 @@
     "phy_defence_race": 49,
     "spe_defence_race": 74,
     "speed_race": 54,
-    "SUM_race": 308,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -36276,7 +36178,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 99,
     "speed_race": 72,
-    "SUM_race": 411,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -36668,7 +36569,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 124,
     "speed_race": 90,
-    "SUM_race": 515,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -37058,7 +36958,6 @@
     "phy_defence_race": 63,
     "spe_defence_race": 63,
     "speed_race": 75,
-    "SUM_race": 278,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -37423,7 +37322,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 84,
     "speed_race": 100,
-    "SUM_race": 370,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -37795,7 +37693,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 125,
-    "SUM_race": 462,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -38164,7 +38061,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 78,
     "speed_race": 96,
-    "SUM_race": 507,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -38493,7 +38389,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 109,
     "speed_race": 76,
-    "SUM_race": 501,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -38837,7 +38732,6 @@
     "phy_defence_race": 93,
     "spe_defence_race": 136,
     "speed_race": 95,
-    "SUM_race": 624,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -39186,7 +39080,6 @@
     "phy_defence_race": 39,
     "spe_defence_race": 78,
     "speed_race": 54,
-    "SUM_race": 358,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -39576,7 +39469,6 @@
     "phy_defence_race": 52,
     "spe_defence_race": 104,
     "speed_race": 72,
-    "SUM_race": 476,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -39973,7 +39865,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 130,
     "speed_race": 90,
-    "SUM_race": 595,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -40367,7 +40258,6 @@
     "phy_defence_race": 42,
     "spe_defence_race": 55,
     "speed_race": 60,
-    "SUM_race": 361,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -40769,7 +40659,6 @@
     "phy_defence_race": 56,
     "spe_defence_race": 74,
     "speed_race": 80,
-    "SUM_race": 482,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -41173,7 +41062,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 92,
     "speed_race": 100,
-    "SUM_race": 602,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -41571,7 +41459,6 @@
     "phy_defence_race": 76,
     "spe_defence_race": 39,
     "speed_race": 72,
-    "SUM_race": 360,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -41930,7 +41817,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 52,
     "speed_race": 96,
-    "SUM_race": 481,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -42296,7 +42182,6 @@
     "phy_defence_race": 127,
     "spe_defence_race": 65,
     "speed_race": 120,
-    "SUM_race": 601,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -42660,7 +42545,6 @@
     "phy_defence_race": 55,
     "spe_defence_race": 55,
     "speed_race": 66,
-    "SUM_race": 361,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -43035,7 +42919,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 73,
     "speed_race": 88,
-    "SUM_race": 481,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -43418,7 +43301,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 91,
     "speed_race": 110,
-    "SUM_race": 601,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -43799,7 +43681,6 @@
     "phy_defence_race": 40,
     "spe_defence_race": 40,
     "speed_race": 60,
-    "SUM_race": 271,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -44184,7 +44065,6 @@
     "phy_defence_race": 53,
     "spe_defence_race": 53,
     "speed_race": 80,
-    "SUM_race": 360,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -44579,7 +44459,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 66,
     "speed_race": 100,
-    "SUM_race": 450,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -44967,7 +44846,6 @@
     "phy_defence_race": 50,
     "spe_defence_race": 57,
     "speed_race": 60,
-    "SUM_race": 331,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -45348,7 +45226,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 75,
     "speed_race": 80,
-    "SUM_race": 442,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -45736,7 +45613,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 94,
     "speed_race": 100,
-    "SUM_race": 553,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -46121,7 +45997,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 51,
     "speed_race": 69,
-    "SUM_race": 322,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -46510,7 +46385,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 68,
     "speed_race": 92,
-    "SUM_race": 429,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -46912,7 +46786,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 85,
     "speed_race": 115,
-    "SUM_race": 537,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -47312,7 +47185,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 82,
     "speed_race": 45,
-    "SUM_race": 343,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -47699,7 +47571,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 109,
     "speed_race": 60,
-    "SUM_race": 458,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -48094,7 +47965,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 136,
     "speed_race": 75,
-    "SUM_race": 570,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -48486,7 +48356,6 @@
     "phy_defence_race": 54,
     "spe_defence_race": 64,
     "speed_race": 48,
-    "SUM_race": 316,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -48852,7 +48721,6 @@
     "phy_defence_race": 72,
     "spe_defence_race": 85,
     "speed_race": 64,
-    "SUM_race": 422,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -49228,7 +49096,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 106,
     "speed_race": 80,
-    "SUM_race": 529,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -49600,7 +49467,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 44,
     "speed_race": 54,
-    "SUM_race": 331,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -49985,7 +49851,6 @@
     "phy_defence_race": 107,
     "spe_defence_race": 59,
     "speed_race": 72,
-    "SUM_race": 441,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -50375,7 +50240,6 @@
     "phy_defence_race": 134,
     "spe_defence_race": 74,
     "speed_race": 90,
-    "SUM_race": 553,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -50762,7 +50626,6 @@
     "phy_defence_race": 39,
     "spe_defence_race": 48,
     "speed_race": 75,
-    "SUM_race": 367,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -51139,7 +51002,6 @@
     "phy_defence_race": 52,
     "spe_defence_race": 64,
     "speed_race": 100,
-    "SUM_race": 488,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -51523,7 +51385,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 81,
     "speed_race": 125,
-    "SUM_race": 612,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -51906,7 +51767,6 @@
     "phy_defence_race": 45,
     "spe_defence_race": 45,
     "speed_race": 44,
-    "SUM_race": 328,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -52320,7 +52180,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 57,
     "speed_race": 63,
-    "SUM_race": 369,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -52701,7 +52560,6 @@
     "phy_defence_race": 87,
     "spe_defence_race": 77,
     "speed_race": 84,
-    "SUM_race": 493,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -53089,7 +52947,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 41,
     "speed_race": 51,
-    "SUM_race": 335,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -53446,7 +53303,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 54,
     "speed_race": 68,
-    "SUM_race": 447,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -53813,7 +53669,6 @@
     "phy_defence_race": 117,
     "spe_defence_race": 68,
     "speed_race": 85,
-    "SUM_race": 558,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -54175,7 +54030,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 56,
     "speed_race": 76,
-    "SUM_race": 433,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -54544,7 +54398,6 @@
     "phy_defence_race": 126,
     "spe_defence_race": 70,
     "speed_race": 95,
-    "SUM_race": 543,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -54918,7 +54771,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 62,
     "speed_race": 36,
-    "SUM_race": 406,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -55281,7 +55133,6 @@
     "phy_defence_race": 111,
     "spe_defence_race": 83,
     "speed_race": 48,
-    "SUM_race": 541,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -55651,7 +55502,6 @@
     "phy_defence_race": 139,
     "spe_defence_race": 104,
     "speed_race": 60,
-    "SUM_race": 677,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -56020,7 +55870,6 @@
     "phy_defence_race": 61,
     "spe_defence_race": 53,
     "speed_race": 72,
-    "SUM_race": 345,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -56398,7 +56247,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 71,
     "speed_race": 96,
-    "SUM_race": 461,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -56783,7 +56631,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 89,
     "speed_race": 120,
-    "SUM_race": 574,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -57165,7 +57012,6 @@
     "phy_defence_race": 74,
     "spe_defence_race": 59,
     "speed_race": 92,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -57517,7 +57363,6 @@
     "phy_defence_race": 93,
     "spe_defence_race": 74,
     "speed_race": 115,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -57874,7 +57719,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 52,
     "speed_race": 60,
-    "SUM_race": 300,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -58232,7 +58076,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 70,
     "speed_race": 80,
-    "SUM_race": 400,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -58597,7 +58440,6 @@
     "phy_defence_race": 131,
     "spe_defence_race": 87,
     "speed_race": 100,
-    "SUM_race": 501,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -58960,7 +58802,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 78,
     "speed_race": 100,
-    "SUM_race": 466,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -59316,7 +59157,6 @@
     "phy_defence_race": 78,
     "spe_defence_race": 97,
     "speed_race": 125,
-    "SUM_race": 584,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -59677,7 +59517,6 @@
     "phy_defence_race": 55,
     "spe_defence_race": 57,
     "speed_race": 75,
-    "SUM_race": 298,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -60051,7 +59890,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 76,
     "speed_race": 100,
-    "SUM_race": 398,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -60432,7 +60270,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 95,
     "speed_race": 125,
-    "SUM_race": 498,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -60811,7 +60648,6 @@
     "phy_defence_race": 72,
     "spe_defence_race": 88,
     "speed_race": 108,
-    "SUM_race": 520,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -61168,7 +61004,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 110,
     "speed_race": 135,
-    "SUM_race": 648,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -61530,7 +61365,6 @@
     "phy_defence_race": 51,
     "spe_defence_race": 50,
     "speed_race": 72,
-    "SUM_race": 326,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -61911,7 +61745,6 @@
     "phy_defence_race": 68,
     "spe_defence_race": 67,
     "speed_race": 96,
-    "SUM_race": 434,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -62299,7 +62132,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 84,
     "speed_race": 120,
-    "SUM_race": 544,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -62686,7 +62518,6 @@
     "phy_defence_race": 57,
     "spe_defence_race": 101,
     "speed_race": 88,
-    "SUM_race": 502,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -63028,7 +62859,6 @@
     "phy_defence_race": 71,
     "spe_defence_race": 126,
     "speed_race": 110,
-    "SUM_race": 628,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -63374,7 +63204,6 @@
     "phy_defence_race": 76,
     "spe_defence_race": 60,
     "speed_race": 51,
-    "SUM_race": 303,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -63737,7 +63566,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 80,
     "speed_race": 68,
-    "SUM_race": 405,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -64107,7 +63935,6 @@
     "phy_defence_race": 127,
     "spe_defence_race": 101,
     "speed_race": 85,
-    "SUM_race": 505,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -64476,7 +64303,6 @@
     "phy_defence_race": 51,
     "spe_defence_race": 98,
     "speed_race": 33,
-    "SUM_race": 330,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -64840,7 +64666,6 @@
     "phy_defence_race": 68,
     "spe_defence_race": 130,
     "speed_race": 44,
-    "SUM_race": 442,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -65211,7 +65036,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 163,
     "speed_race": 55,
-    "SUM_race": 551,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -65580,7 +65404,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 70,
     "speed_race": 30,
-    "SUM_race": 321,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -65947,7 +65770,6 @@
     "phy_defence_race": 109,
     "spe_defence_race": 93,
     "speed_race": 40,
-    "SUM_race": 427,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -66321,7 +66143,6 @@
     "phy_defence_race": 136,
     "spe_defence_race": 116,
     "speed_race": 50,
-    "SUM_race": 533,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -66693,7 +66514,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 63,
     "speed_race": 92,
-    "SUM_race": 378,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -67039,7 +66859,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 79,
     "speed_race": 115,
-    "SUM_race": 471,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -67389,7 +67208,6 @@
     "phy_defence_race": 55,
     "spe_defence_race": 79,
     "speed_race": 72,
-    "SUM_race": 514,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -67735,7 +67553,6 @@
     "phy_defence_race": 89,
     "spe_defence_race": 62,
     "speed_race": 80,
-    "SUM_race": 440,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -68099,7 +67916,6 @@
     "phy_defence_race": 111,
     "spe_defence_race": 77,
     "speed_race": 100,
-    "SUM_race": 550,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -68468,7 +68284,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 91,
     "speed_race": 80,
-    "SUM_race": 430,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -68849,7 +68664,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 114,
     "speed_race": 100,
-    "SUM_race": 537,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -69234,7 +69048,6 @@
     "phy_defence_race": 77,
     "spe_defence_race": 115,
     "speed_race": 60,
-    "SUM_race": 574,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -69559,7 +69372,6 @@
     "phy_defence_race": 69,
     "spe_defence_race": 107,
     "speed_race": 84,
-    "SUM_race": 470,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -69959,7 +69771,6 @@
     "phy_defence_race": 86,
     "spe_defence_race": 133,
     "speed_race": 105,
-    "SUM_race": 587,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -70364,7 +70175,6 @@
     "phy_defence_race": 89,
     "spe_defence_race": 76,
     "speed_race": 76,
-    "SUM_race": 546,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -70730,7 +70540,6 @@
     "phy_defence_race": 111,
     "spe_defence_race": 95,
     "speed_race": 95,
-    "SUM_race": 684,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -71101,7 +70910,6 @@
     "phy_defence_race": 30,
     "spe_defence_race": 60,
     "speed_race": 36,
-    "SUM_race": 349,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -71473,7 +71281,6 @@
     "phy_defence_race": 40,
     "spe_defence_race": 80,
     "speed_race": 48,
-    "SUM_race": 464,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -71852,7 +71659,6 @@
     "phy_defence_race": 50,
     "spe_defence_race": 100,
     "speed_race": 60,
-    "SUM_race": 580,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -72230,7 +72036,6 @@
     "phy_defence_race": 49,
     "spe_defence_race": 80,
     "speed_race": 69,
-    "SUM_race": 343,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -72609,7 +72414,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 106,
     "speed_race": 92,
-    "SUM_race": 458,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -72995,7 +72799,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 133,
     "speed_race": 115,
-    "SUM_race": 572,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -73378,7 +73181,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 52,
     "speed_race": 69,
-    "SUM_race": 301,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -73764,7 +73566,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 70,
     "speed_race": 92,
-    "SUM_race": 400,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -74157,7 +73958,6 @@
     "phy_defence_race": 112,
     "spe_defence_race": 87,
     "speed_race": 115,
-    "SUM_race": 501,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -74548,7 +74348,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 90,
     "speed_race": 92,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -74892,7 +74691,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 112,
     "speed_race": 115,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -75241,7 +75039,6 @@
     "phy_defence_race": 68,
     "spe_defence_race": 53,
     "speed_race": 54,
-    "SUM_race": 354,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -75600,7 +75397,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 70,
     "speed_race": 72,
-    "SUM_race": 473,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -75966,7 +75762,6 @@
     "phy_defence_race": 114,
     "spe_defence_race": 88,
     "speed_race": 90,
-    "SUM_race": 590,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -76331,7 +76126,6 @@
     "phy_defence_race": 88,
     "spe_defence_race": 81,
     "speed_race": 68,
-    "SUM_race": 478,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -76683,7 +76477,6 @@
     "phy_defence_race": 110,
     "spe_defence_race": 101,
     "speed_race": 85,
-    "SUM_race": 597,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -77040,7 +76833,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 90,
     "speed_race": 92,
-    "SUM_race": 494,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -77399,7 +77191,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 112,
     "speed_race": 115,
-    "SUM_race": 619,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -77763,7 +77554,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 65,
     "speed_race": 48,
-    "SUM_race": 469,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -78105,7 +77895,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 81,
     "speed_race": 60,
-    "SUM_race": 587,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -78452,7 +78241,6 @@
     "phy_defence_race": 56,
     "spe_defence_race": 53,
     "speed_race": 81,
-    "SUM_race": 364,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -78813,7 +78601,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 70,
     "speed_race": 108,
-    "SUM_race": 486,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -79181,7 +78968,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 88,
     "speed_race": 135,
-    "SUM_race": 607,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -79546,7 +79332,6 @@
     "phy_defence_race": 58,
     "spe_defence_race": 49,
     "speed_race": 69,
-    "SUM_race": 339,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -79906,7 +79691,6 @@
     "phy_defence_race": 58,
     "spe_defence_race": 41,
     "speed_race": 69,
-    "SUM_race": 335,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -80266,7 +80050,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 51,
     "speed_race": 69,
-    "SUM_race": 339,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -80626,7 +80409,6 @@
     "phy_defence_race": 78,
     "spe_defence_race": 65,
     "speed_race": 92,
-    "SUM_race": 453,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -80993,7 +80775,6 @@
     "phy_defence_race": 77,
     "spe_defence_race": 55,
     "speed_race": 92,
-    "SUM_race": 449,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -81360,7 +81141,6 @@
     "phy_defence_race": 78,
     "spe_defence_race": 68,
     "speed_race": 92,
-    "SUM_race": 452,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -81727,7 +81507,6 @@
     "phy_defence_race": 97,
     "spe_defence_race": 81,
     "speed_race": 115,
-    "SUM_race": 565,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -82092,7 +81871,6 @@
     "phy_defence_race": 96,
     "spe_defence_race": 69,
     "speed_race": 115,
-    "SUM_race": 561,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -82457,7 +82235,6 @@
     "phy_defence_race": 98,
     "spe_defence_race": 85,
     "speed_race": 115,
-    "SUM_race": 564,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -82823,7 +82600,6 @@
     "phy_defence_race": 55,
     "spe_defence_race": 43,
     "speed_race": 75,
-    "SUM_race": 317,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -83179,7 +82955,6 @@
     "phy_defence_race": 48,
     "spe_defence_race": 44,
     "speed_race": 81,
-    "SUM_race": 321,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -83540,7 +83315,6 @@
     "phy_defence_race": 74,
     "spe_defence_race": 57,
     "speed_race": 100,
-    "SUM_race": 423,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -83903,7 +83677,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 58,
     "speed_race": 108,
-    "SUM_race": 427,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -84271,7 +84044,6 @@
     "phy_defence_race": 92,
     "spe_defence_race": 71,
     "speed_race": 125,
-    "SUM_race": 528,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -84632,7 +84404,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 73,
     "speed_race": 135,
-    "SUM_race": 535,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -84998,7 +84769,6 @@
     "phy_defence_race": 44,
     "spe_defence_race": 63,
     "speed_race": 51,
-    "SUM_race": 337,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -85391,7 +85161,6 @@
     "phy_defence_race": 48,
     "spe_defence_race": 67,
     "speed_race": 48,
-    "SUM_race": 336,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -85784,7 +85553,6 @@
     "phy_defence_race": 44,
     "spe_defence_race": 63,
     "speed_race": 54,
-    "SUM_race": 339,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -86177,7 +85945,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 84,
     "speed_race": 68,
-    "SUM_race": 449,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -86577,7 +86344,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 90,
     "speed_race": 64,
-    "SUM_race": 447,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -86977,7 +86743,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 84,
     "speed_race": 72,
-    "SUM_race": 452,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -87377,7 +87142,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 105,
     "speed_race": 85,
-    "SUM_race": 563,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -87775,7 +87539,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 112,
     "speed_race": 80,
-    "SUM_race": 560,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -88173,7 +87936,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 106,
     "speed_race": 90,
-    "SUM_race": 566,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -88571,7 +88333,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 75,
     "speed_race": 52,
-    "SUM_race": 459,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -88946,7 +88707,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 94,
     "speed_race": 65,
-    "SUM_race": 575,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -89335,7 +89095,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 44,
     "speed_race": 66,
-    "SUM_race": 331,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -89684,7 +89443,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 58,
     "speed_race": 88,
-    "SUM_race": 441,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -90040,7 +89798,6 @@
     "phy_defence_race": 112,
     "spe_defence_race": 73,
     "speed_race": 110,
-    "SUM_race": 551,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -90395,7 +90152,6 @@
     "phy_defence_race": 60,
     "spe_defence_race": 60,
     "speed_race": 48,
-    "SUM_race": 345,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -90780,7 +90536,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 81,
     "speed_race": 64,
-    "SUM_race": 459,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -91172,7 +90927,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 101,
     "speed_race": 80,
-    "SUM_race": 573,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -91559,7 +91313,6 @@
     "phy_defence_race": 58,
     "spe_defence_race": 102,
     "speed_race": 92,
-    "SUM_race": 489,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -91871,7 +91624,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 127,
     "speed_race": 115,
-    "SUM_race": 612,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -92217,7 +91969,6 @@
     "phy_defence_race": 46,
     "spe_defence_race": 66,
     "speed_race": 60,
-    "SUM_race": 337,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -92576,7 +92327,6 @@
     "phy_defence_race": 61,
     "spe_defence_race": 88,
     "speed_race": 80,
-    "SUM_race": 448,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -92942,7 +92692,6 @@
     "phy_defence_race": 76,
     "spe_defence_race": 111,
     "speed_race": 100,
-    "SUM_race": 562,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -93305,7 +93054,6 @@
     "phy_defence_race": 63,
     "spe_defence_race": 63,
     "speed_race": 69,
-    "SUM_race": 322,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -93686,7 +93434,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 84,
     "speed_race": 92,
-    "SUM_race": 430,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -94074,7 +93821,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 115,
-    "SUM_race": 540,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -94461,7 +94207,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 58,
     "speed_race": 69,
-    "SUM_race": 298,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -94795,7 +94540,6 @@
     "phy_defence_race": 110,
     "spe_defence_race": 78,
     "speed_race": 92,
-    "SUM_race": 396,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -95137,7 +94881,6 @@
     "phy_defence_race": 138,
     "spe_defence_race": 97,
     "speed_race": 115,
-    "SUM_race": 496,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -95529,7 +95272,6 @@
     "phy_defence_race": 100,
     "spe_defence_race": 127,
     "speed_race": 90,
-    "SUM_race": 551,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -95898,7 +95640,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 47,
     "speed_race": 72,
-    "SUM_race": 315,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -96266,7 +96007,6 @@
     "phy_defence_race": 86,
     "spe_defence_race": 63,
     "speed_race": 96,
-    "SUM_race": 418,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -96641,7 +96381,6 @@
     "phy_defence_race": 108,
     "spe_defence_race": 79,
     "speed_race": 120,
-    "SUM_race": 524,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -97014,7 +96753,6 @@
     "phy_defence_race": 71,
     "spe_defence_race": 83,
     "speed_race": 84,
-    "SUM_race": 487,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -97358,7 +97096,6 @@
     "phy_defence_race": 89,
     "spe_defence_race": 104,
     "speed_race": 105,
-    "SUM_race": 610,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -97707,7 +97444,6 @@
     "phy_defence_race": 48,
     "spe_defence_race": 63,
     "speed_race": 75,
-    "SUM_race": 317,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -98067,7 +97803,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 84,
     "speed_race": 100,
-    "SUM_race": 422,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -98435,7 +98170,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 105,
     "speed_race": 125,
-    "SUM_race": 528,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -98800,7 +98534,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 90,
     "speed_race": 105,
-    "SUM_race": 615,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -99186,7 +98919,6 @@
     "phy_defence_race": 68,
     "spe_defence_race": 68,
     "speed_race": 66,
-    "SUM_race": 353,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -99565,7 +99297,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 90,
     "speed_race": 88,
-    "SUM_race": 471,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -99951,7 +99682,6 @@
     "phy_defence_race": 113,
     "spe_defence_race": 113,
     "speed_race": 110,
-    "SUM_race": 589,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -100336,7 +100066,6 @@
     "phy_defence_race": 63,
     "spe_defence_race": 55,
     "speed_race": 72,
-    "SUM_race": 374,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -100700,7 +100429,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 91,
     "speed_race": 120,
-    "SUM_race": 622,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -101069,7 +100797,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 62,
     "speed_race": 42,
-    "SUM_race": 356,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -101463,7 +101190,6 @@
     "phy_defence_race": 100,
     "spe_defence_race": 82,
     "speed_race": 56,
-    "SUM_race": 474,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -101871,7 +101597,6 @@
     "phy_defence_race": 125,
     "spe_defence_race": 103,
     "speed_race": 70,
-    "SUM_race": 594,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -102276,7 +102001,6 @@
     "phy_defence_race": 119,
     "spe_defence_race": 135,
     "speed_race": 50,
-    "SUM_race": 576,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -102604,7 +102328,6 @@
     "phy_defence_race": 57,
     "spe_defence_race": 93,
     "speed_race": 84,
-    "SUM_race": 486,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -102946,7 +102669,6 @@
     "phy_defence_race": 71,
     "spe_defence_race": 116,
     "speed_race": 105,
-    "SUM_race": 607,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -103293,7 +103015,6 @@
     "phy_defence_race": 60,
     "spe_defence_race": 62,
     "speed_race": 81,
-    "SUM_race": 373,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -103680,7 +103401,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 83,
     "speed_race": 108,
-    "SUM_race": 497,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -104074,7 +103794,6 @@
     "phy_defence_race": 100,
     "spe_defence_race": 104,
     "speed_race": 135,
-    "SUM_race": 619,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -104465,7 +104184,6 @@
     "phy_defence_race": 52,
     "spe_defence_race": 66,
     "speed_race": 75,
-    "SUM_race": 369,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -104841,7 +104559,6 @@
     "phy_defence_race": 69,
     "spe_defence_race": 88,
     "speed_race": 100,
-    "SUM_race": 491,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -105224,7 +104941,6 @@
     "phy_defence_race": 86,
     "spe_defence_race": 110,
     "speed_race": 125,
-    "SUM_race": 615,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -105605,7 +105321,6 @@
     "phy_defence_race": 77,
     "spe_defence_race": 50,
     "speed_race": 75,
-    "SUM_race": 310,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -105985,7 +105700,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 66,
     "speed_race": 100,
-    "SUM_race": 412,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -106372,7 +106086,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 83,
     "speed_race": 125,
-    "SUM_race": 514,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -106757,7 +106470,6 @@
     "phy_defence_race": 46,
     "spe_defence_race": 58,
     "speed_race": 60,
-    "SUM_race": 355,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -107134,7 +106846,6 @@
     "phy_defence_race": 61,
     "spe_defence_race": 77,
     "speed_race": 80,
-    "SUM_race": 473,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -107518,7 +107229,6 @@
     "phy_defence_race": 76,
     "spe_defence_race": 96,
     "speed_race": 100,
-    "SUM_race": 592,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -107900,7 +107610,6 @@
     "phy_defence_race": 98,
     "spe_defence_race": 135,
     "speed_race": 115,
-    "SUM_race": 632,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -108288,7 +107997,6 @@
     "phy_defence_race": 98,
     "spe_defence_race": 74,
     "speed_race": 72,
-    "SUM_race": 470,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -108632,7 +108340,6 @@
     "phy_defence_race": 122,
     "spe_defence_race": 92,
     "speed_race": 90,
-    "SUM_race": 589,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -108981,7 +108688,6 @@
     "phy_defence_race": 109,
     "spe_defence_race": 109,
     "speed_race": 60,
-    "SUM_race": 390,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -109347,7 +109053,6 @@
     "phy_defence_race": 136,
     "spe_defence_race": 136,
     "speed_race": 75,
-    "SUM_race": 487,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -109718,7 +109423,6 @@
     "phy_defence_race": 69,
     "spe_defence_race": 99,
     "speed_race": 90,
-    "SUM_race": 642,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -110069,7 +109773,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 59,
     "speed_race": 108,
-    "SUM_race": 432,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -110415,7 +110118,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 74,
     "speed_race": 135,
-    "SUM_race": 540,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -110766,7 +110468,6 @@
     "phy_defence_race": 96,
     "spe_defence_race": 120,
     "speed_race": 110,
-    "SUM_race": 522,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -111107,7 +110808,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 129,
     "speed_race": 110,
-    "SUM_race": 545,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -111448,7 +111148,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 121,
     "speed_race": 110,
-    "SUM_race": 534,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -111789,7 +111488,6 @@
     "phy_defence_race": 92,
     "spe_defence_race": 113,
     "speed_race": 120,
-    "SUM_race": 552,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -112130,7 +111828,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 87,
     "speed_race": 100,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -112475,7 +112172,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 109,
     "speed_race": 125,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -112825,7 +112521,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 58,
     "speed_race": 80,
-    "SUM_race": 477,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -113174,7 +112869,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 73,
     "speed_race": 100,
-    "SUM_race": 598,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -113530,7 +113224,6 @@
     "phy_defence_race": 60,
     "spe_defence_race": 74,
     "speed_race": 92,
-    "SUM_race": 464,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -113874,7 +113567,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 93,
     "speed_race": 115,
-    "SUM_race": 580,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -114224,7 +113916,6 @@
     "phy_defence_race": 72,
     "spe_defence_race": 96,
     "speed_race": 100,
-    "SUM_race": 519,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -114587,7 +114278,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 120,
     "speed_race": 125,
-    "SUM_race": 647,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -114955,7 +114645,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 85,
     "speed_race": 145,
-    "SUM_race": 649,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -115306,7 +114995,6 @@
     "phy_defence_race": 137,
     "spe_defence_race": 91,
     "speed_race": 65,
-    "SUM_race": 574,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -115696,7 +115384,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 91,
     "speed_race": 65,
-    "SUM_race": 580,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -116086,7 +115773,6 @@
     "phy_defence_race": 132,
     "spe_defence_race": 91,
     "speed_race": 65,
-    "SUM_race": 575,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -116476,7 +116162,6 @@
     "phy_defence_race": 124,
     "spe_defence_race": 91,
     "speed_race": 65,
-    "SUM_race": 572,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -116883,7 +116568,6 @@
     "phy_defence_race": 55,
     "spe_defence_race": 45,
     "speed_race": 110,
-    "SUM_race": 487,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -117207,7 +116891,6 @@
     "phy_defence_race": 46,
     "spe_defence_race": 57,
     "speed_race": 100,
-    "SUM_race": 481,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -117531,7 +117214,6 @@
     "phy_defence_race": 51,
     "spe_defence_race": 79,
     "speed_race": 60,
-    "SUM_race": 352,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -117900,7 +117582,6 @@
     "phy_defence_race": 68,
     "spe_defence_race": 105,
     "speed_race": 80,
-    "SUM_race": 469,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -118276,7 +117957,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 131,
     "speed_race": 100,
-    "SUM_race": 586,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -118651,7 +118331,6 @@
     "phy_defence_race": 141,
     "spe_defence_race": 103,
     "speed_race": 80,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -118979,7 +118658,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 96,
     "speed_race": 100,
-    "SUM_race": 616,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -119377,7 +119055,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 92,
     "speed_race": 105,
-    "SUM_race": 617,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -119775,7 +119452,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 92,
     "speed_race": 100,
-    "SUM_race": 615,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -120173,7 +119849,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 96,
     "speed_race": 100,
-    "SUM_race": 631,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -120571,7 +120246,6 @@
     "phy_defence_race": 86,
     "spe_defence_race": 92,
     "speed_race": 105,
-    "SUM_race": 633,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -120969,7 +120643,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 96,
     "speed_race": 100,
-    "SUM_race": 603,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -121367,7 +121040,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 99,
     "speed_race": 100,
-    "SUM_race": 616,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -121765,7 +121437,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 96,
     "speed_race": 105,
-    "SUM_race": 619,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -122163,7 +121834,6 @@
     "phy_defence_race": 74,
     "spe_defence_race": 42,
     "speed_race": 75,
-    "SUM_race": 365,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -122522,7 +122192,6 @@
     "phy_defence_race": 98,
     "spe_defence_race": 56,
     "speed_race": 100,
-    "SUM_race": 487,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -122888,7 +122557,6 @@
     "phy_defence_race": 123,
     "spe_defence_race": 70,
     "speed_race": 125,
-    "SUM_race": 610,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -123253,7 +122921,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 70,
     "speed_race": 105,
-    "SUM_race": 450,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -123641,7 +123308,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 67,
     "speed_race": 95,
-    "SUM_race": 449,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -124029,7 +123695,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 65,
     "speed_race": 90,
-    "SUM_race": 450,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -124416,7 +124081,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 55,
     "speed_race": 96,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -124751,7 +124415,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 69,
     "speed_race": 120,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -125092,7 +124755,6 @@
     "phy_defence_race": 44,
     "spe_defence_race": 64,
     "speed_race": 63,
-    "SUM_race": 338,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -125451,7 +125113,6 @@
     "phy_defence_race": 59,
     "spe_defence_race": 85,
     "speed_race": 84,
-    "SUM_race": 450,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -125817,7 +125478,6 @@
     "phy_defence_race": 74,
     "spe_defence_race": 107,
     "speed_race": 105,
-    "SUM_race": 564,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -126180,7 +125840,6 @@
     "phy_defence_race": 58,
     "spe_defence_race": 77,
     "speed_race": 80,
-    "SUM_race": 482,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -126584,7 +126243,6 @@
     "phy_defence_race": 63,
     "spe_defence_race": 74,
     "speed_race": 80,
-    "SUM_race": 491,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -126988,7 +126646,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 88,
     "speed_race": 92,
-    "SUM_race": 508,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -127382,7 +127039,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 110,
     "speed_race": 115,
-    "SUM_race": 635,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -127775,7 +127431,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 73,
     "speed_race": 96,
-    "SUM_race": 498,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -128146,7 +127801,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 67,
     "speed_race": 80,
-    "SUM_race": 378,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -128502,7 +128156,6 @@
     "phy_defence_race": 87,
     "spe_defence_race": 141,
     "speed_race": 130,
-    "SUM_race": 619,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -128870,7 +128523,6 @@
     "phy_defence_race": 130,
     "spe_defence_race": 91,
     "speed_race": 70,
-    "SUM_race": 578,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -129271,7 +128923,6 @@
     "phy_defence_race": 49,
     "spe_defence_race": 74,
     "speed_race": 72,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -129648,7 +129299,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 99,
     "speed_race": 96,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -130032,7 +129682,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 124,
     "speed_race": 120,
-    "SUM_race": 5,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -130415,7 +130064,6 @@
     "phy_defence_race": 87,
     "spe_defence_race": 71,
     "speed_race": 76,
-    "SUM_race": 443,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -130775,7 +130423,6 @@
     "phy_defence_race": 109,
     "spe_defence_race": 88,
     "speed_race": 95,
-    "SUM_race": 554,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -131133,7 +130780,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 97,
     "speed_race": 115,
-    "SUM_race": 482,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -131493,7 +131139,6 @@
     "phy_defence_race": 74,
     "spe_defence_race": 48,
     "speed_race": 115,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -131818,7 +131463,6 @@
     "phy_defence_race": 61,
     "spe_defence_race": 52,
     "speed_race": 72,
-    "SUM_race": 373,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -132196,7 +131840,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 70,
     "speed_race": 96,
-    "SUM_race": 498,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -132574,7 +132217,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 87,
     "speed_race": 120,
-    "SUM_race": 623,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -132949,7 +132591,6 @@
     "phy_defence_race": 125,
     "spe_defence_race": 125,
     "speed_race": 100,
-    "SUM_race": 486,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -133303,7 +132944,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 44,
     "speed_race": 60,
-    "SUM_race": 320,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -133694,7 +133334,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 59,
     "speed_race": 80,
-    "SUM_race": 428,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -134085,7 +133724,6 @@
     "phy_defence_race": 106,
     "spe_defence_race": 74,
     "speed_race": 100,
-    "SUM_race": 534,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -134475,7 +134113,6 @@
     "phy_defence_race": 110,
     "spe_defence_race": 90,
     "speed_race": 52,
-    "SUM_race": 617,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -134853,7 +134490,6 @@
     "phy_defence_race": 138,
     "spe_defence_race": 113,
     "speed_race": 65,
-    "SUM_race": 774,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -135229,7 +134865,6 @@
     "phy_defence_race": 87,
     "spe_defence_race": 66,
     "speed_race": 42,
-    "SUM_race": 288,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -135626,7 +135261,6 @@
     "phy_defence_race": 116,
     "spe_defence_race": 88,
     "speed_race": 56,
-    "SUM_race": 384,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -136023,7 +135657,6 @@
     "phy_defence_race": 146,
     "spe_defence_race": 110,
     "speed_race": 70,
-    "SUM_race": 481,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -136418,7 +136051,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 86,
     "speed_race": 42,
-    "SUM_race": 288,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -136801,7 +136433,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 115,
     "speed_race": 56,
-    "SUM_race": 384,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -137191,7 +136822,6 @@
     "phy_defence_race": 106,
     "spe_defence_race": 144,
     "speed_race": 70,
-    "SUM_race": 481,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -137578,7 +137208,6 @@
     "phy_defence_race": 56,
     "spe_defence_race": 59,
     "speed_race": 48,
-    "SUM_race": 355,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -137930,7 +137559,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 79,
     "speed_race": 64,
-    "SUM_race": 474,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -138289,7 +137917,6 @@
     "phy_defence_race": 93,
     "spe_defence_race": 98,
     "speed_race": 80,
-    "SUM_race": 593,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -138646,7 +138273,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 147,
     "speed_race": 105,
-    "SUM_race": 490,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -139018,7 +138644,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 98,
     "speed_race": 120,
-    "SUM_race": 633,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -139397,7 +139022,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 105,
     "speed_race": 120,
-    "SUM_race": 630,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -139767,7 +139391,6 @@
     "phy_defence_race": 112,
     "spe_defence_race": 84,
     "speed_race": 120,
-    "SUM_race": 650,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -140140,7 +139763,6 @@
     "phy_defence_race": 76,
     "spe_defence_race": 88,
     "speed_race": 84,
-    "SUM_race": 377,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -140494,7 +140116,6 @@
     "phy_defence_race": 95,
     "spe_defence_race": 110,
     "speed_race": 105,
-    "SUM_race": 470,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -140846,7 +140467,6 @@
     "phy_defence_race": 78,
     "spe_defence_race": 105,
     "speed_race": 60,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -141206,7 +140826,6 @@
     "phy_defence_race": 98,
     "spe_defence_race": 131,
     "speed_race": 75,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -141574,7 +141193,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 44,
     "speed_race": 69,
-    "SUM_race": 340,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -141934,7 +141552,6 @@
     "phy_defence_race": 71,
     "spe_defence_race": 80,
     "speed_race": 92,
-    "SUM_race": 449,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -142309,7 +141926,6 @@
     "phy_defence_race": 89,
     "spe_defence_race": 100,
     "speed_race": 115,
-    "SUM_race": 559,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -142683,7 +142299,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 42,
     "speed_race": 33,
-    "SUM_race": 366,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -143071,7 +142686,6 @@
     "phy_defence_race": 93,
     "spe_defence_race": 56,
     "speed_race": 44,
-    "SUM_race": 488,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -143466,7 +143080,6 @@
     "phy_defence_race": 116,
     "spe_defence_race": 70,
     "speed_race": 55,
-    "SUM_race": 609,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -143859,7 +143472,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 34,
     "speed_race": 30,
-    "SUM_race": 367,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -144247,7 +143859,6 @@
     "phy_defence_race": 85,
     "spe_defence_race": 46,
     "speed_race": 40,
-    "SUM_race": 489,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -144642,7 +144253,6 @@
     "phy_defence_race": 106,
     "spe_defence_race": 57,
     "speed_race": 50,
-    "SUM_race": 610,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -145034,7 +144644,6 @@
     "phy_defence_race": 139,
     "spe_defence_race": 139,
     "speed_race": 52,
-    "SUM_race": 584,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -145421,7 +145030,6 @@
     "phy_defence_race": 173,
     "spe_defence_race": 173,
     "speed_race": 65,
-    "SUM_race": 729,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -145807,7 +145415,6 @@
     "phy_defence_race": 99,
     "spe_defence_race": 84,
     "speed_race": 100,
-    "SUM_race": 473,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -146161,7 +145768,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 56,
     "speed_race": 100,
-    "SUM_race": 440,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -146486,7 +146092,6 @@
     "phy_defence_race": 88,
     "spe_defence_race": 69,
     "speed_race": 125,
-    "SUM_race": 550,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -146900,7 +146505,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 75,
     "speed_race": 90,
-    "SUM_race": 510,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -147321,7 +146925,6 @@
     "phy_defence_race": 116,
     "spe_defence_race": 77,
     "speed_race": 75,
-    "SUM_race": 583,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -147726,7 +147329,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 72,
     "speed_race": 85,
-    "SUM_race": 540,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -148143,7 +147745,6 @@
     "phy_defence_race": 67,
     "spe_defence_race": 53,
     "speed_race": 100,
-    "SUM_race": 440,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -148468,7 +148069,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 66,
     "speed_race": 125,
-    "SUM_race": 550,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -148882,7 +148482,6 @@
     "phy_defence_race": 82,
     "spe_defence_race": 75,
     "speed_race": 90,
-    "SUM_race": 510,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -149303,7 +148902,6 @@
     "phy_defence_race": 116,
     "spe_defence_race": 77,
     "speed_race": 75,
-    "SUM_race": 583,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -149708,7 +149306,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 72,
     "speed_race": 85,
-    "SUM_race": 540,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -150124,7 +149721,6 @@
     "phy_defence_race": 72,
     "spe_defence_race": 103,
     "speed_race": 56,
-    "SUM_race": 486,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -150480,7 +150076,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 129,
     "speed_race": 70,
-    "SUM_race": 608,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -150835,7 +150430,6 @@
     "phy_defence_race": 130,
     "spe_defence_race": 90,
     "speed_race": 120,
-    "SUM_race": 492,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -151245,7 +150839,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 65,
     "speed_race": 88,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -151585,7 +151178,6 @@
     "phy_defence_race": 131,
     "spe_defence_race": 81,
     "speed_race": 110,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -151932,7 +151524,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 79,
     "speed_race": 56,
-    "SUM_race": 5,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -152262,7 +151853,6 @@
     "phy_defence_race": 131,
     "spe_defence_race": 99,
     "speed_race": 70,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -152642,7 +152232,6 @@
     "phy_defence_race": 124,
     "spe_defence_race": 113,
     "speed_race": 130,
-    "SUM_race": 5,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -153018,7 +152607,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 65,
     "speed_race": 84,
-    "SUM_race": 476,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -153410,7 +152998,6 @@
     "phy_defence_race": 100,
     "spe_defence_race": 81,
     "speed_race": 105,
-    "SUM_race": 594,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -153807,7 +153394,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 80,
     "speed_race": 84,
-    "SUM_race": 476,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -154199,7 +153785,6 @@
     "phy_defence_race": 81,
     "spe_defence_race": 100,
     "speed_race": 105,
-    "SUM_race": 594,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -154596,7 +154181,6 @@
     "phy_defence_race": 77,
     "spe_defence_race": 60,
     "speed_race": 63,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -154957,7 +154541,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 80,
     "speed_race": 84,
-    "SUM_race": 455,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -155325,7 +154908,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 100,
     "speed_race": 105,
-    "SUM_race": 568,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -155691,7 +155273,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 62,
     "speed_race": 63,
-    "SUM_race": 365,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -156070,7 +155651,6 @@
     "phy_defence_race": 83,
     "spe_defence_race": 83,
     "speed_race": 84,
-    "SUM_race": 487,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -156456,7 +156036,6 @@
     "phy_defence_race": 103,
     "spe_defence_race": 103,
     "speed_race": 105,
-    "SUM_race": 609,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -156840,7 +156419,6 @@
     "phy_defence_race": 53,
     "spe_defence_race": 78,
     "speed_race": 48,
-    "SUM_race": 336,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -157204,7 +156782,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 104,
     "speed_race": 64,
-    "SUM_race": 447,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -157575,7 +157152,6 @@
     "phy_defence_race": 88,
     "spe_defence_race": 130,
     "speed_race": 80,
-    "SUM_race": 560,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -157944,7 +157520,6 @@
     "phy_defence_race": 93,
     "spe_defence_race": 79,
     "speed_race": 88,
-    "SUM_race": 438,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -158302,7 +157877,6 @@
     "phy_defence_race": 116,
     "spe_defence_race": 99,
     "speed_race": 110,
-    "SUM_race": 548,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -158671,7 +158245,6 @@
     "phy_defence_race": 113,
     "spe_defence_race": 97,
     "speed_race": 115,
-    "SUM_race": 580,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -159039,7 +158612,6 @@
     "phy_defence_race": 56,
     "spe_defence_race": 72,
     "speed_race": 72,
-    "SUM_race": 384,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -159400,7 +158972,6 @@
     "phy_defence_race": 75,
     "spe_defence_race": 96,
     "speed_race": 96,
-    "SUM_race": 513,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -159770,7 +159341,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 120,
     "speed_race": 120,
-    "SUM_race": 641,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -160196,7 +159766,6 @@
     "phy_defence_race": 100,
     "spe_defence_race": 76,
     "speed_race": 105,
-    "SUM_race": 625,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -160622,7 +160191,6 @@
     "phy_defence_race": 48,
     "spe_defence_race": 73,
     "speed_race": 57,
-    "SUM_race": 358,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -160976,7 +160544,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 98,
     "speed_race": 76,
-    "SUM_race": 480,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -161339,7 +160906,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 122,
     "speed_race": 95,
-    "SUM_race": 600,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -161745,7 +161311,6 @@
     "phy_defence_race": 134,
     "spe_defence_race": 89,
     "speed_race": 95,
-    "SUM_race": 552,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -162156,7 +161721,6 @@
     "phy_defence_race": 57,
     "spe_defence_race": 100,
     "speed_race": 92,
-    "SUM_race": 485,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -162530,7 +162094,6 @@
     "phy_defence_race": 71,
     "spe_defence_race": 125,
     "speed_race": 115,
-    "SUM_race": 605,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -162912,7 +162475,6 @@
     "phy_defence_race": 122,
     "spe_defence_race": 122,
     "speed_race": 64,
-    "SUM_race": 584,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -163285,7 +162847,6 @@
     "phy_defence_race": 153,
     "spe_defence_race": 153,
     "speed_race": 80,
-    "SUM_race": 731,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -163662,7 +163223,6 @@
     "phy_defence_race": 92,
     "spe_defence_race": 92,
     "speed_race": 100,
-    "SUM_race": 684,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -164832,7 +164392,6 @@
     "phy_defence_race": 102,
     "spe_defence_race": 102,
     "speed_race": 76,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -165193,7 +164752,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 128,
     "speed_race": 95,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -165570,7 +165128,6 @@
     "phy_defence_race": 50,
     "spe_defence_race": 78,
     "speed_race": 76,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -165912,7 +165469,6 @@
     "phy_defence_race": 62,
     "spe_defence_race": 97,
     "speed_race": 95,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -166258,7 +165814,6 @@
     "phy_defence_race": 110,
     "spe_defence_race": 76,
     "speed_race": 80,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -166607,7 +166162,6 @@
     "phy_defence_race": 137,
     "spe_defence_race": 95,
     "speed_race": 100,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -166962,7 +166516,6 @@
     "phy_defence_race": 84,
     "spe_defence_race": 104,
     "speed_race": 92,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -167313,7 +166866,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 130,
     "speed_race": 115,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -167661,7 +167213,6 @@
     "phy_defence_race": 138,
     "spe_defence_race": 68,
     "speed_race": 64,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -168005,7 +167556,6 @@
     "phy_defence_race": 173,
     "spe_defence_race": 85,
     "speed_race": 80,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -168355,7 +167905,6 @@
     "phy_defence_race": 50,
     "spe_defence_race": 102,
     "speed_race": 88,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -168705,7 +168254,6 @@
     "phy_defence_race": 63,
     "spe_defence_race": 127,
     "speed_race": 110,
-    "SUM_race": 560,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -169059,7 +168607,6 @@
     "phy_defence_race": 78,
     "spe_defence_race": 54,
     "speed_race": 33,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": [
@@ -169435,7 +168982,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 72,
     "speed_race": 44,
-    "SUM_race": 560,
     "stage": 2,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -169818,7 +169364,6 @@
     "phy_defence_race": 130,
     "spe_defence_race": 90,
     "speed_race": 55,
-    "SUM_race": 560,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -170200,7 +169745,6 @@
     "phy_defence_race": 52,
     "spe_defence_race": 106,
     "speed_race": 104,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -170542,7 +170086,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 133,
     "speed_race": 130,
-    "SUM_race": 560,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -170888,7 +170431,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 113,
     "speed_race": 100,
-    "SUM_race": 481,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -171213,7 +170755,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 128,
     "speed_race": 95,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -171577,7 +171118,6 @@
     "phy_defence_race": 70,
     "spe_defence_race": 89,
     "speed_race": 100,
-    "SUM_race": 341,
     "stage": 1,
     "stength_stage": 2,
     "pet_evolution_id": [
@@ -171916,7 +171456,6 @@
     "phy_defence_race": 88,
     "spe_defence_race": 111,
     "speed_race": 125,
-    "SUM_race": 341,
     "stage": 2,
     "stength_stage": 3,
     "pet_evolution_id": [
@@ -172261,7 +171800,6 @@
     "phy_defence_race": 65,
     "spe_defence_race": 123,
     "speed_race": 80,
-    "SUM_race": 568,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -172581,7 +172119,6 @@
     "phy_defence_race": 124,
     "spe_defence_race": 91,
     "speed_race": 65,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -172913,7 +172450,6 @@
     "phy_defence_race": 77,
     "spe_defence_race": 92,
     "speed_race": 105,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -173227,13 +172763,12 @@
       3
     ],
     "pictorial_book_id": 4,
-    "hp_max_race": 131,
-    "phy_attack_race": 109,
-    "spe_attack_race": 109,
+    "hp_max_race": 108,
+    "phy_attack_race": 127,
+    "spe_attack_race": 127,
     "phy_defence_race": 81,
     "spe_defence_race": 151,
     "speed_race": 55,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -173573,7 +173108,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 105,
     "speed_race": 85,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": null,
@@ -173913,7 +173447,6 @@
     "phy_defence_race": 133,
     "spe_defence_race": 105,
     "speed_race": 80,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -174256,7 +173789,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 64,
     "speed_race": 105,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -174560,7 +174092,6 @@
     "phy_defence_race": 90,
     "spe_defence_race": 129,
     "speed_race": 70,
-    "SUM_race": 600,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -174860,7 +174391,6 @@
     "phy_defence_race": 164,
     "spe_defence_race": 154,
     "speed_race": 70,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -175171,7 +174701,6 @@
     "phy_defence_race": 115,
     "spe_defence_race": 119,
     "speed_race": 85,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -175503,7 +175032,6 @@
     "phy_defence_race": 104,
     "spe_defence_race": 145,
     "speed_race": 85,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -175808,7 +175336,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 125,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -176118,7 +175645,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 133,
     "speed_race": 100,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -176422,7 +175948,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 130,
     "speed_race": 90,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -176752,7 +176277,6 @@
     "phy_defence_race": 108,
     "spe_defence_race": 74,
     "speed_race": 115,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -177063,7 +176587,6 @@
     "phy_defence_race": 42,
     "spe_defence_race": 42,
     "speed_race": 40,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -177397,7 +176920,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 63,
     "speed_race": 120,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -177705,7 +177227,6 @@
     "phy_defence_race": 94,
     "spe_defence_race": 72,
     "speed_race": 130,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -178007,7 +177528,6 @@
     "phy_defence_race": 101,
     "spe_defence_race": 82,
     "speed_race": 120,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -178310,7 +177830,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 125,
     "speed_race": 80,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -178647,7 +178166,6 @@
     "phy_defence_race": 108,
     "spe_defence_race": 79,
     "speed_race": 120,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -178963,7 +178481,6 @@
     "phy_defence_race": 183,
     "spe_defence_race": 183,
     "speed_race": 65,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -179294,7 +178811,6 @@
     "phy_defence_race": 69,
     "spe_defence_race": 99,
     "speed_race": 90,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -179603,7 +179119,6 @@
     "phy_defence_race": 140,
     "spe_defence_race": 115,
     "speed_race": 125,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -179956,7 +179471,6 @@
     "phy_defence_race": 123,
     "spe_defence_race": 123,
     "speed_race": 110,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -180278,7 +179792,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 92,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -180617,7 +180130,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 92,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -180956,7 +180468,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 92,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -181294,7 +180805,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 105,
     "speed_race": 92,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -181633,7 +181143,6 @@
     "phy_defence_race": 91,
     "spe_defence_race": 129,
     "speed_race": 105,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -181936,7 +181445,6 @@
     "phy_defence_race": 97,
     "spe_defence_race": 81,
     "speed_race": 115,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -182246,7 +181754,6 @@
     "phy_defence_race": 96,
     "spe_defence_race": 69,
     "speed_race": 115,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -182556,7 +182063,6 @@
     "phy_defence_race": 98,
     "spe_defence_race": 85,
     "speed_race": 115,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -182867,7 +182373,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 105,
     "speed_race": 85,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": null,
@@ -183208,7 +182713,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 112,
     "speed_race": 80,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": null,
@@ -183549,7 +183053,6 @@
     "phy_defence_race": 73,
     "spe_defence_race": 106,
     "speed_race": 90,
-    "SUM_race": 560,
     "stage": 1,
     "stength_stage": 1,
     "pet_evolution_id": null,
@@ -183889,7 +183392,6 @@
     "phy_defence_race": 64,
     "spe_defence_race": 79,
     "speed_race": 105,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -184193,7 +183695,6 @@
     "phy_defence_race": 79,
     "spe_defence_race": 64,
     "speed_race": 110,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -184497,7 +183998,6 @@
     "phy_defence_race": 66,
     "spe_defence_race": 82,
     "speed_race": 100,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -184801,7 +184301,6 @@
     "phy_defence_race": 105,
     "spe_defence_race": 69,
     "speed_race": 115,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -185106,7 +184605,6 @@
     "phy_defence_race": 133,
     "spe_defence_race": 123,
     "speed_race": 90,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -185460,7 +184958,6 @@
     "phy_defence_race": 179,
     "spe_defence_race": 125,
     "speed_race": 75,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -185814,7 +185311,6 @@
     "phy_defence_race": 143,
     "spe_defence_race": 118,
     "speed_race": 85,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -186168,7 +185664,6 @@
     "phy_defence_race": 135,
     "spe_defence_race": 111,
     "speed_race": 125,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -186522,7 +186017,6 @@
     "phy_defence_race": 133,
     "spe_defence_race": 123,
     "speed_race": 90,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -186876,7 +186370,6 @@
     "phy_defence_race": 179,
     "spe_defence_race": 125,
     "speed_race": 75,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -187230,7 +186723,6 @@
     "phy_defence_race": 143,
     "spe_defence_race": 118,
     "speed_race": 85,
-    "SUM_race": 667,
     "stage": 1,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -187584,7 +187076,6 @@
     "phy_defence_race": 133,
     "spe_defence_race": 88,
     "speed_race": 65,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -187917,7 +187408,6 @@
     "phy_defence_race": 124,
     "spe_defence_race": 88,
     "speed_race": 65,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -188250,7 +187740,6 @@
     "phy_defence_race": 128,
     "spe_defence_race": 88,
     "speed_race": 65,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -188583,7 +188072,6 @@
     "phy_defence_race": 121,
     "spe_defence_race": 88,
     "speed_race": 65,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -188916,7 +188404,6 @@
     "phy_defence_race": 126,
     "spe_defence_race": 88,
     "speed_race": 70,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -189248,7 +188735,6 @@
     "phy_defence_race": 80,
     "spe_defence_race": 113,
     "speed_race": 100,
-    "SUM_race": 640,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -189553,7 +189039,6 @@
     "phy_defence_race": 167,
     "spe_defence_race": 32,
     "speed_race": 75,
-    "SUM_race": 635,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,
@@ -189877,7 +189362,6 @@
     "phy_defence_race": 119,
     "spe_defence_race": 93,
     "speed_race": 115,
-    "SUM_race": 501,
     "stage": 3,
     "stength_stage": 3,
     "pet_evolution_id": null,

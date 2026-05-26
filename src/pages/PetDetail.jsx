@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { loadPets, loadFeatures } from '../utils/data'
 import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
+import DescText from '../components/DescText'
 
 const XUEMAI_ICON_MAP = {
   '草': 'img_cao.png', '虫': 'img_cong.png', '电': 'img_dian.png', '毒': 'img_du.png',
@@ -14,7 +15,7 @@ const XUEMAI_ICON_MAP = {
 };
 
 const TYPE_ID_MAP = {
-  1: '草', 2: '普通', 3: '虫', 4: '火', 5: '水', 6: '光', 7: '光（不确定）',
+  1: '草', 2: '普通', 3: '虫', 4: '火', 5: '水', 6: '光', 
   8: '地', 9: '冰', 10: '龙', 11: '电', 12: '毒', 13: '武', 14: '萌',
   15: '幽', 16: '翼', 17: '恶', 18: '机械', 19: '幻', 20: '?',
 };
@@ -71,6 +72,9 @@ function formatCondition(node, weatherMap) {
     } else if (type === 8) {
       const v = Array.isArray(d1) ? d1[0] : d1
       parts.push(`采集资源${v}次`)
+    } else if (type === 9) {
+      const v = Array.isArray(d1) ? d1[0] : d1
+      parts.push(`放出${v}秒`)
     } else if (type === 11) {
       parts.push('随机进化')
     } else if (type === 12) {
@@ -356,6 +360,7 @@ export default function PetDetail() {
                 </div>
               </div>
             )}
+            {pet.wish_number != null && <div className="flex justify-between"><span className="text-gray-500">星光值</span><span>{pet.wish_number}</span></div>}
             {pet.have_shiny && <div className="flex justify-between"><span className="text-gray-500">闪光</span><span className="text-yellow-600">有</span></div>}
             {pet.can_swim && <div className="flex justify-between"><span className="text-gray-500">游泳</span><span>会游泳</span></div>}
           </div>
@@ -387,7 +392,7 @@ export default function PetDetail() {
             )}
             <div>
               <div className="font-semibold text-gray-900">{feature.name}</div>
-              {feature.desc && <div className="text-sm text-gray-500 line-clamp-2">{feature.desc}</div>}
+              {feature.desc && <div className="text-sm text-gray-500 line-clamp-2"><DescText text={feature.desc} /></div>}
             </div>
           </div>
         </div>
@@ -398,10 +403,14 @@ export default function PetDetail() {
         {pet.level_skills?.length > 0 ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
             {pet.level_skills.map(s => (
-              <div key={`${s.skill_id}-${s.level}`} className="bg-gray-50 rounded px-3 py-2 text-sm">
+              <Link
+                key={`${s.skill_id}-${s.level}`}
+                to={`/skills/${s.skill_id}`}
+                className="bg-gray-50 hover:bg-blue-50 rounded px-3 py-2 text-sm block transition-colors"
+              >
                 <span className="text-gray-400 text-xs mr-2">Lv.{s.level}</span>
-                <span className="font-medium">{s.name}</span>
-              </div>
+                <span className="font-medium hover:text-blue-600">{s.name}</span>
+              </Link>
             ))}
           </div>
         ) : <div className="text-sm text-gray-400">暂无数据</div>}
@@ -413,7 +422,12 @@ export default function PetDetail() {
           {pet.blood_skills?.length > 0 ? (
             <div className="flex flex-wrap gap-2">
               {pet.blood_skills.map(s => (
-                <div key={s.skill_id} className="flex items-center gap-2 bg-gray-50 rounded px-3 py-2" title={s.type}>
+                <Link
+                  key={s.skill_id}
+                  to={`/skills/${s.skill_id}`}
+                  className="flex items-center gap-2 bg-gray-50 hover:bg-blue-50 rounded px-3 py-2 transition-colors"
+                  title={s.type}
+                >
                   {XUEMAI_ICON_MAP[s.type] && (
                     <img
                       src={`${base}icons/xuemai/${XUEMAI_ICON_MAP[s.type]}`}
@@ -423,8 +437,8 @@ export default function PetDetail() {
                       className="object-contain"
                     />
                   )}
-                  <span className="text-sm font-medium">{s.name}</span>
-                </div>
+                  <span className="text-sm font-medium hover:text-blue-600">{s.name}</span>
+                </Link>
               ))}
             </div>
           ) : <div className="text-sm text-gray-400">暂无数据</div>}
@@ -434,7 +448,13 @@ export default function PetDetail() {
           {pet.machine_skills?.length > 0 ? (
             <div className="flex flex-wrap gap-2">
               {pet.machine_skills.map(s => (
-                <span key={s.skill_id} className="bg-gray-50 rounded px-2 py-1 text-sm">{s.name}</span>
+                <Link
+                  key={s.skill_id}
+                  to={`/skills/${s.skill_id}`}
+                  className="bg-gray-50 hover:bg-blue-50 rounded px-2 py-1 text-sm transition-colors hover:text-blue-600"
+                >
+                  {s.name}
+                </Link>
               ))}
             </div>
           ) : <div className="text-sm text-gray-400">暂无数据</div>}
