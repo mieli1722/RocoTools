@@ -2,11 +2,23 @@
 
 一款为《洛克王国：世界》玩家打造的轻量数据查询工具。数据来源于游戏原始配置文件的解码提取，覆盖精灵图鉴、技能查询、属性克制计算、性格查询、蛋组查询、神秘蛋推测等功能。
 
-## 在线访问
+## 使用方式
+
+### 网页版
 
 **[mieli1722.github.io/RocoTools](https://mieli1722.github.io/RocoTools/)**
 
 通过 GitHub Actions 自动构建部署到 GitHub Pages。
+
+### 桌面版
+
+基于 [Tauri](https://tauri.app/) 打包为原生 Windows 应用，双击即用，无需浏览器。
+
+```bash
+npm run tauri:build
+```
+
+产物：`src-tauri/target/release/rocktools.exe`
 
 ## 功能介绍
 
@@ -42,7 +54,6 @@
 | `weathers.json` | 天气效果配置 |
 | `desc_notes.json` | 游戏术语词典（用于技能/特性描述中的内联解释） |
 
-数据由项目根目录的 Python 管道（`Data/Bin/decode_bin.py` → `scripts/build_data.py`）从游戏二进制配置文件解码并构建生成。构建过程会过滤掉属性为「无」「空」「岩（废弃！）」的无用技能。
 
 ## 技术栈
 
@@ -52,6 +63,7 @@
 - [Tailwind CSS 3](https://tailwindcss.com/) — 样式
 - [PostCSS](https://postcss.org/) + [Autoprefixer](https://github.com/postcss/autoprefixer) — CSS 处理
 - [Lucide React](https://lucide.dev/) — 图标库
+- [Tauri 2](https://tauri.app/) — 桌面应用打包
 
 ## 目录结构
 
@@ -87,6 +99,14 @@ web/
 ├── vite.config.js
 ├── tailwind.config.js
 ├── postcss.config.js
+├── src-tauri/                    # Tauri 桌面壳（Rust）
+│   ├── src/
+│   │   ├── lib.rs
+│   │   └── main.rs
+│   ├── icons/                    # 桌面图标
+│   ├── Cargo.toml
+│   ├── tauri.conf.json
+│   └── .gitignore
 └── README.md
 ```
 
@@ -96,14 +116,17 @@ web/
 # 安装依赖
 npm install
 
-# 启动开发服务器
+# 启动 Web 开发服务器
 npm run dev
 
-# 构建生产版本
+# 启动桌面开发模式（带热更新）
+npm run tauri
+
+# 构建 Web 版本
 npm run build
 
-# 预览生产构建
-npm run preview
+# 构建桌面版本
+npm run tauri:build
 ```
 
 ## 免责声明

@@ -1,0 +1,26 @@
+[package]
+name = "rocktools"
+version = "0.1.0"
+description = "洛克王国世界工具箱"
+authors = ["mieli1722"]
+license = "MIT"
+repository = "https://github.com/mieli1722/RocoTools"
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "rocktools_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.2", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+tauri = { version = "2.11.2", features = [] }
+tauri-plugin-log = "2"
+
+[profile.release]
+strip = true
