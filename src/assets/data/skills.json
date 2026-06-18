@@ -10782,7 +10782,7 @@
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/314034.314034'",
     "dam_para": [
-      170
+      105
     ],
     "energy_cost": [
       7
