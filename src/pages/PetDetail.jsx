@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
-import { loadPets, loadFeatures } from '../utils/data'
+import { loadPets, loadFeatures, loadSkills } from '../utils/data'
 import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
 import DescText from '../components/DescText'
@@ -26,6 +26,69 @@ function getForms(pet, petMap) {
   if (!pet) return []
   return Object.values(petMap).filter(
     p => p.id !== pet.id && p.name === pet.name && p.pictorial_book_id === pet.pictorial_book_id
+  )
+}
+
+function skillIconUrl(skill) {
+  if (!skill || !skill.icon) return null
+  const name = skill.icon.split('/').pop()?.split('.')[0]
+  return name ? `${base}icons/skills/${name}.png` : null
+}
+
+function SkillCard({ skill, extra, extraIcon, extraIconOnly = false, small = false }) {
+  if (!skill) return null
+  return (
+    <Link
+      to={`/skills/${skill.id}`}
+      className={`bg-white rounded-xl border hover:shadow-md hover:border-blue-200 transition-all block ${small ? 'p-3' : 'p-4'}`}
+    >
+      <div className="flex items-center gap-3 mb-2">
+        {skillIconUrl(skill) && (
+          <img
+            src={skillIconUrl(skill)}
+            alt={skill.name}
+            className="w-10 h-10 object-contain bg-gray-50 rounded"
+            onError={e => { e.target.style.display = 'none' }}
+          />
+        )}
+        <div className="flex-1 min-w-0">
+          <div className="font-semibold text-gray-900 truncate">{skill.name}</div>
+          {skill.skill_dam_type && skill.skill_dam_type !== '无' && (
+            <div className="flex items-center gap-2 mt-0.5">
+              <TypeBadge type={skill.skill_dam_type} size={16} />
+            </div>
+          )}
+        </div>
+        {extra && (
+          <div className={`flex items-center gap-1 whitespace-nowrap ${extraIconOnly ? '' : 'text-xs text-gray-400'}`}>
+            {extraIcon && (
+              <img
+                src={extraIcon}
+                alt={extra}
+                className={`object-contain ${extraIconOnly ? 'w-7 h-7' : 'w-4 h-4'}`}
+                onError={e => { e.target.style.display = 'none' }}
+              />
+            )}
+            {!extraIconOnly && extra}
+          </div>
+        )}
+      </div>
+      <div className="text-xs text-gray-500 mb-2 line-clamp-2"><DescText text={skill.desc} /></div>
+      <div className="flex flex-wrap gap-2 text-xs">
+        {['物攻', '魔攻'].includes(skill.damage_type) && (
+          <span className="bg-gray-100 px-2 py-0.5 rounded">{skill.damage_type}</span>
+        )}
+        {skill.skill_type && skill.skill_type !== '攻击' && (
+          <span className="bg-gray-100 px-2 py-0.5 rounded">{skill.skill_type}</span>
+        )}
+        {skill.dam_para && skill.dam_para.some(v => v > 0) && (
+          <span className="bg-gray-100 px-2 py-0.5 rounded">威力 {skill.dam_para.find(v => v > 0) || 0}</span>
+        )}
+        {skill.energy_cost && skill.energy_cost.some(v => v >= 0) && (
+          <span className="bg-gray-100 px-2 py-0.5 rounded">能耗 {skill.energy_cost.find(v => v >= 0) ?? 0}</span>
+        )}
+      </div>
+    </Link>
   )
 }
 
@@ -216,15 +279,18 @@ export default function PetDetail() {
   const { id } = useParams()
   const [pet, setPet] = useState(null)
   const [feature, setFeature] = useState(null)
+  const [legendarySkill, setLegendarySkill] = useState(null)
+  const [skillMap, setSkillMap] = useState({})
   const [petMap, setPetMap] = useState({})
   const [evoTrees, setEvoTrees] = useState([])
   const [weatherMap, setWeatherMap] = useState(new Map())
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    Promise.all([loadPets(), loadFeatures()]).then(async ([pets, features]) => {
+    Promise.all([loadPets(), loadFeatures(), loadSkills()]).then(async ([pets, features, skills]) => {
       const map = Object.fromEntries(pets.map(p => [p.id, p]))
       setPetMap(map)
+      setSkillMap(Object.fromEntries(skills.map(s => [s.id, s])))
       const found = map[Number(id)]
       setPet(found || null)
 
@@ -240,6 +306,10 @@ export default function PetDetail() {
         if (found.pet_feature) {
           const f = features.find(x => x.id === found.pet_feature)
           setFeature(f || null)
+        }
+        if (found.legendary_skill?.skill_id) {
+          const s = skills.find(x => x.id === found.legendary_skill.skill_id)
+          setLegendarySkill(s || null)
         }
         const parentMap = {}
         Object.values(map).forEach(p => {
@@ -398,67 +468,114 @@ export default function PetDetail() {
         </div>
       )}
 
+      {pet.legendary_skill && (
+        <div className="bg-white rounded-xl border p-5 mb-4">
+          <h2 className="font-semibold mb-3">传说技能</h2>
+          <div className="flex items-start gap-3">
+            {legendarySkill?.icon && (
+              <img
+                src={skillIconUrl(legendarySkill)}
+                alt={pet.legendary_skill.name}
+                className="w-14 h-14 object-contain bg-gray-50 rounded"
+                onError={e => { e.target.style.display = 'none' }}
+              />
+            )}
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2">
+                <Link
+                  to={`/skills/${pet.legendary_skill.skill_id}`}
+                  className="font-semibold text-gray-900 hover:text-blue-600 text-lg"
+                >
+                  {pet.legendary_skill.name}
+                </Link>
+                {legendarySkill?.skill_dam_type && legendarySkill.skill_dam_type !== '无' && (
+                  <TypeBadge type={legendarySkill.skill_dam_type} size={20} />
+                )}
+              </div>
+              {legendarySkill?.desc && (
+                <div className="text-sm text-gray-600 leading-relaxed mt-2">
+                  <DescText text={legendarySkill.desc} />
+                </div>
+              )}
+              {legendarySkill?.flavor_text && (
+                <p className="text-gray-400 text-xs italic mt-1">"{legendarySkill.flavor_text}"</p>
+              )}
+              {legendarySkill && (
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {legendarySkill.dam_para?.some(v => v > 0) && (
+                    <span className="text-xs px-2 py-0.5 bg-red-50 text-red-700 rounded border border-red-100">
+                      威力 {legendarySkill.dam_para.find(v => v > 0)}
+                    </span>
+                  )}
+                  {legendarySkill.energy_cost?.some(v => v >= 0) && (
+                    <span className="text-xs px-2 py-0.5 bg-yellow-50 text-yellow-700 rounded border border-yellow-100">
+                      能耗 {legendarySkill.energy_cost.find(v => v >= 0) ?? 0}
+                    </span>
+                  )}
+                  {['物攻', '魔攻'].includes(legendarySkill.damage_type) && (
+                    <span className="text-xs px-2 py-0.5 bg-gray-100 text-gray-700 rounded">
+                      {legendarySkill.damage_type}
+                    </span>
+                  )}
+                  {legendarySkill.skill_type && legendarySkill.skill_type !== '攻击' && (
+                    <span className="text-xs px-2 py-0.5 bg-gray-100 text-gray-700 rounded">
+                      {legendarySkill.skill_type}
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="bg-white rounded-xl border p-5 mb-4">
         <h2 className="font-semibold mb-3">升级技能</h2>
         {pet.level_skills?.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {pet.level_skills.map(s => (
-              <Link
+              <SkillCard
                 key={`${s.skill_id}-${s.level}`}
-                to={`/skills/${s.skill_id}`}
-                className="bg-gray-50 hover:bg-blue-50 rounded px-3 py-2 text-sm block transition-colors"
-              >
-                <span className="text-gray-400 text-xs mr-2">Lv.{s.level}</span>
-                <span className="font-medium hover:text-blue-600">{s.name}</span>
-              </Link>
+                skill={skillMap[s.skill_id] || { id: s.skill_id, name: s.name }}
+                extra={`Lv.${s.level}`}
+                small
+              />
             ))}
           </div>
         ) : <div className="text-sm text-gray-400">暂无数据</div>}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="bg-white rounded-xl border p-5">
-          <h2 className="font-semibold mb-3">血脉技能</h2>
-          {pet.blood_skills?.length > 0 ? (
-            <div className="flex flex-wrap gap-2">
-              {pet.blood_skills.map(s => (
-                <Link
-                  key={s.skill_id}
-                  to={`/skills/${s.skill_id}`}
-                  className="flex items-center gap-2 bg-gray-50 hover:bg-blue-50 rounded px-3 py-2 transition-colors"
-                  title={s.type}
-                >
-                  {XUEMAI_ICON_MAP[s.type] && (
-                    <img
-                      src={`${base}icons/xuemai/${XUEMAI_ICON_MAP[s.type]}`}
-                      alt={s.type}
-                      width={24}
-                      height={24}
-                      className="object-contain"
-                    />
-                  )}
-                  <span className="text-sm font-medium hover:text-blue-600">{s.name}</span>
-                </Link>
-              ))}
-            </div>
-          ) : <div className="text-sm text-gray-400">暂无数据</div>}
-        </div>
-        <div className="bg-white rounded-xl border p-5">
-          <h2 className="font-semibold mb-3">技能石技能</h2>
-          {pet.machine_skills?.length > 0 ? (
-            <div className="flex flex-wrap gap-2">
-              {pet.machine_skills.map(s => (
-                <Link
-                  key={s.skill_id}
-                  to={`/skills/${s.skill_id}`}
-                  className="bg-gray-50 hover:bg-blue-50 rounded px-2 py-1 text-sm transition-colors hover:text-blue-600"
-                >
-                  {s.name}
-                </Link>
-              ))}
-            </div>
-          ) : <div className="text-sm text-gray-400">暂无数据</div>}
-        </div>
+      <div className="bg-white rounded-xl border p-5 mb-4">
+        <h2 className="font-semibold mb-3">血脉技能</h2>
+        {pet.blood_skills?.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {pet.blood_skills.map(s => (
+              <SkillCard
+                key={s.skill_id}
+                skill={skillMap[s.skill_id] || { id: s.skill_id, name: s.name }}
+                extra={s.type}
+                extraIcon={XUEMAI_ICON_MAP[s.type] ? `${base}icons/xuemai/${XUEMAI_ICON_MAP[s.type]}` : null}
+                extraIconOnly
+                small
+              />
+            ))}
+          </div>
+        ) : <div className="text-sm text-gray-400">暂无数据</div>}
+      </div>
+
+      <div className="bg-white rounded-xl border p-5">
+        <h2 className="font-semibold mb-3">技能石技能</h2>
+        {pet.machine_skills?.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {pet.machine_skills.map(s => (
+              <SkillCard
+                key={s.skill_id}
+                skill={skillMap[s.skill_id] || { id: s.skill_id, name: s.name }}
+                small
+              />
+            ))}
+          </div>
+        ) : <div className="text-sm text-gray-400">暂无数据</div>}
       </div>
     </div>
   )

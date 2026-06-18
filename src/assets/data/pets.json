@@ -384,7 +384,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3002,
@@ -737,7 +738,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3003,
@@ -1095,7 +1097,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3004,
@@ -1450,7 +1453,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3005,
@@ -1808,7 +1812,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3006,
@@ -2171,7 +2176,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3007,
@@ -2563,7 +2569,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3008,
@@ -2919,7 +2926,8 @@
         "skill_id": 7050280,
         "name": "水环"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3010,
@@ -3255,7 +3263,8 @@
         "skill_id": 7180150,
         "name": "彼岸之手"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3011,
@@ -3582,7 +3591,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3012,
@@ -3905,7 +3915,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3013,
@@ -4251,7 +4262,8 @@
         "skill_id": 7020580,
         "name": "气势一击"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3014,
@@ -4626,7 +4638,8 @@
         "skill_id": 7180440,
         "name": "假冒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3015,
@@ -5008,7 +5021,8 @@
         "skill_id": 7180440,
         "name": "假冒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3016,
@@ -5390,7 +5404,8 @@
         "skill_id": 7180440,
         "name": "假冒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3017,
@@ -5778,7 +5793,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3018,
@@ -6173,7 +6189,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3019,
@@ -6566,7 +6583,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3020,
@@ -6934,7 +6952,8 @@
         "skill_id": 7070260,
         "name": "排气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3021,
@@ -7309,7 +7328,8 @@
         "skill_id": 7070260,
         "name": "排气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3022,
@@ -7682,7 +7702,8 @@
         "skill_id": 7070260,
         "name": "排气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3025,
@@ -8076,7 +8097,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3026,
@@ -8425,7 +8447,8 @@
         "skill_id": 7190260,
         "name": "多维击打"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3027,
@@ -8801,7 +8824,8 @@
         "skill_id": 7150390,
         "name": "俯冲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3028,
@@ -9163,7 +9187,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3029,
@@ -9549,7 +9574,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3030,
@@ -9942,7 +9968,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3031,
@@ -10333,7 +10360,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3032,
@@ -10698,7 +10726,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3033,
@@ -11058,7 +11087,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3034,
@@ -11429,7 +11459,8 @@
         "skill_id": 7150390,
         "name": "俯冲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3035,
@@ -11783,7 +11814,8 @@
         "skill_id": 7190260,
         "name": "多维击打"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3036,
@@ -12106,7 +12138,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3037,
@@ -12466,7 +12499,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3038,
@@ -12807,7 +12841,8 @@
         "skill_id": 7020580,
         "name": "气势一击"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3039,
@@ -13148,7 +13183,8 @@
         "skill_id": 7180150,
         "name": "彼岸之手"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3040,
@@ -13501,7 +13537,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3041,
@@ -13861,7 +13898,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3042,
@@ -14219,7 +14257,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3043,
@@ -14588,7 +14627,8 @@
         "skill_id": 7030510,
         "name": "富养化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3044,
@@ -14962,7 +15002,8 @@
         "skill_id": 7030510,
         "name": "富养化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3045,
@@ -15311,7 +15352,8 @@
         "skill_id": 7180350,
         "name": "伪造账单"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3046,
@@ -15667,7 +15709,8 @@
         "skill_id": 7180350,
         "name": "伪造账单"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3047,
@@ -16023,7 +16066,8 @@
         "skill_id": 7180350,
         "name": "伪造账单"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3049,
@@ -16390,7 +16434,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3050,
@@ -16731,7 +16776,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3055,
@@ -17082,7 +17128,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3056,
@@ -17440,7 +17487,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3057,
@@ -17796,7 +17844,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3058,
@@ -18199,7 +18248,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3059,
@@ -18615,7 +18665,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3060,
@@ -18992,7 +19043,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3061,
@@ -19381,7 +19433,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3062,
@@ -19742,7 +19795,8 @@
         "skill_id": 7050230,
         "name": "蓄水"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3063,
@@ -20110,7 +20164,8 @@
         "skill_id": 7050230,
         "name": "蓄水"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3064,
@@ -20462,7 +20517,8 @@
         "skill_id": 7170290,
         "name": "撞鬼"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3065,
@@ -20829,7 +20885,8 @@
         "skill_id": 7170240,
         "name": "嘲弄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3066,
@@ -21201,7 +21258,8 @@
         "skill_id": 7170240,
         "name": "嘲弄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3067,
@@ -21564,7 +21622,8 @@
         "skill_id": 7050280,
         "name": "水环"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3069,
@@ -21914,7 +21973,8 @@
         "skill_id": 7050510,
         "name": "清洗"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3070,
@@ -22252,7 +22312,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3071,
@@ -22595,7 +22656,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3072,
@@ -22952,7 +23014,8 @@
         "skill_id": 7021140,
         "name": "埋伏"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3073,
@@ -23316,7 +23379,8 @@
         "skill_id": 7021140,
         "name": "埋伏"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3074,
@@ -23678,7 +23742,8 @@
         "skill_id": 7021140,
         "name": "埋伏"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3075,
@@ -24057,7 +24122,8 @@
         "skill_id": 7040610,
         "name": "除厄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3076,
@@ -24443,7 +24509,8 @@
         "skill_id": 7040610,
         "name": "除厄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3077,
@@ -24827,7 +24894,8 @@
         "skill_id": 7040610,
         "name": "除厄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3081,
@@ -25193,7 +25261,8 @@
         "skill_id": 7160380,
         "name": "加油"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3082,
@@ -25566,7 +25635,8 @@
         "skill_id": 7160380,
         "name": "加油"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3083,
@@ -25938,7 +26008,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3084,
@@ -26317,7 +26388,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3085,
@@ -26694,7 +26766,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3086,
@@ -27032,7 +27105,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3087,
@@ -27378,7 +27452,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3088,
@@ -27777,7 +27852,8 @@
         "skill_id": 7040680,
         "name": "焚尽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3089,
@@ -28155,7 +28231,8 @@
         "skill_id": 7040680,
         "name": "焚尽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3090,
@@ -28514,7 +28591,8 @@
         "skill_id": 7180110,
         "name": "撕咬"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3091,
@@ -28880,7 +28958,8 @@
         "skill_id": 7180110,
         "name": "撕咬"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3092,
@@ -29244,7 +29323,8 @@
         "skill_id": 7180110,
         "name": "撕咬"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3093,
@@ -29626,7 +29706,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3094,
@@ -30015,7 +30096,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3095,
@@ -30402,7 +30484,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3098,
@@ -30781,7 +30864,8 @@
         "skill_id": 7021220,
         "name": "同频"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3099,
@@ -31167,7 +31251,8 @@
         "skill_id": 7021220,
         "name": "同频"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3100,
@@ -31551,7 +31636,8 @@
         "skill_id": 7021220,
         "name": "同频"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3101,
@@ -31929,7 +32015,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3102,
@@ -32305,7 +32392,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3103,
@@ -32677,7 +32765,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3104,
@@ -33056,7 +33145,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3105,
@@ -33433,7 +33523,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3106,
@@ -33811,7 +33902,8 @@
         "skill_id": 7020620,
         "name": "力量增效"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3107,
@@ -34196,7 +34288,8 @@
         "skill_id": 7020620,
         "name": "力量增效"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3108,
@@ -34579,7 +34672,8 @@
         "skill_id": 7020620,
         "name": "力量增效"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3109,
@@ -34974,7 +35068,8 @@
         "skill_id": 7190440,
         "name": "天体吸积"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3110,
@@ -35376,7 +35471,8 @@
         "skill_id": 7190440,
         "name": "天体吸积"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3111,
@@ -35776,7 +35872,8 @@
         "skill_id": 7190440,
         "name": "天体吸积"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3112,
@@ -36160,7 +36257,8 @@
         "skill_id": 7050300,
         "name": "水波术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3113,
@@ -36551,7 +36649,8 @@
         "skill_id": 7050300,
         "name": "水波术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3114,
@@ -36940,7 +37039,8 @@
         "skill_id": 7050300,
         "name": "水波术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3115,
@@ -37304,7 +37404,8 @@
         "skill_id": 7020800,
         "name": "血气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3116,
@@ -37675,7 +37776,8 @@
         "skill_id": 7020800,
         "name": "血气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3117,
@@ -38044,7 +38146,8 @@
         "skill_id": 7020800,
         "name": "血气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3118,
@@ -38371,7 +38474,8 @@
         "skill_id": 7020520,
         "name": "阻断"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3119,
@@ -38714,7 +38818,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3120,
@@ -39062,7 +39167,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3121,
@@ -39451,7 +39557,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3122,
@@ -39847,7 +39954,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3123,
@@ -40241,7 +40349,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3124,
@@ -40642,7 +40751,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3125,
@@ -41045,7 +41155,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3126,
@@ -41442,7 +41553,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3127,
@@ -41800,7 +41912,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3128,
@@ -42165,7 +42278,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3129,
@@ -42528,7 +42642,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3130,
@@ -42901,7 +43016,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3131,
@@ -43283,7 +43399,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3132,
@@ -43663,7 +43780,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3136,
@@ -44047,7 +44165,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3137,
@@ -44441,7 +44560,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3138,
@@ -44828,7 +44948,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3139,
@@ -45208,7 +45329,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3140,
@@ -45595,7 +45717,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3141,
@@ -45980,7 +46103,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3142,
@@ -46368,7 +46492,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3143,
@@ -46769,7 +46894,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3144,
@@ -47168,7 +47294,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3145,
@@ -47553,7 +47680,8 @@
         "skill_id": 7170290,
         "name": "撞鬼"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3146,
@@ -47947,7 +48075,8 @@
         "skill_id": 7170290,
         "name": "撞鬼"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3147,
@@ -48339,7 +48468,8 @@
         "skill_id": 7170290,
         "name": "撞鬼"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3148,
@@ -48704,7 +48834,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3149,
@@ -49079,7 +49210,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3150,
@@ -49449,7 +49581,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3151,
@@ -49833,7 +49966,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3152,
@@ -50222,7 +50356,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3153,
@@ -50609,7 +50744,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3154,
@@ -50985,7 +51121,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3155,
@@ -51368,7 +51505,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3156,
@@ -51749,7 +51887,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3157,
@@ -52163,7 +52302,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3161,
@@ -52543,7 +52683,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3162,
@@ -52930,7 +53071,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3165,
@@ -53286,7 +53428,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3166,
@@ -53652,7 +53795,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3167,
@@ -54013,7 +54157,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3170,
@@ -54380,7 +54525,8 @@
         "skill_id": 7080360,
         "name": "石肤术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3171,
@@ -54754,7 +54900,8 @@
         "skill_id": 7080360,
         "name": "石肤术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3172,
@@ -55116,7 +55263,8 @@
         "skill_id": 7090430,
         "name": "冰封"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3173,
@@ -55485,7 +55633,8 @@
         "skill_id": 7090430,
         "name": "冰封"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3174,
@@ -55852,7 +56001,8 @@
         "skill_id": 7090430,
         "name": "冰封"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3175,
@@ -56229,7 +56379,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3176,
@@ -56613,7 +56764,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3177,
@@ -56995,7 +57147,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3178,
@@ -57345,7 +57498,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3179,
@@ -57702,7 +57856,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3180,
@@ -58059,7 +58214,12 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7180230,
+      "name": "恶念交换",
+      "condition": 3182
+    }
   },
   {
     "id": 3181,
@@ -58423,7 +58583,12 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7180230,
+      "name": "恶念交换",
+      "condition": 3182
+    }
   },
   {
     "id": 3182,
@@ -58785,7 +58950,12 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7180230,
+      "name": "恶念交换",
+      "condition": 3182
+    }
   },
   {
     "id": 3188,
@@ -59140,7 +59310,8 @@
         "skill_id": 7160200,
         "name": "甜心续航"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3189,
@@ -59500,7 +59671,8 @@
         "skill_id": 7160200,
         "name": "甜心续航"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3190,
@@ -59873,7 +60045,8 @@
         "skill_id": 7110270,
         "name": "加大功率"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3191,
@@ -60253,7 +60426,8 @@
         "skill_id": 7110270,
         "name": "加大功率"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3192,
@@ -60631,7 +60805,8 @@
         "skill_id": 7110270,
         "name": "加大功率"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3193,
@@ -60987,7 +61162,8 @@
         "skill_id": 7020700,
         "name": "伺机而动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3194,
@@ -61348,7 +61524,8 @@
         "skill_id": 7020700,
         "name": "伺机而动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3195,
@@ -61728,7 +61905,8 @@
         "skill_id": 7021170,
         "name": "倾泻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3196,
@@ -62115,7 +62293,8 @@
         "skill_id": 7021170,
         "name": "倾泻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3197,
@@ -62500,7 +62679,8 @@
         "skill_id": 7021170,
         "name": "倾泻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3198,
@@ -62841,7 +63021,8 @@
         "skill_id": 7190230,
         "name": "坍缩"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3199,
@@ -63187,7 +63368,8 @@
         "skill_id": 7190230,
         "name": "坍缩"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3200,
@@ -63549,7 +63731,8 @@
         "skill_id": 7070250,
         "name": "减压阀"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3201,
@@ -63918,7 +64101,8 @@
         "skill_id": 7070250,
         "name": "减压阀"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3202,
@@ -64285,7 +64469,8 @@
         "skill_id": 7070250,
         "name": "减压阀"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3203,
@@ -64648,7 +64833,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3204,
@@ -65018,7 +65204,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3205,
@@ -65386,7 +65573,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3206,
@@ -65752,7 +65940,8 @@
         "skill_id": 7070270,
         "name": "相位移动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3207,
@@ -66125,7 +66314,8 @@
         "skill_id": 7070270,
         "name": "相位移动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3208,
@@ -66496,7 +66686,8 @@
         "skill_id": 7070270,
         "name": "相位移动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3209,
@@ -66841,7 +67032,8 @@
         "skill_id": 7100320,
         "name": "守护咒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3210,
@@ -67191,7 +67383,8 @@
         "skill_id": 7100320,
         "name": "守护咒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3211,
@@ -67535,7 +67728,8 @@
         "skill_id": 7100320,
         "name": "守护咒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3215,
@@ -67898,7 +68092,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3216,
@@ -68266,7 +68461,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3225,
@@ -68646,7 +68842,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3226,
@@ -69031,7 +69228,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3227,
@@ -69355,7 +69553,8 @@
         "skill_id": 7160380,
         "name": "加油"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3234,
@@ -69754,7 +69953,8 @@
         "skill_id": 7020630,
         "name": "魔法增效"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3235,
@@ -70158,7 +70358,8 @@
         "skill_id": 7020630,
         "name": "魔法增效"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3237,
@@ -70523,7 +70724,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3238,
@@ -70893,7 +71095,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3239,
@@ -71264,7 +71467,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3240,
@@ -71642,7 +71846,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3241,
@@ -72018,7 +72223,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3244,
@@ -72396,7 +72602,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3245,
@@ -72781,7 +72988,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3246,
@@ -73164,7 +73372,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3250,
@@ -73549,7 +73758,8 @@
         "skill_id": 7150390,
         "name": "俯冲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3251,
@@ -73941,7 +74151,8 @@
         "skill_id": 7150390,
         "name": "俯冲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3252,
@@ -74331,7 +74542,8 @@
         "skill_id": 7150390,
         "name": "俯冲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3255,
@@ -74674,7 +74886,8 @@
         "skill_id": 7110270,
         "name": "加大功率"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3256,
@@ -75022,7 +75235,8 @@
         "skill_id": 7110270,
         "name": "加大功率"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3257,
@@ -75380,7 +75594,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3258,
@@ -75745,7 +75960,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3259,
@@ -76108,7 +76324,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3262,
@@ -76459,7 +76676,8 @@
         "skill_id": 7090210,
         "name": "冰墙"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3263,
@@ -76815,7 +77033,8 @@
         "skill_id": 7090210,
         "name": "冰墙"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3266,
@@ -77173,7 +77392,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3267,
@@ -77536,7 +77756,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3268,
@@ -77877,7 +78098,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3269,
@@ -78223,7 +78445,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3276,
@@ -78583,7 +78806,8 @@
         "skill_id": 7030480,
         "name": "筛管奔流"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3277,
@@ -78950,7 +79174,8 @@
         "skill_id": 7030480,
         "name": "筛管奔流"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3278,
@@ -79315,7 +79540,8 @@
         "skill_id": 7030480,
         "name": "筛管奔流"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3279,
@@ -79674,7 +79900,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3280,
@@ -80033,7 +80260,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3281,
@@ -80392,7 +80620,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3282,
@@ -80758,7 +80987,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3283,
@@ -81124,7 +81354,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3284,
@@ -81490,7 +81721,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3285,
@@ -81854,7 +82086,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3286,
@@ -82218,7 +82451,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3287,
@@ -82582,7 +82816,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3289,
@@ -82937,7 +83172,8 @@
         "skill_id": 7080340,
         "name": "岩脉崩毁"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3290,
@@ -83297,7 +83533,8 @@
         "skill_id": 7090120,
         "name": "冰晶坠"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3292,
@@ -83659,7 +83896,8 @@
         "skill_id": 7080340,
         "name": "岩脉崩毁"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3293,
@@ -84026,7 +84264,8 @@
         "skill_id": 7090120,
         "name": "冰晶坠"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3295,
@@ -84386,7 +84625,8 @@
         "skill_id": 7080340,
         "name": "岩脉崩毁"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3296,
@@ -84751,7 +84991,8 @@
         "skill_id": 7090120,
         "name": "冰晶坠"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3297,
@@ -85143,7 +85384,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3298,
@@ -85535,7 +85777,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3299,
@@ -85927,7 +86170,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3300,
@@ -86326,7 +86570,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3301,
@@ -86725,7 +86970,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3302,
@@ -87124,7 +87370,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3303,
@@ -87521,7 +87768,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3304,
@@ -87918,7 +88166,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3305,
@@ -88315,7 +88564,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3307,
@@ -88689,7 +88939,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3308,
@@ -89078,7 +89329,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3309,
@@ -89426,7 +89678,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3310,
@@ -89781,7 +90034,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3311,
@@ -90134,7 +90388,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3315,
@@ -90518,7 +90773,8 @@
         "skill_id": 7021220,
         "name": "同频"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3316,
@@ -90909,7 +91165,8 @@
         "skill_id": 7021220,
         "name": "同频"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3317,
@@ -91296,7 +91553,8 @@
         "skill_id": 7021220,
         "name": "同频"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3319,
@@ -91607,7 +91865,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3320,
@@ -91951,7 +92210,8 @@
         "skill_id": 7120070,
         "name": "腐蚀酸液"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3330,
@@ -92309,7 +92569,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3331,
@@ -92674,7 +92935,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3332,
@@ -93037,7 +93299,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3333,
@@ -93417,7 +93680,8 @@
         "skill_id": 7090430,
         "name": "冰封"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3334,
@@ -93804,7 +94068,8 @@
         "skill_id": 7090430,
         "name": "冰封"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3335,
@@ -94189,7 +94454,8 @@
         "skill_id": 7090430,
         "name": "冰封"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3344,
@@ -94522,7 +94788,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3345,
@@ -94863,7 +95130,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3346,
@@ -95254,7 +95522,8 @@
         "skill_id": 7050320,
         "name": "水弹"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3350,
@@ -95623,7 +95892,8 @@
         "skill_id": 7160380,
         "name": "加油"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3357,
@@ -95990,7 +96260,8 @@
         "skill_id": 7180190,
         "name": "恶意逃离"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3358,
@@ -96364,7 +96635,8 @@
         "skill_id": 7180190,
         "name": "恶意逃离"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3359,
@@ -96736,7 +97008,8 @@
         "skill_id": 7180190,
         "name": "恶意逃离"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3367,
@@ -97079,7 +97352,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3368,
@@ -97427,7 +97701,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3369,
@@ -97785,7 +98060,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3370,
@@ -98152,7 +98428,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3371,
@@ -98517,7 +98794,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3372,
@@ -98902,7 +99180,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3373,
@@ -99280,7 +99559,8 @@
         "skill_id": 7110420,
         "name": "电磁偏转"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3374,
@@ -99665,7 +99945,8 @@
         "skill_id": 7110420,
         "name": "电磁偏转"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3375,
@@ -100048,7 +100329,8 @@
         "skill_id": 7110420,
         "name": "电磁偏转"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3376,
@@ -100411,7 +100693,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3377,
@@ -100779,7 +101062,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3378,
@@ -101172,7 +101456,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3379,
@@ -101579,7 +101864,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3380,
@@ -101984,7 +102270,8 @@
         "skill_id": 7020730,
         "name": "应激反应"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3381,
@@ -102310,7 +102597,8 @@
         "skill_id": 7050390,
         "name": "涌泉"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3382,
@@ -102651,7 +102939,8 @@
         "skill_id": 7020540,
         "name": "重击"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3383,
@@ -102997,7 +103286,8 @@
         "skill_id": 7020540,
         "name": "重击"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3384,
@@ -103383,7 +103673,8 @@
         "skill_id": 7100230,
         "name": "隼鳞"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3385,
@@ -103776,7 +104067,8 @@
         "skill_id": 7100230,
         "name": "隼鳞"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3386,
@@ -104167,7 +104459,8 @@
         "skill_id": 7100230,
         "name": "隼鳞"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3392,
@@ -104542,7 +104835,12 @@
         "skill_id": 7020460,
         "name": "连续爪击"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7150170,
+      "name": "疾风涡轮",
+      "condition": 3394
+    }
   },
   {
     "id": 3393,
@@ -104924,7 +105222,12 @@
         "skill_id": 7020460,
         "name": "连续爪击"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7150170,
+      "name": "疾风涡轮",
+      "condition": 3394
+    }
   },
   {
     "id": 3394,
@@ -105304,7 +105607,12 @@
         "skill_id": 7020460,
         "name": "连续爪击"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7150170,
+      "name": "疾风涡轮",
+      "condition": 3394
+    }
   },
   {
     "id": 3395,
@@ -105683,7 +105991,12 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7150320,
+      "name": "疾风连袭",
+      "condition": 3397
+    }
   },
   {
     "id": 3396,
@@ -106069,7 +106382,12 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7150320,
+      "name": "疾风连袭",
+      "condition": 3397
+    }
   },
   {
     "id": 3397,
@@ -106453,7 +106771,12 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7150320,
+      "name": "疾风连袭",
+      "condition": 3397
+    }
   },
   {
     "id": 3398,
@@ -106829,7 +107152,8 @@
         "skill_id": 7021090,
         "name": "热身运动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3399,
@@ -107212,7 +107536,8 @@
         "skill_id": 7021090,
         "name": "热身运动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3400,
@@ -107593,7 +107918,8 @@
         "skill_id": 7021090,
         "name": "热身运动"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3405,
@@ -107980,7 +108306,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3406,
@@ -108323,7 +108650,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3407,
@@ -108671,7 +108999,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3410,
@@ -109036,7 +109365,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3411,
@@ -109406,7 +109736,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3412,
@@ -109755,7 +110086,8 @@
         "skill_id": 7100320,
         "name": "守护咒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3419,
@@ -110100,7 +110432,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3420,
@@ -110450,7 +110783,8 @@
         "skill_id": 7120290,
         "name": "重金属粉尘"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3430,
@@ -110790,7 +111124,8 @@
         "skill_id": 7090330,
         "name": "速冻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3431,
@@ -111130,7 +111465,8 @@
         "skill_id": 7090330,
         "name": "速冻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3432,
@@ -111470,7 +111806,8 @@
         "skill_id": 7090330,
         "name": "速冻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3433,
@@ -111810,7 +112147,8 @@
         "skill_id": 7090330,
         "name": "速冻"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3434,
@@ -112154,7 +112492,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3435,
@@ -112503,7 +112842,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3436,
@@ -112851,7 +113191,8 @@
         "skill_id": 7030330,
         "name": "蜡质膜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3437,
@@ -113207,7 +113548,8 @@
         "skill_id": 7030330,
         "name": "蜡质膜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3438,
@@ -113550,7 +113892,8 @@
         "skill_id": 7060270,
         "name": "色散"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3439,
@@ -113898,7 +114241,8 @@
         "skill_id": 7060270,
         "name": "色散"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3442,
@@ -114260,7 +114604,8 @@
         "skill_id": 7060270,
         "name": "色散"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3443,
@@ -114627,7 +114972,8 @@
         "skill_id": 7060270,
         "name": "色散"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3444,
@@ -114977,7 +115323,8 @@
         "skill_id": 7110460,
         "name": "踏雷"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3448,
@@ -115366,7 +115713,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3449,
@@ -115755,7 +116103,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3450,
@@ -116144,7 +116493,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3451,
@@ -116551,7 +116901,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3452,
@@ -116874,7 +117225,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3453,
@@ -117197,7 +117549,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3454,
@@ -117565,7 +117918,8 @@
         "skill_id": 7050510,
         "name": "清洗"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3455,
@@ -117940,7 +118294,8 @@
         "skill_id": 7050510,
         "name": "清洗"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3456,
@@ -118313,7 +118668,8 @@
         "skill_id": 7050510,
         "name": "清洗"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3457,
@@ -118641,7 +118997,8 @@
         "skill_id": 7190440,
         "name": "天体吸积"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3458,
@@ -119038,7 +119395,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3459,
@@ -119435,7 +119793,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3460,
@@ -119832,7 +120191,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3461,
@@ -120229,7 +120589,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3462,
@@ -120626,7 +120987,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3463,
@@ -121023,7 +121385,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3464,
@@ -121420,7 +121783,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3465,
@@ -121817,7 +122181,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3467,
@@ -122175,7 +122540,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3468,
@@ -122540,7 +122906,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3469,
@@ -122903,7 +123270,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3470,
@@ -123290,7 +123658,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3471,
@@ -123677,7 +124046,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3472,
@@ -124064,7 +124434,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3473,
@@ -124398,7 +124769,8 @@
         "skill_id": 7020840,
         "name": "借用"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3474,
@@ -124737,7 +125109,8 @@
         "skill_id": 7020840,
         "name": "借用"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3475,
@@ -125095,7 +125468,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3476,
@@ -125460,7 +125834,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3477,
@@ -125823,7 +126198,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3478,
@@ -126226,7 +126602,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3479,
@@ -126629,7 +127006,8 @@
         "skill_id": 7090440,
         "name": "寒潮"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3481,
@@ -127022,7 +127400,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3482,
@@ -127413,7 +127792,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3483,
@@ -127783,7 +128163,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3484,
@@ -128138,7 +128519,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3485,
@@ -128505,7 +128887,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3486,
@@ -128906,7 +129289,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3487,
@@ -129282,7 +129666,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3488,
@@ -129665,7 +130050,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3489,
@@ -130046,7 +130432,8 @@
         "skill_id": 7021120,
         "name": "嗜痛"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3490,
@@ -130405,7 +130792,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3491,
@@ -130762,7 +131150,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3492,
@@ -131122,7 +131511,8 @@
         "skill_id": 7020780,
         "name": "防御"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3495,
@@ -131445,7 +131835,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3496,
@@ -131822,7 +132213,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3497,
@@ -132199,7 +132591,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3498,
@@ -132574,7 +132967,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3499,
@@ -132927,7 +133321,8 @@
         "skill_id": 7100180,
         "name": "架势"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3500,
@@ -133317,7 +133712,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3501,
@@ -133707,7 +134103,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3502,
@@ -134095,7 +134492,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3506,
@@ -134472,7 +134870,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3507,
@@ -134847,7 +135246,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3508,
@@ -135243,7 +135643,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3509,
@@ -135639,7 +136040,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3510,
@@ -136033,7 +136435,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3511,
@@ -136415,7 +136818,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3512,
@@ -136804,7 +137208,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3513,
@@ -137191,7 +137596,8 @@
         "skill_id": 7070280,
         "name": "微型斥候"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3516,
@@ -137542,7 +137948,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3517,
@@ -137900,7 +138307,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3518,
@@ -138256,7 +138664,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3521,
@@ -138626,7 +139035,8 @@
         "skill_id": 7160380,
         "name": "加油"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3526,
@@ -139004,7 +139414,8 @@
         "skill_id": 7030510,
         "name": "富养化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3527,
@@ -139373,7 +139784,8 @@
         "skill_id": 7090210,
         "name": "冰墙"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3528,
@@ -139746,7 +140158,8 @@
         "skill_id": 7020980,
         "name": "天旋地转"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3529,
@@ -140099,7 +140512,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3530,
@@ -140450,7 +140864,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3531,
@@ -140809,7 +141224,8 @@
         "skill_id": 7090210,
         "name": "冰墙"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3532,
@@ -141176,7 +141592,8 @@
         "skill_id": 7090210,
         "name": "冰墙"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3533,
@@ -141535,7 +141952,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3534,
@@ -141909,7 +142327,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3535,
@@ -142281,7 +142700,8 @@
         "skill_id": 7150380,
         "name": "飞箭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3536,
@@ -142668,7 +143088,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3537,
@@ -143062,7 +143483,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3538,
@@ -143454,7 +143876,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3539,
@@ -143841,7 +144264,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3540,
@@ -144235,7 +144659,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3541,
@@ -144627,7 +145052,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3545,
@@ -145013,7 +145439,8 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3546,
@@ -145397,7 +145824,8 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3547,
@@ -145750,7 +146178,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3550,
@@ -146074,7 +146503,8 @@
         "skill_id": 7021100,
         "name": "晒太阳"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3551,
@@ -146487,7 +146917,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3552,
@@ -146907,7 +147338,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3553,
@@ -147311,7 +147743,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3554,
@@ -147727,7 +148160,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3555,
@@ -148051,7 +148485,8 @@
         "skill_id": 7021100,
         "name": "晒太阳"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3556,
@@ -148464,7 +148899,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3557,
@@ -148884,7 +149320,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3558,
@@ -149288,7 +149725,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3559,
@@ -149704,7 +150142,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3568,
@@ -150059,7 +150498,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3569,
@@ -150412,7 +150852,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3571,
@@ -150821,7 +151262,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3572,
@@ -151160,7 +151602,8 @@
         "skill_id": 7100130,
         "name": "吹炎"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3573,
@@ -151507,7 +151950,8 @@
         "skill_id": 7100130,
         "name": "吹炎"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3577,
@@ -151835,7 +152279,8 @@
         "skill_id": 7020580,
         "name": "气势一击"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3578,
@@ -152214,7 +152659,8 @@
         "skill_id": 7020980,
         "name": "天旋地转"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3579,
@@ -152589,7 +153035,8 @@
         "skill_id": 7020490,
         "name": "偷袭"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3582,
@@ -152980,7 +153427,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3583,
@@ -153376,7 +153824,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3584,
@@ -153767,7 +154216,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3585,
@@ -154163,7 +154613,8 @@
         "skill_id": 7120300,
         "name": "毒肽"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3594,
@@ -154523,7 +154974,8 @@
         "skill_id": 7030300,
         "name": "光合作用"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3595,
@@ -154890,7 +155342,8 @@
         "skill_id": 7030300,
         "name": "光合作用"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3596,
@@ -155255,7 +155708,8 @@
         "skill_id": 7030300,
         "name": "光合作用"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3597,
@@ -155633,7 +156087,8 @@
         "skill_id": 7050300,
         "name": "水波术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3598,
@@ -156018,7 +156473,8 @@
         "skill_id": 7050300,
         "name": "水波术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3599,
@@ -156401,7 +156857,8 @@
         "skill_id": 7050300,
         "name": "水波术"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3600,
@@ -156764,7 +157221,8 @@
         "skill_id": 7040620,
         "name": "阳火增辉"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3601,
@@ -157134,7 +157592,8 @@
         "skill_id": 7040620,
         "name": "阳火增辉"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3602,
@@ -157502,7 +157961,8 @@
         "skill_id": 7040620,
         "name": "阳火增辉"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3603,
@@ -157859,7 +158319,8 @@
         "skill_id": 7170300,
         "name": "入梦"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3604,
@@ -158227,7 +158688,8 @@
         "skill_id": 7170300,
         "name": "入梦"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3605,
@@ -158595,7 +159057,8 @@
         "skill_id": 7170300,
         "name": "入梦"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3606,
@@ -158955,7 +159418,8 @@
         "skill_id": 7170240,
         "name": "嘲弄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3607,
@@ -159323,7 +159787,8 @@
         "skill_id": 7170240,
         "name": "嘲弄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3608,
@@ -159748,7 +160213,8 @@
         "skill_id": 7170100,
         "name": "惊吓盒子"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3609,
@@ -160174,7 +160640,8 @@
         "skill_id": 7170240,
         "name": "嘲弄"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3610,
@@ -160527,7 +160994,8 @@
         "skill_id": 7140090,
         "name": "斩断"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3611,
@@ -160888,7 +161356,8 @@
         "skill_id": 7140090,
         "name": "斩断"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3612,
@@ -161293,7 +161762,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3613,
@@ -161703,7 +162173,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3614,
@@ -162076,7 +162547,8 @@
         "skill_id": 7180430,
         "name": "杂耍"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3615,
@@ -162457,7 +162929,8 @@
         "skill_id": 7180430,
         "name": "杂耍"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3618,
@@ -162829,7 +163302,8 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3619,
@@ -163206,7 +163680,8 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3620,
@@ -164374,7 +164849,8 @@
         "skill_id": 7170100,
         "name": "惊吓盒子"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3659,
@@ -164734,7 +165210,8 @@
         "skill_id": 7020710,
         "name": "主场优势"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3660,
@@ -165110,7 +165587,8 @@
         "skill_id": 7020710,
         "name": "主场优势"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3677,
@@ -165451,7 +165929,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3678,
@@ -165797,7 +166276,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3683,
@@ -166145,7 +166625,8 @@
         "skill_id": 7180260,
         "name": "黑手"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3684,
@@ -166498,7 +166979,8 @@
         "skill_id": 7180260,
         "name": "黑手"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3704,
@@ -166848,7 +167330,8 @@
         "skill_id": 7080210,
         "name": "沙涌"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3705,
@@ -167196,7 +167679,8 @@
         "skill_id": 7080210,
         "name": "沙涌"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3708,
@@ -167539,7 +168023,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3709,
@@ -167887,7 +168372,8 @@
         "skill_id": 7020790,
         "name": "防反"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3729,
@@ -168236,7 +168722,8 @@
         "skill_id": 7070260,
         "name": "排气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3730,
@@ -168590,7 +169077,8 @@
         "skill_id": 7070260,
         "name": "排气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3733,
@@ -168965,7 +169453,12 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7070290,
+      "name": "过山车",
+      "condition": 3735
+    }
   },
   {
     "id": 3734,
@@ -169347,7 +169840,12 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7070290,
+      "name": "过山车",
+      "condition": 3735
+    }
   },
   {
     "id": 3735,
@@ -169727,7 +170225,12 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": {
+      "skill_id": 7070290,
+      "name": "过山车",
+      "condition": 3735
+    }
   },
   {
     "id": 3736,
@@ -170068,7 +170571,8 @@
         "skill_id": 7021100,
         "name": "晒太阳"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3737,
@@ -170414,7 +170918,8 @@
         "skill_id": 7021100,
         "name": "晒太阳"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3742,
@@ -170737,7 +171242,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3743,
@@ -171101,7 +171607,8 @@
         "skill_id": 7020710,
         "name": "主场优势"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3744,
@@ -171439,7 +171946,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3745,
@@ -171782,7 +172290,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 3777,
@@ -172101,7 +172610,8 @@
         "skill_id": 7040230,
         "name": "易燃物质"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5001,
@@ -172433,7 +172943,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5002,
@@ -172752,7 +173263,8 @@
         "skill_id": 7050230,
         "name": "蓄水"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5003,
@@ -173090,7 +173602,8 @@
         "skill_id": 7030520,
         "name": "纤维化"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5004,
@@ -173430,7 +173943,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5005,
@@ -173772,7 +174286,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5006,
@@ -174075,7 +174590,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5007,
@@ -174374,7 +174890,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5008,
@@ -174683,7 +175200,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5009,
@@ -175015,7 +175533,8 @@
         "skill_id": 7190440,
         "name": "天体吸积"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5010,
@@ -175318,7 +175837,8 @@
         "skill_id": 7021130,
         "name": "吓退"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5011,
@@ -175627,7 +176147,8 @@
         "skill_id": 7020800,
         "name": "血气"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5012,
@@ -175930,7 +176451,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5013,
@@ -176260,7 +176782,8 @@
         "skill_id": 7020810,
         "name": "无畏之心"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5014,
@@ -176569,7 +177092,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5015,
@@ -176903,7 +177427,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5016,
@@ -177210,7 +177735,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5017,
@@ -177511,7 +178037,8 @@
         "skill_id": 7020760,
         "name": "精神扰乱"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5018,
@@ -177812,7 +178339,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5019,
@@ -178149,7 +178677,8 @@
         "skill_id": 7170290,
         "name": "撞鬼"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5020,
@@ -178464,7 +178993,8 @@
         "skill_id": 7180190,
         "name": "恶意逃离"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5021,
@@ -178794,7 +179324,8 @@
         "skill_id": 7070240,
         "name": "铁蒺藜"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5022,
@@ -179101,7 +179632,8 @@
         "skill_id": 7100320,
         "name": "守护咒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5023,
@@ -179454,7 +179986,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5024,
@@ -179775,7 +180308,8 @@
         "skill_id": 7110420,
         "name": "电磁偏转"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5025,
@@ -180112,7 +180646,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5026,
@@ -180451,7 +180986,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5027,
@@ -180788,7 +181324,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5028,
@@ -181125,7 +181662,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5029,
@@ -181428,7 +181966,8 @@
         "skill_id": 7020860,
         "name": "复写"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5030,
@@ -181737,7 +182276,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5031,
@@ -182046,7 +182586,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5032,
@@ -182355,7 +182896,8 @@
         "skill_id": 7021110,
         "name": "有效预防"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5033,
@@ -182695,7 +183237,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5034,
@@ -183035,7 +183578,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5035,
@@ -183375,7 +183919,8 @@
         "skill_id": 7030440,
         "name": "棘突"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5036,
@@ -183678,7 +184223,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5037,
@@ -183981,7 +184527,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5038,
@@ -184284,7 +184831,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5039,
@@ -184587,7 +185135,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5040,
@@ -184940,7 +185489,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5041,
@@ -185293,7 +185843,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5042,
@@ -185646,7 +186197,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5043,
@@ -185999,7 +186551,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5044,
@@ -186352,7 +186905,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5045,
@@ -186705,7 +187259,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5046,
@@ -187058,7 +187613,8 @@
         "skill_id": 7020390,
         "name": "扫尾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5047,
@@ -187390,7 +187946,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5048,
@@ -187722,7 +188279,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5049,
@@ -188054,7 +188612,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5050,
@@ -188386,7 +188945,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5051,
@@ -188718,7 +189278,8 @@
         "skill_id": 7080220,
         "name": "刺盾"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5052,
@@ -189021,7 +189582,8 @@
         "skill_id": 7021160,
         "name": "摇篮曲"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5053,
@@ -189345,7 +189907,8 @@
         "skill_id": 7180440,
         "name": "假冒"
       }
-    ]
+    ],
+    "legendary_skill": null
   },
   {
     "id": 5054,
@@ -189680,6 +190243,7 @@
         "skill_id": 7150390,
         "name": "俯冲"
       }
-    ]
+    ],
+    "legendary_skill": null
   }
 ]

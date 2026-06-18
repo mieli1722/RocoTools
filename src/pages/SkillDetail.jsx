@@ -64,6 +64,16 @@ export default function SkillDetail() {
           source: '技能石',
           level: null,
         })
+        return
+      }
+      // 传说技能
+      const legendary = pet.legendary_skill
+      if (legendary && legendary.skill_id === sid) {
+        results.push({
+          pet,
+          source: '传说',
+          level: null,
+        })
       }
     })
 
@@ -78,7 +88,7 @@ export default function SkillDetail() {
   const damageType = ['物攻', '魔攻'].includes(skill.damage_type) ? skill.damage_type : null
   const skillType = skill.skill_type && skill.skill_type !== '攻击' ? skill.skill_type : null
   const power = skill.dam_para?.find(v => v > 0) || null
-  const energy = skill.energy_cost?.find(v => v > 0) || null
+  const energy = skill.energy_cost?.find(v => v >= 0) ?? null
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-6">

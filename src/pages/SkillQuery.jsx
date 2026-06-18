@@ -130,8 +130,8 @@ export default function SkillQuery() {
               {s.dam_para && s.dam_para.some(v => v > 0) && (
                 <span className="bg-gray-100 px-2 py-0.5 rounded">威力 {s.dam_para.find(v => v > 0) || 0}</span>
               )}
-              {s.energy_cost && s.energy_cost.some(v => v > 0) && (
-                <span className="bg-gray-100 px-2 py-0.5 rounded">能耗 {s.energy_cost.find(v => v > 0) || 0}</span>
+              {s.energy_cost && s.energy_cost.some(v => v >= 0) && (
+                <span className="bg-gray-100 px-2 py-0.5 rounded">能耗 {s.energy_cost.find(v => v >= 0) ?? 0}</span>
               )}
             </div>
           </Link>
