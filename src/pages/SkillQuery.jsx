@@ -5,11 +5,38 @@ import { loadSkills } from '../utils/data'
 import TypeBadge from '../components/TypeBadge'
 import DescText from '../components/DescText'
 
+const TAG_LABELS = {
+  1: '应对',
+  2: '特殊效果',
+  3: '生命回复',
+  4: '能量回复',
+  5: '攻击',
+  6: '增益',
+  7: '减益',
+  8: '印记',
+  10: '异常',
+  11: '防御',
+  12: '状态',
+  13: '强化双防',
+  14: '削弱双防',
+  15: '连击',
+  16: '寄生',
+  17: '负面',
+  18: '永久强化',
+  19: '脱离/返场',
+  20: '星陨',
+  22: '降低能耗',
+  23: '蓄力',
+  25: '天气',
+}
+
 export default function SkillQuery() {
   const [skills, setSkills] = useState([])
   const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState('')
   const [selectedTypes, setSelectedTypes] = useState([])
+  const [selectedTags, setSelectedTags] = useState([])
+  const [selectedEnergy, setSelectedEnergy] = useState([])
 
   useEffect(() => {
     loadSkills().then(data => {
@@ -28,10 +55,39 @@ export default function SkillQuery() {
     return Array.from(set).sort()
   }, [skills])
 
+  const allTags = useMemo(() => {
+    const set = new Set()
+    skills.forEach(s => {
+      (s.describe_type || []).forEach(t => {
+        if (t !== 0 && TAG_LABELS[t]) set.add(t)
+      })
+    })
+    return Array.from(set).sort((a, b) => a - b)
+  }, [skills])
+
   const toggleType = (type) => {
     setSelectedTypes(prev =>
       prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
     )
+  }
+
+  const toggleTag = (tag) => {
+    setSelectedTags(prev =>
+      prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
+    )
+  }
+
+  const toggleEnergy = (range) => {
+    setSelectedEnergy(prev =>
+      prev.includes(range) ? prev.filter(r => r !== range) : [...prev, range]
+    )
+  }
+
+  const ENERGY_OPTIONS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, '10+']
+
+  function getEnergyCost(skill) {
+    const cost = skill.energy_cost?.find(v => v >= 0)
+    return cost !== undefined ? cost : null
   }
 
   const filtered = useMemo(() => {
@@ -39,9 +95,16 @@ export default function SkillQuery() {
       const match = (s.name || '').toLowerCase().includes(query.toLowerCase())
         || (s.desc || '').toLowerCase().includes(query.toLowerCase())
       const matchType = selectedTypes.length === 0 || selectedTypes.includes(s.skill_dam_type)
-      return match && matchType
+      const tagMatch = selectedTags.length === 0 || selectedTags.every(tag => (s.describe_type || []).includes(tag))
+      const cost = getEnergyCost(s)
+      const matchEnergy = selectedEnergy.length === 0 || selectedEnergy.some(range => {
+        if (cost === null) return false
+        if (range === '10+') return cost > 10
+        return cost === range
+      })
+      return match && matchType && tagMatch && matchEnergy
     })
-  }, [skills, query, selectedTypes])
+  }, [skills, query, selectedTypes, selectedTags, selectedEnergy])
 
   const base = import.meta.env.BASE_URL
   function iconUrl(skill) {
@@ -84,9 +147,47 @@ export default function SkillQuery() {
           })}
         </div>
 
-        {selectedTypes.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm text-gray-500">标签：</span>
+          {allTags.map(tag => {
+            const active = selectedTags.includes(tag)
+            const label = TAG_LABELS[tag] || String(tag)
+            return (
+              <button
+                key={tag}
+                onClick={() => toggleTag(tag)}
+                className={`px-2 py-1 rounded-lg border text-sm transition ${active ? 'bg-green-50 border-green-300 text-green-700' : 'bg-white hover:bg-gray-50'}`}
+              >
+                {label}
+              </button>
+            )
+          })}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm text-gray-500">费用：</span>
+          {ENERGY_OPTIONS.map(range => {
+            const active = selectedEnergy.includes(range)
+            const label = range === '10+' ? '10+' : `${range}`
+            return (
+              <button
+                key={range}
+                onClick={() => toggleEnergy(range)}
+                className={`px-2 py-1 rounded-lg border text-sm transition ${active ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-white hover:bg-gray-50'}`}
+              >
+                {label}
+              </button>
+            )
+          })}
+        </div>
+
+        {(selectedTypes.length > 0 || selectedTags.length > 0 || selectedEnergy.length > 0) && (
           <button
-            onClick={() => setSelectedTypes([])}
+            onClick={() => {
+              setSelectedTypes([])
+              setSelectedTags([])
+              setSelectedEnergy([])
+            }}
             className="text-sm text-gray-500 hover:text-gray-700 self-start"
           >
             清除筛选

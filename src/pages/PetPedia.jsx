@@ -5,16 +5,14 @@ import { loadPets } from '../utils/data'
 import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
 
-const WISH_NUMBERS = [16, 20, 24, 28, 32, 40, 42, 56, 60, 80]
-
 export default function PetPedia() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState('')
+  const [pictorialQuery, setPictorialQuery] = useState('')
   const [selectedTypes, setSelectedTypes] = useState([])
-  const [selectedWishes, setSelectedWishes] = useState([])
   const [onlyShiny, setOnlyShiny] = useState(false)
-  const [sortBy, setSortBy] = useState('pictorial_book_id')
+  const [unreleasedMode, setUnreleasedMode] = useState(0)  // 0=隐藏 1=全部 2=仅未实装
 
   useEffect(() => {
     loadPets().then(data => {
@@ -35,29 +33,30 @@ export default function PetPedia() {
     )
   }
 
-  const toggleWish = (num) => {
-    setSelectedWishes(prev =>
-      prev.includes(num) ? prev.filter(n => n !== num) : [...prev, num]
-    )
-  }
-
-  const hasFilter = selectedTypes.length > 0 || selectedWishes.length > 0 || onlyShiny
+  const hasFilter = selectedTypes.length > 0 || onlyShiny || unreleasedMode === 2
 
   const filtered = useMemo(() => {
     const list = pets.filter(p => {
       const matchName = (p.name || '').toLowerCase().includes(query.toLowerCase())
       const matchType = selectedTypes.length === 0 || (p.types || []).some(t => selectedTypes.includes(t))
-      const matchWish = selectedWishes.length === 0 || selectedWishes.includes(p.wish_number)
       const matchShiny = !onlyShiny || !!p.have_shiny
-      return matchName && matchType && matchWish && matchShiny
+      const hasPictorial = !!p.pictorial_book_id
+      const matchUnreleased = unreleasedMode === 1 || (unreleasedMode === 0 ? hasPictorial : !hasPictorial)
+      const pictorialId = p.pictorial_book_id || 0
+      const matchPictorial = !pictorialQuery || String(pictorialId) === pictorialQuery.trim()
+      return matchName && matchType && matchShiny && matchUnreleased && matchPictorial
     })
-    if (sortBy === 'wish_number') {
-      list.sort((a, b) => (b.wish_number || 0) - (a.wish_number || 0))
-    } else {
-      list.sort((a, b) => (a.pictorial_book_id || 0) - (b.pictorial_book_id || 0))
-    }
+    // 图鉴编号排序，没有 pictorial_book_id 的放最后
+    list.sort((a, b) => {
+      const aId = a.pictorial_book_id || 0
+      const bId = b.pictorial_book_id || 0
+      if (aId === 0 && bId === 0) return 0
+      if (aId === 0) return 1
+      if (bId === 0) return -1
+      return aId - bId
+    })
     return list
-  }, [pets, query, selectedTypes, selectedWishes, onlyShiny, sortBy])
+  }, [pets, query, pictorialQuery, selectedTypes, onlyShiny, unreleasedMode])
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
 
@@ -71,21 +70,12 @@ export default function PetPedia() {
         >
           {onlyShiny ? '✦ 仅异色' : '仅异色'}
         </button>
-        <div className="flex items-center gap-1 text-sm">
-          <span className="text-gray-500">排序：</span>
-          <button
-            onClick={() => setSortBy('pictorial_book_id')}
-            className={`px-2 py-1 rounded border text-xs transition ${sortBy === 'pictorial_book_id' ? 'bg-blue-50 border-blue-200 text-blue-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
-          >
-            图鉴编号
-          </button>
-          <button
-            onClick={() => setSortBy('wish_number')}
-            className={`px-2 py-1 rounded border text-xs transition ${sortBy === 'wish_number' ? 'bg-blue-50 border-blue-200 text-blue-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
-          >
-            星光值
-          </button>
-        </div>
+        <button
+          onClick={() => setUnreleasedMode(v => (v + 1) % 3)}
+          className={`px-3 py-1 rounded-lg border text-sm transition ${unreleasedMode > 0 ? 'bg-purple-50 border-purple-300 text-purple-700 font-medium' : 'bg-white hover:bg-gray-50'}`}
+        >
+          {unreleasedMode === 0 ? '显示未实装' : unreleasedMode === 1 ? '◈ 全部精灵' : '◈ 仅未实装'}
+        </button>
       </div>
 
       <div className="flex flex-col gap-3 mb-4">
@@ -117,25 +107,9 @@ export default function PetPedia() {
           })}
         </div>
 
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-sm text-gray-500">星光值：</span>
-          {WISH_NUMBERS.map(num => {
-            const active = selectedWishes.includes(num)
-            return (
-              <button
-                key={num}
-                onClick={() => toggleWish(num)}
-                className={`px-2 py-1 rounded-lg border text-sm transition ${active ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-white hover:bg-gray-50'}`}
-              >
-                {num}
-              </button>
-            )
-          })}
-        </div>
-
         {hasFilter && (
           <button
-            onClick={() => { setSelectedTypes([]); setSelectedWishes([]); setOnlyShiny(false) }}
+            onClick={() => { setSelectedTypes([]); setOnlyShiny(false); setUnreleasedMode(0); setPictorialQuery('') }}
             className="text-sm text-gray-500 hover:text-gray-700 self-start"
           >
             清除筛选

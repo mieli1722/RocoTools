@@ -1,8 +1,20 @@
 [
   {
+    "id": 200000,
+    "name": "GM被动",
+    "desc": "回合末恢复10能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
     "id": 200001,
     "name": "光之精灵",
     "desc": "神秘的光之精灵",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 200002,
+    "name": "GM不死",
+    "desc": "回合结束回复满生命",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
   },
   {
