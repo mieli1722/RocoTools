@@ -620,7 +620,7 @@
   {
     "id": 200103,
     "name": "刺肤",
-    "desc": "每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。",
+    "desc": "每受到1次攻击伤害，对攻击自己的精灵造成50威力物理伤害。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200103.200103'"
   },
   {
@@ -781,9 +781,9 @@
   },
   {
     "id": 200130,
-    "name": "回声定位",
-    "desc": "连续使用相同技能威力增加50。",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+    "name": "异类",
+    "desc": "携带的翼系攻击技能获得<desc_id=3019>选择</>：能耗+1，攻击时<desc_id=1029>吸血</>50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200130.200130'"
   },
   {
     "id": 200131,
@@ -853,8 +853,8 @@
   },
   {
     "id": 200142,
-    "name": "暗流",
-    "desc": "和下一只入场的精灵交换生命百分比。",
+    "name": "瞳中倒影",
+    "desc": "自己或其他精灵<desc_id=3009>离场</>时，自己与更换入场的精灵交换血量百分比。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200142.200142'"
   },
   {
@@ -865,9 +865,9 @@
   },
   {
     "id": 200144,
-    "name": "障眼交易",
-    "desc": "回合结束时，交换双方本回合使用的技能的能耗。",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+    "name": "滴眼液",
+    "desc": "天气为<desc_id=3008>雨天</>时，使用水系攻击技能时<desc_id=1029>吸血</>50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200144.200144'"
   },
   {
     "id": 200145,
@@ -907,9 +907,9 @@
   },
   {
     "id": 200151,
-    "name": "急性子",
-    "desc": "每次连击赋予敌方2层<desc_id=1002>灼烧</>。",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200151.200151'"
+    "name": "不死鸟",
+    "desc": "每场战斗1次，受到致命伤害时保留1血，且敌方获得15层<desc_id=1002>灼烧</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200154.200154'"
   },
   {
     "id": 200152,
@@ -1100,7 +1100,7 @@
   {
     "id": 200183,
     "name": "自由飘",
-    "desc": "自己每有1层<desc_id=1006>萌化</>，获得<desc_id=3005>连击数</>+2。",
+    "desc": "自己每有1层<desc_id=1006>萌化</>，获得<desc_id=3005>连击数</>+3。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200183.200183'"
   },
   {
@@ -1226,7 +1226,7 @@
   {
     "id": 200205,
     "name": "月牙雪糕",
-    "desc": "使用攻击技能时，敌方每层冻结视为1层额外<desc_id=1035>星陨印记</>。",
+    "desc": "使用攻击技能时，敌方每有1层冻结，在攻击前使其获得1层<desc_id=1035>星陨印记</>。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200205.200205'"
   },
   {
@@ -1297,8 +1297,8 @@
   },
   {
     "id": 200217,
-    "name": "穹顶之下",
-    "desc": "使用攻击技能时，敌方所有印记变为<desc_id=1035>星陨</>。",
+    "name": "与星星同行",
+    "desc": "攻击时，将敌方所有<desc_id=3010>印记</>变为相同层数的<desc_id=1035>星陨印记</>。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200217.200217'"
   },
   {
@@ -1412,25 +1412,25 @@
   {
     "id": 200236,
     "name": "腾挪",
-    "desc": "攻击技能应对1次后，回满状态，变为棋绮后。",
+    "desc": "攻击技能应对1次后，回满能量和生命，变为棋绮后。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200236.200236'"
   },
   {
     "id": 200237,
     "name": "保卫",
-    "desc": "防御技能应对2次后，回满状态，变为棋绮后。",
+    "desc": "防御技能应对2次后，回满能量和生命，变为棋绮后。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200237.200237'"
   },
   {
     "id": 200238,
     "name": "好象坏象",
-    "desc": "状态技能应对1次后，回满状态，变为棋绮后。",
+    "desc": "状态技能应对1次后，回满能量和生命，变为棋绮后。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200238.200238'"
   },
   {
     "id": 200239,
-    "name": "栗子壳",
-    "desc": "被攻击时，赋予敌方1层<desc_id=1019>棘刺印记</>。",
+    "name": "扎手",
+    "desc": "每受到1次技能攻击（不含连击），敌方获得1层<desc_id=1019>棘刺印记</>。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200239.200239'"
   },
   {
@@ -1454,25 +1454,25 @@
   {
     "id": 200243,
     "name": "变形活画",
-    "desc": "攻击时，敌方每有1层<desc_id=1012>增益</>，本次技能威力+10%。",
+    "desc": "行动时，敌方每有1层<desc_id=1012>增益</>，本次行动技能威力+10%，速度+5。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200243.200243'"
   },
   {
     "id": 200244,
     "name": "图书守卫者",
-    "desc": "入场时，若自己魔力值为1，自己获得双攻+50%。",
+    "desc": "入场时，若自己魔力值为1，自己获得双攻+100%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200244.200244'"
   },
   {
     "id": 200245,
     "name": "构装契约者",
-    "desc": "入场时，若敌方魔力值为1，自己获得双防+50%。",
+    "desc": "入场时，若敌方魔力值为1，自己获得双防+100%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200245.200245'"
   },
   {
     "id": 200246,
     "name": "整点报时",
-    "desc": "回合末，若所有技能都在初始位置，<desc_id=1033>传动</>技能能耗永久-5。",
+    "desc": "回合​结束​时，​若本场战斗累计消耗的能量恰好为12，则回满能量和生命。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200246.200246'"
   },
   {
@@ -1573,8 +1573,8 @@
   },
   {
     "id": 200264,
-    "name": "半朽蜜果灵",
-    "desc": "敌方失去能量时，自身回复等量能量",
+    "name": "长久保存制法",
+    "desc": "自己的聚能获得<desc_id=3019>选择</>：偷取敌方3能量。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200264.200264'"
   },
   {
@@ -1640,7 +1640,7 @@
   {
     "id": 200275,
     "name": "合拍",
-    "desc": "若本回合自己与敌方使用的技能在系别/类型/能耗上每有1项相同，回合结束时获得物攻和物防永久+20%。",
+    "desc": "本回合与敌方使用的技能在系别/类型/能耗上每有1项相同，回合结束时获得物攻和物防永久+10%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200275.200275'"
   },
   {
@@ -1676,19 +1676,19 @@
   {
     "id": 200281,
     "name": "腾挪",
-    "desc": "攻击技能应对1次后，回满状态，变为棋绮后。",
+    "desc": "攻击技能应对1次后，回满能量和生命，变为棋绮后。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200236.200236'"
   },
   {
     "id": 200282,
     "name": "保卫",
-    "desc": "防御技能应对2次后，回满状态，变为棋绮后。",
+    "desc": "防御技能应对2次后，回满能量和生命，变为棋绮后。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200237.200237'"
   },
   {
     "id": 200283,
     "name": "好象坏象",
-    "desc": "状态技能应对1次后，回满状态，变为棋绮后。",
+    "desc": "状态技能应对1次后，回满能量和生命，变为棋绮后。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200238.200238'"
   },
   {
@@ -1724,7 +1724,7 @@
   {
     "id": 200289,
     "name": "戏耍",
-    "desc": "自己​回复​生命变​为​敌方​扣除​等量​生命​。",
+    "desc": "自己​无法回复生命，而是将回复生命变​为​敌方​扣除​等量​生命​。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200291.200291'"
   },
   {
@@ -1747,8 +1747,128 @@
   },
   {
     "id": 200293,
+    "name": "爆裂玉米",
+    "desc": "草系技能使敌方获得4层<desc_id=1002>灼烧</>，火系技能使敌方获得1层<desc_id=1008>寄生</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200277.200277'"
+  },
+  {
+    "id": 200294,
+    "name": "王子的诺言",
+    "desc": "每回合各1次，获得​<desc_id=1012>增益</>​时，​同时获得全​技​能​能​耗​-1，​获得​<desc_id=1013>减益</>​时，​同时获得​全​技​能​能​耗​+1​。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200294.200294'"
+  },
+  {
+    "id": 200295,
+    "name": "守望者",
+    "desc": "自己防御应​对​成功​时，敌方​获得​<desc_id=1006>萌化</>。​",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200295.200295'"
+  },
+  {
+    "id": 200296,
+    "name": "诅咒",
+    "desc": "每受到1次技能攻击（不含连击），敌方获得1层<desc_id=3020>暗涌印记</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200296.200296'"
+  },
+  {
+    "id": 200297,
+    "name": "莫比乌斯",
+    "desc": "回合结束时，若自己的能量为0，则回复10能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200297.200297'"
+  },
+  {
+    "id": 200298,
+    "name": "流沙统治者",
+    "desc": "天气为<desc_id=3006>沙暴</>时，自己获得速度+50。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200298.200298'"
+  },
+  {
+    "id": 200299,
+    "name": "盘根木",
+    "desc": "初始生命为10%，入场前己方精灵每使用1次草系技能，回复30%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200299.200299'"
+  },
+  {
+    "id": 200300,
+    "name": "上锁",
+    "desc": "对手本回合使用的技能，冷却1回合。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200300.200300'"
+  },
+  {
+    "id": 200301,
+    "name": "友谊之果",
+    "desc": "回合​结束​时，​双方​队​伍​中的所有精灵回复1能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200301.200301'"
+  },
+  {
+    "id": 200302,
+    "name": "淬炼火",
+    "desc": "入场前己方精灵每使用1次火系技能，获得攻防+10%，速度+10。（最多触发10次）",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200302.200302'"
+  },
+  {
+    "id": 200303,
+    "name": "电子音乐",
+    "desc": "天气为<desc_id=3021>雷鸣</>时，使用电系技能后敌方获得引电。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200168.200168'"
+  },
+  {
+    "id": 200304,
+    "name": "迎宾",
+    "desc": "自己或其他精灵<desc_id=3009>离场</>时，更换入场的精灵获得<desc_id=1006>萌化</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200304.200304'"
+  },
+  {
+    "id": 200305,
+    "name": "一意孤行",
+    "desc": "使用「<desc_id=3019>选择</>」技能后，会额外使用1次相同的「选择」效果。使用任意技能后，该技能冷却1回合。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200305.200305'"
+  },
+  {
+    "id": 200306,
+    "name": "有求必应",
+    "desc": "使用「<desc_id=3019>选择</>」技能后，会额外使用1次另一种「选择」效果。使用任意技能后，该技能冷却1回合。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200306.200306'"
+  },
+  {
+    "id": 200307,
+    "name": "猫精灵的礼物",
+    "desc": "己方精灵每完整使用1次「<desc_id=3019>选择</>」技能（「明」和「暗」各1次），自己入场时获得物攻+40%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200307.200307'"
+  },
+  {
+    "id": 200308,
+    "name": "安眠",
+    "desc": "王国入​夜​后，​进入​战斗​时​获得​全​技​能​能​耗​+2，​回合​结束​时自己回复5%​生命​和1​能量。​",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200308.200308'"
+  },
+  {
+    "id": 200309,
+    "name": "守护之心",
+    "desc": "双方场​上​每​有​1​种​不同​的​<desc_id=1012>增益</>​，自己获得​物防​+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200309.200309'"
+  },
+  {
+    "id": 200310,
+    "name": "和弦共振",
+    "desc": "双方场​上​每​有​1​种​不同​的​<desc_id=3010>印记</>​，自己获得​魔攻​+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200310.200310'"
+  },
+  {
+    "id": 200311,
+    "name": "冰雪魂魄",
+    "desc": "天气为<desc_id=3007>暴风雪</>时，敌方队伍中的精灵每有1层<desc_id=1004>冻结</>，冰系技能威力+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200311.200311'"
+  },
+  {
+    "id": 200312,
+    "name": "光度换算",
+    "desc": "携带的火系​技​能​获得​<desc_id=3019>选择</>：使用后​失去​15%​生命，​光系​技​能​威力​永久​+20。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200312.200312'"
+  },
+  {
+    "id": 200313,
     "name": "博物",
-    "desc": "入场时，识破敌方​精灵​的​变化​效果，​解除​其​伪装。​",
+    "desc": "在场时，识破​精灵​的​变化​效果，​解除​其​伪装。​",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200288.200288'"
   },
   {
@@ -1903,26 +2023,26 @@
   },
   {
     "id": 280025,
-    "name": "伙伴的力量",
-    "desc": "每学会1个不同系别的技能，获得攻防+5%，且光系技能威力+20%。",
+    "name": "裁决",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为光系愿力冲击。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
   },
   {
     "id": 280026,
-    "name": "伙伴的力量",
-    "desc": "每学会一个不同系别技能，攻防提升5%。草系技能威力提升20%",
+    "name": "滋养",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为草系愿力冲击。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
   },
   {
     "id": 280027,
-    "name": "伙伴的力量",
-    "desc": "每学会一个不同系别技能，攻防提升5%。火系技能威力提升20%",
+    "name": "点燃",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为火系愿力冲击。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
   },
   {
     "id": 280028,
-    "name": "伙伴的力量",
-    "desc": "每学会一个不同系别技能，攻防提升5%。水系技能威力提升20%",
+    "name": "净化",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为水系愿力冲击。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
   },
   {
@@ -1935,7 +2055,1495 @@
     "id": 280030,
     "name": "盛宴",
     "desc": "能量​不​足​时，​消耗​5%​最​大​生命，​代替​1​能量。​生命​低于​50%​时，​获得​吸血​100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200100.200100'"
+  },
+  {
+    "id": 280031,
+    "name": "草木苏醒时",
+    "desc": "每回复1能量，物攻和魔攻永久+20%，攻击后重置。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200076.200076'"
+  },
+  {
+    "id": 280032,
+    "name": "贪得无厌",
+    "desc": "入场时获得50%<desc_id=1029>吸血</>，每过量回复5%生命转化为10%物攻。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200139.200139'"
+  },
+  {
+    "id": 280033,
+    "name": "噼啪噼啪！",
+    "desc": "入场后首次行动，所选技能使用次数+1，且该回合每次行动后回复2能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200162.200162'"
+  },
+  {
+    "id": 280034,
+    "name": "齐鸣",
+    "desc": "自己携带的「虫鸣」技能威力+20，己方精灵携带的虫系技能获得<desc_id=3011>巧变</>：虫鸣。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200098.200098'"
+  },
+  {
+    "id": 280035,
+    "name": "强制过滤",
+    "desc": "在场时，所有精灵<desc_id=3005>连击数</>固定为1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200209.200209'"
+  },
+  {
+    "id": 280036,
+    "name": "扫荡",
+    "desc": "敌方每使用1次「聚能」技能或更换精灵，自己入场时获得魔攻+20%和魔防+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200160.200160'"
+  },
+  {
+    "id": 281001,
+    "name": "相争",
+    "desc": "本场​战斗​首​次​使用​的​技能​获得​迅捷。​拥有迅捷效果的技能​先​手​+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200124.200124'"
+  },
+  {
+    "id": 281002,
+    "name": "地脉馈赠",
+    "desc": "突破能量上限并立即回复10能量，入场前己方精灵每放1次地系技能，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200102.200102'"
+  },
+  {
+    "id": 288000,
+    "name": "氧循环",
+    "desc": "使用草系或本系技能后，回复10%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200076.200076'"
+  },
+  {
+    "id": 288001,
+    "name": "生物碱",
+    "desc": "使用草系或本系技能时，敌方获得2层<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200078.200078'"
+  },
+  {
+    "id": 288002,
+    "name": "碰瓷",
+    "desc": "自己使用恶系或本系技能后，敌方失去2能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200089.200089'"
+  },
+  {
+    "id": 288003,
+    "name": "浸润",
+    "desc": "使用水系或本系技能后，全技能能耗-1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200107.200107'"
+  },
+  {
+    "id": 288004,
+    "name": "乘风连击",
+    "desc": "使用翼系或本系技能后，获得<desc_id=3005>连击数</>+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200128.200128'"
+  },
+  {
+    "id": 288005,
+    "name": "助燃",
+    "desc": "使用火系或本系技能后，获得双攻+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200146.200146'"
+  },
+  {
+    "id": 288006,
+    "name": "生物电",
+    "desc": "携带的电系和本系技能获得<desc_id=1010>迸发</>：能耗-2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200167.200167'"
+  },
+  {
+    "id": 288007,
+    "name": "浪潮",
+    "desc": "使用水系或本系技能后，全技能能耗-2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200107.200107'"
+  },
+  {
+    "id": 288008,
+    "name": "深层氧循环",
+    "desc": "使用草系或本系技能后，回复15%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/20007601.20007601'"
+  },
+  {
+    "id": 288009,
+    "name": "爆燃",
+    "desc": "使用火系或本系技能后，获得双攻永久+30%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200146.200146'"
+  },
+  {
+    "id": 288010,
+    "name": "间歇式训练",
+    "desc": "释放武系或本系技能后，物攻永久提升20%，速度永久-10。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200179.200179'"
+  },
+  {
+    "id": 288011,
+    "name": "大雪球",
+    "desc": "自己​使用​2次​不同​的​冰系​或本系技​能​后，​对​手​获得​4层​<desc_id=1004>冻结</>​，​随后特性重置。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200290.200290'"
+  },
+  {
+    "id": 288012,
+    "name": "大火球",
+    "desc": "自己​使用​2次​不同​的​火系或本系​技​能​后，​下次技能无需<desc_id=1007>蓄力</>​，​随后​特性​重置​。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200292.200292'"
+  },
+  {
+    "id": 288013,
+    "name": "安可",
+    "desc": "使用​光系​或本系技​能​后，​回合​结束时自己​<desc_id=1024>返场</>​。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200293.200293'"
+  },
+  {
+    "id": 288014,
+    "name": "观星",
+    "desc": "敌方每有1层<desc_id=1035>星陨印记</>，自己的地系和本系技能威力+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200106.200106'"
+  },
+  {
+    "id": 288015,
+    "name": "溶解扩散",
+    "desc": "每携带1个毒系或本系技能进入战斗，水系技能使敌方获得1层<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200111.200111'"
+  },
+  {
+    "id": 288016,
+    "name": "扩散侵蚀",
+    "desc": "使用水系或本系技能后，敌方获得<desc_id=1001>中毒</>，获得层数等于<desc_id=1014>中毒印记</>层数的2倍。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200115.200115'"
+  },
+  {
+    "id": 288017,
+    "name": "冻土",
+    "desc": "每携带1个冰系或本系技能进入战斗，地系技能威力+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200120.200120'"
+  },
+  {
+    "id": 288018,
+    "name": "消波块",
+    "desc": "每携带1个水系或本系技能进入战斗，地系技能能耗-1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200224.200224'"
+  },
+  {
+    "id": 288019,
+    "name": "偏振",
+    "desc": "受到自己携带技能系别的攻击伤害-40%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 288020,
+    "name": "目空",
+    "desc": "携带的非光系技能，威力+25%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200075.200075'"
+  },
+  {
+    "id": 288021,
+    "name": "勇敢",
+    "desc": "携带的能耗大于3的技能，威力+40%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200077.200077'"
+  },
+  {
+    "id": 288022,
+    "name": "养分重吸收",
+    "desc": "回合结束时，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200080.200080'"
+  },
+  {
+    "id": 288023,
+    "name": "诈死",
+    "desc": "自己力竭时，少损失1点魔力。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200081.200081'"
+  },
+  {
+    "id": 288024,
+    "name": "木桶戏法",
+    "desc": "<desc_id=3009>离场</>后，更换入场的精灵以木桶状态登场。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200082.200082'"
+  },
+  {
+    "id": 288025,
+    "name": "腐植循环",
+    "desc": "每回复1能量，同时回复5%生命。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200083.200083'"
+  },
+  {
+    "id": 288026,
+    "name": "营养液泡",
+    "desc": "获得<desc_id=1012>增益</>时，额外获得层数+2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200084.200084'"
+  },
+  {
+    "id": 288027,
+    "name": "系统发育",
+    "desc": "获得能量或生命时，会将等量的能量或生命随机分配给场下的精灵。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200085.200085'"
+  },
+  {
+    "id": 288028,
+    "name": "蛰伏",
+    "desc": "攻击生命小于自身的精灵时，威力提升50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200086.200086'"
+  },
+  {
+    "id": 288029,
+    "name": "生长",
+    "desc": "回合结束时，回复12%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200087.200087'"
+  },
+  {
+    "id": 288030,
+    "name": "挺起胸脯",
+    "desc": "携带的能耗为1的技能，威力+50%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200088.200088'"
+  },
+  {
+    "id": 288031,
+    "name": "壮胆",
+    "desc": "队伍存在虫系精灵，自己获得双攻+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200090.200090'"
+  },
+  {
+    "id": 288032,
+    "name": "囤积",
+    "desc": "每有1能量，获得双防+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200091.200091'"
+  },
+  {
+    "id": 288033,
+    "name": "警惕",
+    "desc": "回合结束时，若自己能量为0则<desc_id=1003>脱离</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200092.200092'"
+  },
+  {
+    "id": 288034,
+    "name": "起飞加速",
+    "desc": "本场战斗首次使用的技能获得<desc_id=1005>迅捷</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200093.200093'"
+  },
+  {
+    "id": 288035,
+    "name": "保守派",
+    "desc": "总技能能耗小于4时，自己获得双防+80%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200094.200094'"
+  },
+  {
+    "id": 288036,
+    "name": "双向光速",
+    "desc": "在场时，双方回合结束时的效果会额外触发1次。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200095.200095'"
+  },
+  {
+    "id": 288037,
+    "name": "鼓气",
+    "desc": "使用能耗为3的技能时，获得攻防+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200096.200096'"
+  },
+  {
+    "id": 288038,
+    "name": "共鸣",
+    "desc": "携带的「虫鸣」技能威力+20。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200098.200098'"
+  },
+  {
+    "id": 288039,
+    "name": "不移",
+    "desc": "携带的无额外效果的攻击技能，威力+30%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200099.200099'"
+  },
+  {
+    "id": 288040,
+    "name": "石头大餐",
+    "desc": "能量不足时，消耗5%生命，代替1能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200100.200100'"
+  },
+  {
+    "id": 288041,
+    "name": "地脉",
+    "desc": "初始能量为0，入场前己方精灵每放1次地系技能，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200102.200102'"
+  },
+  {
+    "id": 288042,
+    "name": "刺肤",
+    "desc": "每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200103.200103'"
+  },
+  {
+    "id": 288043,
+    "name": "石天平",
+    "desc": "若使用技能能耗高于敌方，回合结束敌方失去能耗之差的能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200104.200104'"
+  },
+  {
+    "id": 288044,
+    "name": "奔波命",
+    "desc": "使用防御技能后，回合结束时<desc_id=1003>脱离</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200105.200105'"
+  },
+  {
+    "id": 288045,
+    "name": "缩壳",
+    "desc": "携带的防御技能能耗-2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200108.200108'"
+  },
+  {
+    "id": 288046,
+    "name": "守护者",
+    "desc": "己方其他精灵每有1层<desc_id=1006>萌化</>，自己入场时全技能能耗-1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200109.200109'"
+  },
+  {
+    "id": 288047,
+    "name": "水翼推进",
+    "desc": "己方精灵每使用1次水系技能，自己入场时获得全技能能耗-1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200110.200110'"
+  },
+  {
+    "id": 288048,
+    "name": "倾轧",
+    "desc": "携带的技能受能耗变化效果的影响翻倍。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200112.200112'"
+  },
+  {
+    "id": 288049,
+    "name": "对流",
+    "desc": "自己的能耗增加变为能耗降低；能耗降低变为能耗增加。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200113.200113'"
+  },
+  {
+    "id": 288050,
+    "name": "洄游",
+    "desc": "每次进入<desc_id=1007>蓄力</>状态，获得全技能能耗永久-2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200114.200114'"
+  },
+  {
+    "id": 288051,
+    "name": "捉迷藏",
+    "desc": "使敌方获得<desc_id=1004>冻结</>时，也会使其获得全技能能耗+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200116.200116'"
+  },
+  {
+    "id": 288052,
+    "name": "冰钻",
+    "desc": "敌方携带技能总能耗每有1点，自己攻击时威力+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200117.200117'"
+  },
+  {
+    "id": 288053,
+    "name": "结晶水",
+    "desc": "初始能量为0，入场前己方精灵每放1次冰系技能，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200118.200118'"
+  },
+  {
+    "id": 288054,
+    "name": "海象冰屋",
+    "desc": "每赋予一层<desc_id=1004>冻结</>，速度提升20%",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 288055,
+    "name": "加个雪球",
+    "desc": "使敌方获得<desc_id=1004>冻结</>时，也会使其获得2层<desc_id=1004>冻结</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200122.200122'"
+  },
+  {
+    "id": 288056,
+    "name": "冰封",
+    "desc": "在场时，敌方全技能能耗+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200123.200123'"
+  },
+  {
+    "id": 288057,
+    "name": "顺风",
+    "desc": "若先于敌方攻击，本次技能威力+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200124.200124'"
+  },
+  {
+    "id": 288058,
+    "name": "咔咔冲刺",
+    "desc": "若先于敌方行动，行动后获得<desc_id=3005>连击数</>+1。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200125.200125'"
+  },
+  {
+    "id": 288059,
+    "name": "洁癖",
+    "desc": "<desc_id=3009>离场</>后，自己的<desc_id=1012>增益</>和<desc_id=1013>减益</>会被更换入场的精灵继承。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200126.200126'"
+  },
+  {
+    "id": 288060,
+    "name": "展翅",
+    "desc": "在场时，自己携带的普通系技能变为翼系技能，若后于对手行动，自己受到的伤害+25%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200127.200127'"
+  },
+  {
+    "id": 288061,
+    "name": "快锤",
+    "desc": "携带的能耗小于3的技能，获得<desc_id=1005>迅捷</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200129.200129'"
+  },
+  {
+    "id": 288062,
+    "name": "异类",
+    "desc": "携带的翼系攻击技能获得<desc_id=3019>选择</>：能耗+1，攻击时<desc_id=1029>吸血</>50%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200130.200130'"
+  },
+  {
+    "id": 288063,
+    "name": "毒腺",
+    "desc": "使用能耗小于等于1的技能时，敌方获得4层<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200131.200131'"
+  },
+  {
+    "id": 288064,
+    "name": "虫群鼓舞",
+    "desc": "队伍中每有1只其他的虫系精灵，自己入场时获得攻防速+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200132.200132'"
+  },
+  {
+    "id": 288065,
+    "name": "振奋虫心",
+    "desc": "主动击败敌方后，己方队伍获得5次随机<desc_id=1009>奉献</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200133.200133'"
+  },
+  {
+    "id": 288066,
+    "name": "化茧",
+    "desc": "受到致命伤害时，获得1层<desc_id=1006>萌化</>，之后免疫此次伤害。（最多触发2次）",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200135.200135'"
+  },
+  {
+    "id": 288067,
+    "name": "花精灵",
+    "desc": "回合结束时，己方队伍获得1次随机<desc_id=1009>奉献</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200136.200136'"
+  },
+  {
+    "id": 288068,
+    "name": "契约的形状",
+    "desc": "根据捕捉所用的咕噜球，入场时获得不同效果。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200137.200137'"
+  },
+  {
+    "id": 288069,
+    "name": "坚韧铠甲",
+    "desc": "每受到1次攻击伤害，己方队伍获得1次随机<desc_id=1009>奉献</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200138.200138'"
+  },
+  {
+    "id": 288070,
+    "name": "渴求",
+    "desc": "入场时获得50%<desc_id=1029>吸血</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200139.200139'"
+  },
+  {
+    "id": 288071,
+    "name": "悲悯",
+    "desc": "己方队伍中每有1只力竭的精灵，自己获得双攻+30%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200140.200140'"
+  },
+  {
+    "id": 288072,
+    "name": "付给恶魔的赎价",
+    "desc": "击败敌方精灵时，敌方额外损失1点魔力。被敌方精灵击败时，自己额外损失1点魔力。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200141.200141'"
+  },
+  {
+    "id": 288073,
+    "name": "瞳中倒影",
+    "desc": "自己或其他精灵<desc_id=3009>离场</>时，自己与更换入场的精灵交换血量百分比。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200142.200142'"
+  },
+  {
+    "id": 288074,
+    "name": "嫁祸",
+    "desc": "自己每失去25%生命，连击数+2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200143.200143'"
+  },
+  {
+    "id": 288075,
+    "name": "滴眼液",
+    "desc": "天气为<desc_id=3008>雨天</>时，使用水系攻击技能时<desc_id=1029>吸血</>50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200144.200144'"
+  },
+  {
+    "id": 288076,
+    "name": "散热",
+    "desc": "初始能量为0，入场前己方精灵每放1次火系技能，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200147.200147'"
+  },
+  {
+    "id": 288077,
+    "name": "斗技",
+    "desc": "应对成功后，获得全技能威力永久+30。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200148.200148'"
+  },
+  {
+    "id": 288078,
+    "name": "专注力",
+    "desc": "入场首回合，获得物攻+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200149.200149'"
+  },
+  {
+    "id": 288079,
+    "name": "灵魂灼伤",
+    "desc": "冰系技能使敌方获得4层<desc_id=1002>灼烧</>，火系技能使敌方获得2层<desc_id=1004>冻结</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200150.200150'"
+  },
+  {
+    "id": 288080,
+    "name": "不死鸟",
+    "desc": "每场战斗1次，受到致命伤害时保留1血，且敌方获得15层<desc_id=1002>灼烧</>。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200154.200154'"
+  },
+  {
+    "id": 288081,
+    "name": "仁心",
+    "desc": "敌方受到<desc_id=1002>灼烧</>伤害时，自己回复等量生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200152.200152'"
+  },
+  {
+    "id": 288082,
+    "name": "蒸汽膨胀",
+    "desc": "己方精灵每使用1次火系技能，自己入场时获得全技能威力+10。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200153.200153'"
+  },
+  {
+    "id": 288083,
+    "name": "小偷小摸",
+    "desc": "入场时偷取敌方场上所有精灵2能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200155.200155'"
+  },
+  {
+    "id": 288084,
+    "name": "下黑手",
+    "desc": "敌方精灵<desc_id=3009>离场</>后，更换入场的精灵获得5层<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200156.200156'"
+  },
+  {
+    "id": 288085,
+    "name": "惊吓",
+    "desc": "能量等于0的精灵，无法对自己造成伤害。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200157.200157'"
+  },
+  {
+    "id": 288086,
+    "name": "毒蘑菇",
+    "desc": "回合结束时，偷取敌方场上所有精灵1能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200158.200158'"
+  },
+  {
+    "id": 288087,
+    "name": "黑洞",
+    "desc": "每使用2次幻系技能，清空敌方精灵能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 288088,
+    "name": "搜刮",
+    "desc": "敌方每使用1次「聚能」技能或更换精灵，自己入场时获得魔攻+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200160.200160'"
+  },
+  {
+    "id": 288089,
+    "name": "做噩梦",
+    "desc": "敌方精灵<desc_id=3009>离场</>后，更换入场的精灵失去3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200161.200161'"
+  },
+  {
+    "id": 288090,
+    "name": "噼啪！",
+    "desc": "入场后首次行动，所选技能使用次数+1。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200162.200162'"
+  },
+  {
+    "id": 288091,
+    "name": "快充",
+    "desc": "<desc_id=3009>离场</>时回复10能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200163.200163'"
+  },
+  {
+    "id": 288092,
+    "name": "电流刺激",
+    "desc": "携带的攻击技能获得<desc_id=1010>迸发</>：威力+40。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200164.200164'"
+  },
+  {
+    "id": 288093,
+    "name": "防过载保护",
+    "desc": "每次行动后<desc_id=1003>脱离</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200165.200165'"
+  },
+  {
+    "id": 288094,
+    "name": "星地善良",
+    "desc": "回合结束时，若场上的己方精灵能量等于0，自己立即替换此精灵。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200166.200166'"
+  },
+  {
+    "id": 288095,
+    "name": "蓄电池",
+    "desc": "每入场1次，永久获得双攻+30%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200169.200169'"
+  },
+  {
+    "id": 288096,
+    "name": "盲拧",
+    "desc": "回合开始时，技能顺序打乱，4号位的技能能耗-4。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200170.200170'"
+  },
+  {
+    "id": 288097,
+    "name": "贪心算法",
+    "desc": "1号位技能获得<desc_id=1033>传动</>1，且使用后使敌方获得6层<desc_id=1002>灼烧</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200171.200171'"
+  },
+  {
+    "id": 288098,
+    "name": "定向精炼",
+    "desc": "己方精灵每使用1次防御技能，自己入场时机械系和地系技能威力+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200172.200172'"
+  },
+  {
+    "id": 288099,
+    "name": "暴食",
+    "desc": "携带的龙系技能获得<desc_id=1005>迅捷</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200173.200173'"
+  },
+  {
+    "id": 288100,
+    "name": "嫉妒",
+    "desc": "<desc_id=1007>蓄力</>状态下，可以使用任一携带技能。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200174.200174'"
+  },
+  {
+    "id": 288101,
+    "name": "傲慢",
+    "desc": "<desc_id=1007>蓄力</>技能获得50%吸血效果。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 288102,
+    "name": "慢热型",
+    "desc": "初始能量为0，入场前己方精灵每成功应对1次，回复5能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200177.200177'"
+  },
+  {
+    "id": 288103,
+    "name": "身经百练",
+    "desc": "己方精灵每应对1次，自己入场时水系和武系技能威力+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200178.200178'"
+  },
+  {
+    "id": 288104,
+    "name": "威慑",
+    "desc": "<desc_id=1011>打断</>敌方时，被<desc_id=1011>打断</>的技能进入2回合冷却。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200180.200180'"
+  },
+  {
+    "id": 288105,
+    "name": "拨浪鼓",
+    "desc": "己方精灵每使用1次状态技能，自己入场时毒系和萌系技能威力+10。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200181.200181'"
+  },
+  {
+    "id": 288106,
+    "name": "无忧无虑",
+    "desc": "可获得的<desc_id=1006>萌化</>层数不受限制。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200182.200182'"
+  },
+  {
+    "id": 288107,
+    "name": "自由飘",
+    "desc": "自己每有1层<desc_id=1006>萌化</>，获得<desc_id=3005>连击数</>+3。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200183.200183'"
+  },
+  {
+    "id": 288108,
+    "name": "毒牙",
+    "desc": "使敌方获得<desc_id=1001>中毒</>时，也会使其获得物攻-40%和速度-40。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200185.200185'"
+  },
+  {
+    "id": 288109,
+    "name": "复方汤剂",
+    "desc": "在场时，双方回合结束时的<desc_id=1036>中毒效果</>会额外触发1次。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200186.200186'"
+  },
+  {
+    "id": 288110,
+    "name": "蚀刻",
+    "desc": "回合结束时，敌方每2层<desc_id=1001>中毒</>转化为1层<desc_id=1014>中毒印记</>。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200187.200187'"
+  },
+  {
+    "id": 288111,
+    "name": "盲从",
+    "desc": "可以携带多个复写/借用/取念技能，非幻系技能能耗-2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200188.200188'"
+  },
+  {
+    "id": 288112,
+    "name": "吸积盘",
+    "desc": "回合结束时，敌方获得2层<desc_id=1035>星陨印记</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200189.200189'"
+  },
+  {
+    "id": 288113,
+    "name": "最好的伙伴",
+    "desc": "造成克制伤害后，获得攻防速+20%，并回复2能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
+  },
+  {
+    "id": 288114,
+    "name": "绒粉星光",
+    "desc": "攻击时，若敌方血脉是非本系的系别血脉，技能威力+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200192.200192'"
+  },
+  {
+    "id": 288115,
+    "name": "月光审判",
+    "desc": "攻击时，若敌方血脉是首领血脉，技能威力+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200193.200193'"
+  },
+  {
+    "id": 288116,
+    "name": "化茧",
+    "desc": "受到致命伤害时，获得1层<desc_id=1006>萌化</>，并免疫此次伤害。（最多触发2次）",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200135.200135'"
+  },
+  {
+    "id": 288117,
+    "name": "机械变式",
+    "desc": "若回合内自己携带的技能位置发生变化，该技能能耗永久-1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200197.200197'"
+  },
+  {
+    "id": 288118,
+    "name": "茶多酚",
+    "desc": "<desc_id=3009>离场</>后，更换入场的精灵回复20%生命且免疫<desc_id=1008>寄生</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200253.200253'"
+  },
+  {
+    "id": 288119,
+    "name": "煤渣草",
+    "desc": "在场时，所有<desc_id=1002>灼烧</>的衰减变为增长。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200203.200203'"
+  },
+  {
+    "id": 288120,
+    "name": "侵蚀",
+    "desc": "敌方每有1层<desc_id=1036>中毒效果</>，自己获得<desc_id=3005>连击数</>+1。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200204.200204'"
+  },
+  {
+    "id": 288121,
+    "name": "月牙雪糕",
+    "desc": "使用攻击技能时，敌方每有1层冻结，在攻击前使其获得1层<desc_id=1035>星陨印记</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200205.200205'"
+  },
+  {
+    "id": 288122,
+    "name": "正位宝剑",
+    "desc": "仅可以使用1号位技能。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200208.200208'"
+  },
+  {
+    "id": 288123,
+    "name": "无差别过滤",
+    "desc": "在场时，所有精灵<desc_id=3005>连击数</>固定为2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200209.200209'"
+  },
+  {
+    "id": 288124,
+    "name": "守望星",
+    "desc": "触发<desc_id=1035>星陨印记</>时仅消耗一半层数，仍造成满层伤害。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200210.200210'"
+  },
+  {
+    "id": 288125,
+    "name": "飓风",
+    "desc": "对本精灵的技能，若其他翼系精灵携带相同技能，则获得<desc_id=1005>迅捷</>。被敌方精灵击败时，自己额外损失1点魔力。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200211.200211'"
+  },
+  {
+    "id": 288126,
+    "name": "渗透",
+    "desc": "己方精灵每使用1次武系或地系技能，自己入场时获得攻防+5%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200212.200212'"
+  },
+  {
+    "id": 288127,
+    "name": "得寸进尺",
+    "desc": "天气为<desc_id=3008>雨天</>，或处于其他水系环境中时，获得双攻+100%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200079.200079'"
+  },
+  {
+    "id": 288128,
+    "name": "多人宿舍",
+    "desc": "自己的能量可以超过能量上限。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200215.200215'"
+  },
+  {
+    "id": 288129,
+    "name": "珊瑚骨",
+    "desc": "敌方精灵<desc_id=3009>离场</>时，自己获得全技能能耗-3。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200216.200216'"
+  },
+  {
+    "id": 288130,
+    "name": "与星星同行",
+    "desc": "攻击时，将敌方所有<desc_id=3010>印记</>变为相同层数的<desc_id=1035>星陨印记</>。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200217.200217'"
+  },
+  {
+    "id": 288131,
+    "name": "指挥家",
+    "desc": "应对成功后，永久获得双攻+30%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200218.200218'"
+  },
+  {
+    "id": 288132,
+    "name": "连续负荷",
+    "desc": "自己技能的<desc_id=1010>迸发</>效果延长1回合。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200219.200219'"
+  },
+  {
+    "id": 288133,
+    "name": "稀兽花宝",
+    "desc": "根据自己的血脉，入场时获得不同效果。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200220.200220'"
+  },
+  {
+    "id": 288134,
+    "name": "衡量",
+    "desc": "入场时，复制敌方的<desc_id=1012>增益</>。在场时，若敌方获得<desc_id=1012>增益</>自己也会获得。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200221.200221'"
+  },
+  {
+    "id": 288135,
+    "name": "预警",
+    "desc": "若敌方技能足够击败自己，回合开始时自己获得速度+50。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200222.200222'"
+  },
+  {
+    "id": 288136,
+    "name": "铃兰晚钟",
+    "desc": "首次入场时，失去自己一半的当前生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200223.200223'"
+  },
+  {
+    "id": 288137,
+    "name": "吟游之弦",
+    "desc": "赋予的<desc_id=3010>印记</>不会替换其他<desc_id=3010>印记</>，而是同时生效。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200225.200225'"
+  },
+  {
+    "id": 288138,
+    "name": "海马头琴",
+    "desc": "每回合随机水系技能能耗-1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200226.200226'"
+  },
+  {
+    "id": 288139,
+    "name": "泛音列",
+    "desc": "使用状态技能后，敌方获得「聒噪」技能的效果，持续3回合。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200227.200227'"
+  },
+  {
+    "id": 288140,
+    "name": "向心力",
+    "desc": "1号和2号位技能获得<desc_id=1033>传动</>1和威力+30。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200228.200228'"
+  },
+  {
+    "id": 288141,
+    "name": "不朽",
+    "desc": "力竭4回合后复活。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200230.200230'"
+  },
+  {
+    "id": 288142,
+    "name": "孤傲",
+    "desc": "敌方精灵<desc_id=3009>离场</>后，其<desc_id=1012>增益</>和<desc_id=1013>减益</>会被更换入场的精灵继承。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200231.200231'"
+  },
+  {
+    "id": 288143,
+    "name": "逐魂鸟",
+    "desc": "能耗小于等于1的攻击技能，无法对自己造成伤害。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200232.200232'"
+  },
+  {
+    "id": 288144,
+    "name": "吸灵",
+    "desc": "己方精灵力竭后，入场时继承其的除速度外最高的一项种族资质。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200233.200233'"
+  },
+  {
+    "id": 288145,
+    "name": "翼轴",
+    "desc": "1号位技能获得<desc_id=1005>迅捷</>和<desc_id=1033>传动</>1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200234.200234'"
+  },
+  {
+    "id": 288146,
+    "name": "虚假宝箱",
+    "desc": "自己力竭时，敌方获得攻防+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200235.200235'"
+  },
+  {
+    "id": 288147,
+    "name": "腾挪",
+    "desc": "攻击技能应对1次后，回满能量和生命，变为棋绮后。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200236.200236'"
+  },
+  {
+    "id": 288148,
+    "name": "保卫",
+    "desc": "防御技能应对2次后，回满能量和生命，变为棋绮后。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200237.200237'"
+  },
+  {
+    "id": 288149,
+    "name": "好象坏象",
+    "desc": "状态技能应对1次后，回满能量和生命，变为棋绮后。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200238.200238'"
+  },
+  {
+    "id": 288150,
+    "name": "扎手",
+    "desc": "每受到1次技能攻击（不含连击），敌方获得1层<desc_id=1019>棘刺印记</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200239.200239'"
+  },
+  {
+    "id": 288151,
+    "name": "耐活王",
+    "desc": "敌方受到<desc_id=1036>中毒效果</>伤害时，自己回复等量生命。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200240.200240'"
+  },
+  {
+    "id": 288152,
+    "name": "陨落",
+    "desc": "在场时，双方回合结束时的效果不会触发。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200241.200241'"
+  },
+  {
+    "id": 288153,
+    "name": "灰色肖像",
+    "desc": "攻击会使敌方已有的<desc_id=1013>减益</>层数+3。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200242.200242'"
+  },
+  {
+    "id": 288154,
+    "name": "变形活画",
+    "desc": "行动时，敌方每有1层<desc_id=1012>增益</>，本次行动技能威力+10%，速度+5。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200243.200243'"
+  },
+  {
+    "id": 288155,
+    "name": "图书守卫者",
+    "desc": "入场时，若自己魔力值为1，自己获得双攻+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200244.200244'"
+  },
+  {
+    "id": 288156,
+    "name": "构装契约者",
+    "desc": "入场时，若敌方魔力值为1，自己获得双防+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200245.200245'"
+  },
+  {
+    "id": 288157,
+    "name": "整点报时",
+    "desc": "回合​结束​时，​若本场战斗累计消耗的能量恰好为12，则回满能量和生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200246.200246'"
+  },
+  {
+    "id": 288158,
+    "name": "圣火骑士",
+    "desc": "应对成功后，下次攻击威力翻倍。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200247.200247'"
+  },
+  {
+    "id": 288159,
+    "name": "思维之盾",
+    "desc": "应对成功后，下次行动技能能耗-5。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200248.200248'"
+  },
+  {
+    "id": 288160,
+    "name": "野性感官",
+    "desc": "应对成功后，下次行动<desc_id=1020>先手</>+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200249.200249'"
+  },
+  {
+    "id": 288161,
+    "name": "血型吸引",
+    "desc": "敌方每携带1种系别的技能，自己攻击时威力+10。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200251.200251'"
+  },
+  {
+    "id": 288162,
+    "name": "留学生",
+    "desc": "自己全技能能耗+2，可以学习全部攻击技能石。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200252.200252'"
+  },
+  {
+    "id": 288163,
+    "name": "吉利丁片",
+    "desc": "<desc_id=3009>离场</>后，更换入场的精灵获得双防+20%且免疫<desc_id=1004>冻结</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200202.200202'"
+  },
+  {
+    "id": 288164,
+    "name": "美拉德反应",
+    "desc": "<desc_id=3009>离场</>后，更换入场的精灵获得双攻+20%且免疫<desc_id=1002>灼烧</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200254.200254'"
+  },
+  {
+    "id": 288165,
+    "name": "扫拖一体",
+    "desc": "回合结束时驱散敌方1层<desc_id=3010>印记</>，且驱散后己方队伍获得1次随机<desc_id=1009>奉献</>。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200255.200255'"
+  },
+  {
+    "id": 288166,
+    "name": "特殊清洁场景",
+    "desc": "回合结束时偷取敌方1层<desc_id=3010>印记</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200256.200256'"
+  },
+  {
+    "id": 288167,
+    "name": "恶魔的晚宴",
+    "desc": "主动击败敌方精灵时，自己永久获得双攻+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200257.200257'"
+  },
+  {
+    "id": 288168,
+    "name": "换上粉星星",
+    "desc": "能量=0时，换上粉星星。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 288169,
+    "name": "哨兵",
+    "desc": "回合开始时若敌方技能足够击败自己，自己获得速度+50，行动后<desc_id=1003>脱离</>。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200262.200262'"
+  },
+  {
+    "id": 288170,
+    "name": "长久保存制法",
+    "desc": "自己的聚能获得<desc_id=3019>选择</>：敌方失去3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200264.200264'"
+  },
+  {
+    "id": 288171,
+    "name": "涂鸦",
+    "desc": "使用非本系技能时威力+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200267.200267'"
+  },
+  {
+    "id": 288172,
+    "name": "绝对秩序",
+    "desc": "受到非敌方系别的技能攻击时伤害-50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200268.200268'"
+  },
+  {
+    "id": 288173,
+    "name": "张弛有度",
+    "desc": "周末时自己获得双攻+40%，其他时间获得双防+40%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200269.200269'"
+  },
+  {
+    "id": 288174,
+    "name": "魔术帽",
+    "desc": "在场时，场上双方携带的技能获得<desc_id=3011>巧变</>：同系别技能。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200272.200272'"
+  },
+  {
+    "id": 288175,
+    "name": "焰色反应",
+    "desc": "在场时，衰减的<desc_id=1002>灼烧</>变为相同层数的<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200273.200273'"
+  },
+  {
+    "id": 288176,
+    "name": "合拍",
+    "desc": "本回合与敌方使用的技能在系别/类型/能耗上每有1项相同，回合结束时获得物攻和物防永久+10%。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200275.200275'"
+  },
+  {
+    "id": 288177,
+    "name": "超负荷",
+    "desc": "攻击技能获得<desc_id=1010>迸发</>：敌方获得全技能能耗+1。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200278.200278'"
+  },
+  {
+    "id": 288178,
+    "name": "腾挪",
+    "desc": "攻击技能应对1次后，回满能量和生命，变为棋绮后。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200236.200236'"
+  },
+  {
+    "id": 288179,
+    "name": "保卫",
+    "desc": "防御技能应对2次后，回满能量和生命，变为棋绮后。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200237.200237'"
+  },
+  {
+    "id": 288180,
+    "name": "好象坏象",
+    "desc": "状态技能应对1次后，回满能量和生命，变为棋绮后。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200238.200238'"
+  },
+  {
+    "id": 288181,
+    "name": "天通地明",
+    "desc": "攻击时，若敌方血脉是污染血脉，技能威力+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200196.200196'"
+  },
+  {
+    "id": 288182,
+    "name": "狂欢开始",
+    "desc": "在​场​时，​背​包里​会​变化​出​随机​​精灵​，随机精灵只能与本精灵相互更换。本精灵受到的克制伤害+25%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200286.200286'"
+  },
+  {
+    "id": 288183,
+    "name": "换碟",
+    "desc": "自己携带的音波弹​/音爆/金属​噪音​/午​夜噪​音​​威力​提升，​且​获得​<desc_id=3011>巧变</>​：同系别技能。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200287.200287'"
+  },
+  {
+    "id": 288184,
+    "name": "拉拉队长",
+    "desc": "若自己在<desc_id=1006>萌化</>​状态​下​再​获得​萌化会​解除​<desc_id=1006>萌化</>​。​",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200289.200289'"
+  },
+  {
+    "id": 288185,
+    "name": "戏耍",
+    "desc": "自己​无法回复生命，而是将回复生命变​为​敌方​扣除​等量​生命​。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200291.200291'"
+  },
+  {
+    "id": 288186,
+    "name": "爆裂玉米",
+    "desc": "草系技能使敌方获得4层<desc_id=1002>灼烧</>，火系技能使敌方获得1层<desc_id=1008>寄生</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200277.200277'"
+  },
+  {
+    "id": 288187,
+    "name": "王子的诺言",
+    "desc": "每回合各1次，获得​<desc_id=1012>增益</>​时，​同时获得全​技​能​能​耗​-1，​获得​<desc_id=1013>减益</>​时，​同时获得​全​技​能​能​耗​+1​。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200294.200294'"
+  },
+  {
+    "id": 288188,
+    "name": "守望者",
+    "desc": "自己防御应​对​成功​时，敌方​获得​<desc_id=1006>萌化</>。​",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200295.200295'"
+  },
+  {
+    "id": 288189,
+    "name": "诅咒",
+    "desc": "每受到1次技能攻击（不含连击），敌方获得1层<desc_id=3020>暗涌印记</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200296.200296'"
+  },
+  {
+    "id": 288190,
+    "name": "莫比乌斯",
+    "desc": "回合结束时，若自己的能量为0，则回复10能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200297.200297'"
+  },
+  {
+    "id": 288191,
+    "name": "流沙统治者",
+    "desc": "天气为<desc_id=3006>沙暴</>时，自己获得速度+50。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200298.200298'"
+  },
+  {
+    "id": 288192,
+    "name": "盘根木",
+    "desc": "初始生命为10%，入场前己方精灵每使用1次草系技能，回复30%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200299.200299'"
+  },
+  {
+    "id": 288193,
+    "name": "上锁",
+    "desc": "对手本回合使用的技能，冷却1回合。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200300.200300'"
+  },
+  {
+    "id": 288194,
+    "name": "友谊之果",
+    "desc": "回合​结束​时，​双方​队​伍​中的所有精灵回复1能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200301.200301'"
+  },
+  {
+    "id": 288195,
+    "name": "淬炼火",
+    "desc": "入场前己方精灵每使用1次火系技能，获得攻防+10%，速度+10。（最多触发10次）",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200302.200302'"
+  },
+  {
+    "id": 288196,
+    "name": "电子音乐",
+    "desc": "天气为<desc_id=3021>雷鸣</>时，使用电系技能后敌方获得<desc_id=3022>引电</>。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200168.200168'"
+  },
+  {
+    "id": 288197,
+    "name": "迎宾",
+    "desc": "自己或其他精灵<desc_id=3009>离场</>时，更换入场的精灵获得<desc_id=1006>萌化</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200304.200304'"
+  },
+  {
+    "id": 288198,
+    "name": "一意孤行",
+    "desc": "使用「<desc_id=3019>选择</>」技能后，会额外使用1次相同的「选择」效果。使用任意技能后，该技能冷却1回合。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200305.200305'"
+  },
+  {
+    "id": 288199,
+    "name": "有求必应",
+    "desc": "使用「<desc_id=3019>选择</>」技能后，会额外使用1次另一种「选择」效果。使用任意技能后，该技能冷却1回合。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200306.200306'"
+  },
+  {
+    "id": 288200,
+    "name": "猫精灵的礼物",
+    "desc": "己方精灵每完整使用1次「<desc_id=3019>选择</>」技能（「明」和「暗」各1次），自己入场时获得物攻+40%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200307.200307'"
+  },
+  {
+    "id": 288201,
+    "name": "安眠",
+    "desc": "王国入​夜​后，​进入​战斗​时​获得​全​技​能​能​耗​+2，​回合​结束​时自己回复5%​生命​和1​能量。​【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200308.200308'"
+  },
+  {
+    "id": 288202,
+    "name": "守护之心",
+    "desc": "双方场​上​每​有​1​种​不同​的​<desc_id=1012>增益</>​，自己获得​物防​+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200309.200309'"
+  },
+  {
+    "id": 288203,
+    "name": "和弦共振",
+    "desc": "双方场​上​每​有​1​种​不同​的​<desc_id=3010>印记</>​，自己获得​魔攻​+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200310.200310'"
+  },
+  {
+    "id": 288204,
+    "name": "冰雪魂魄",
+    "desc": "天气为<desc_id=3007>暴风雪</>时，敌方队伍中的精灵每有1层<desc_id=1004>冻结</>，冰系技能威力+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200311.200311'"
+  },
+  {
+    "id": 288205,
+    "name": "光度换算",
+    "desc": "携带的火系​技​能​获得​<desc_id=3019>选择</>：使用后​失去​15%​生命，​光系​技​能​威力​永久​+20。【<desc_id=8001>无法叠加</>】",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200312.200312'"
+  },
+  {
+    "id": 288206,
+    "name": "博物",
+    "desc": "在场时，识破​精灵​的​变化​效果，​解除​其​伪装。​",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200288.200288'"
+  },
+  {
+    "id": 288207,
+    "name": "“国王”的威严",
+    "desc": "鸭吉吉国王的种族资质大幅增加，能耗为1的技能威力+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/20008801.20008801'"
+  },
+  {
+    "id": 288208,
+    "name": "水翼飞升",
+    "desc": "己方精灵每使用1次水系技能，自己入场时获得全技能能耗-1，且能耗为0的技能威力+30%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200110.200110'"
+  },
+  {
+    "id": 288209,
+    "name": "虫群突袭",
+    "desc": "队伍中每有1只其他的虫系精灵，自己入场时获得攻防速+15%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200132.200132'"
+  },
+  {
+    "id": 288210,
+    "name": "地脉馈赠",
+    "desc": "突破能量上限并立即回复10能量，入场前己方精灵每放1次地系技能，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200102.200102'"
+  },
+  {
+    "id": 288211,
+    "name": "高浓生物碱",
+    "desc": "使用技能时，敌方获得2层<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/20007801.20007801'"
+  },
+  {
+    "id": 288212,
+    "name": "夺目",
+    "desc": "额外获得三个未携带的随机技能，且非光系技能威力+25%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200075.200075'"
+  },
+  {
+    "id": 288213,
+    "name": "完全偏振",
+    "desc": "抵抗自己携带技能系别的攻击伤害。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200074.200074'"
+  },
+  {
+    "id": 288214,
+    "name": "坠星",
+    "desc": "敌方每有1层<desc_id=1035>星陨印记</>，自己的技能威力+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200106.200106'"
+  },
+  {
+    "id": 288215,
+    "name": "抓到你了",
+    "desc": "自己入场时敌方获得2层<desc_id=1004>冻结</>，使敌方获得<desc_id=1004>冻结</>时，也会使其获得全技能能耗+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200116.200116'"
+  },
+  {
+    "id": 288216,
+    "name": "养分内循环",
+    "desc": "回合结束时，回复6能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200080.200080'"
+  },
+  {
+    "id": 288217,
+    "name": "全神贯注",
+    "desc": "入场时，获得物攻+100%，每次行动后-20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200149.200149'"
+  },
+  {
+    "id": 288218,
+    "name": "大捞一笔",
+    "desc": "入场时偷取敌方场上所有精灵3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200155.200155'"
+  },
+  {
+    "id": 288219,
+    "name": "超级电池",
+    "desc": "每入场1次，获得双攻永久+40%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200169.200169'"
+  },
+  {
+    "id": 288220,
+    "name": "宝剑王牌",
+    "desc": "仅可使用1号和3号位技能。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200208.200208'"
+  },
+  {
+    "id": 288221,
+    "name": "游弋",
+    "desc": "<desc_id=1007>蓄力</>时可以使用任一携带技能，且获得双防+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200174.200174'"
+  },
+  {
+    "id": 288222,
+    "name": "御驾亲征",
+    "desc": "棋契陛下大幅提升种族资质，力竭时扣除4魔力。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200212.200212'"
+  },
+  {
+    "id": 288223,
+    "name": "三鼓作气",
+    "desc": "使用能耗为3的技能后，获得攻防永久+20%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200096.200096'"
+  },
+  {
+    "id": 288224,
+    "name": "先知",
+    "desc": "若敌方技能足够击败自己，回合开始时自己获得速度+50，双攻+50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200222.200222'"
+  },
+  {
+    "id": 288225,
+    "name": "溶解腐蚀",
+    "desc": "每携带1个毒系技能进入战斗，水系技能使敌方获得2层<desc_id=1001>中毒</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200111.200111'"
+  },
+  {
+    "id": 288226,
+    "name": "破空",
+    "desc": "若先于敌方攻击，本次技能威力+75%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200124.200124'"
+  },
+  {
+    "id": 288227,
+    "name": "悼亡",
+    "desc": "双方队伍中每有1只力竭的精灵，自己获得双攻+30%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200140.200140'"
+  },
+  {
+    "id": 288228,
+    "name": "裁决",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为光系愿力冲击。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
+  },
+  {
+    "id": 288229,
+    "name": "滋养",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为草系愿力冲击。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
+  },
+  {
+    "id": 288230,
+    "name": "点燃",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为火系愿力冲击。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
+  },
+  {
+    "id": 288231,
+    "name": "净化",
+    "desc": "造成克制伤害后，获得攻防速+20%，回复2能量，首个技能替换为水系愿力冲击。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200191.200191'"
+  },
+  {
+    "id": 288232,
+    "name": "相争",
+    "desc": "本场​战斗​首​次​使用​的​技能​获得​迅捷。​拥有迅捷效果的技能​先​手​+1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200124.200124'"
+  },
+  {
+    "id": 288233,
+    "name": "盛宴",
+    "desc": "能量​不​足​时，​消耗​5%​最​大​生命，​代替​1​能量。​生命​低于​50%​时，​获得​吸血​100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200100.200100'"
+  },
+  {
+    "id": 288234,
+    "name": "草木苏醒时",
+    "desc": "每回复1能量，物攻和魔攻永久+20%，攻击后重置。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200076.200076'"
+  },
+  {
+    "id": 288235,
+    "name": "贪得无厌",
+    "desc": "入场时获得50%<desc_id=1029>吸血</>，每过量回复5%生命转化为10%物攻。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200139.200139'"
+  },
+  {
+    "id": 288236,
+    "name": "噼啪噼啪！",
+    "desc": "入场后首次行动，所选技能使用次数+1，且该回合每次行动后回复2能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200162.200162'"
+  },
+  {
+    "id": 288237,
+    "name": "齐鸣",
+    "desc": "自己携带的「虫鸣」技能威力+20，己方精灵携带的虫系技能获得<desc_id=3011>巧变</>：虫鸣。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200098.200098'"
+  },
+  {
+    "id": 288238,
+    "name": "强制过滤",
+    "desc": "在场时，所有精灵<desc_id=3005>连击数</>固定为1。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200209.200209'"
+  },
+  {
+    "id": 288239,
+    "name": "扫荡",
+    "desc": "敌方每使用1次「聚能」技能或更换精灵，自己入场时获得魔攻+20%和魔防+10%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200160.200160'"
   },
   {
     "id": 298001,
@@ -2196,6 +3804,72 @@
     "icon": ""
   },
   {
+    "id": 298044,
+    "name": "充电",
+    "desc": "生命值低于50%时，恢复所有能量。",
+    "icon": ""
+  },
+  {
+    "id": 298045,
+    "name": "电击",
+    "desc": "攻击后使敌人速度-10。",
+    "icon": ""
+  },
+  {
+    "id": 298046,
+    "name": "汲能",
+    "desc": "被击败后，敌人获取能量效率-1。",
+    "icon": ""
+  },
+  {
+    "id": 298047,
+    "name": "风暴",
+    "desc": "敌人每有一个效果，攻击时威力+10%。",
+    "icon": ""
+  },
+  {
+    "id": 298048,
+    "name": "精控",
+    "desc": "每当生命变化时，获得威力+10。",
+    "icon": ""
+  },
+  {
+    "id": 298049,
+    "name": "狂热",
+    "desc": "只会使用特定技能。",
+    "icon": ""
+  },
+  {
+    "id": 298050,
+    "name": "混乱",
+    "desc": "入场时，敌人上一个释放的技能能耗+2。",
+    "icon": ""
+  },
+  {
+    "id": 298051,
+    "name": "偷懒",
+    "desc": "偶尔会使用聚能。",
+    "icon": ""
+  },
+  {
+    "id": 298052,
+    "name": "领主",
+    "desc": "连击数+2。",
+    "icon": ""
+  },
+  {
+    "id": 298053,
+    "name": "贪心算法",
+    "desc": "1号位技能获得<desc_id=1033>传动</>1，且使用后使敌方获得6层<desc_id=1002>灼烧</>。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200171.200171'"
+  },
+  {
+    "id": 298056,
+    "name": "一意孤行",
+    "desc": "使用<desc_id=3019>选择</>的任一效果后，会额外使用1次相同效果。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200305.200305'"
+  },
+  {
     "id": 299001,
     "name": "？？？",
     "desc": "此精灵被隐藏起来了，看不出特性",
@@ -2240,7 +3914,7 @@
   {
     "id": 299906,
     "name": "赋予效果用技能",
-    "desc": "对所有友军赋予EFFECT。",
+    "desc": "对所有场上我方和友方精灵赋予EFFECT。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/img_wenhao.img_wenhao'"
   },
   {
@@ -2252,7 +3926,7 @@
   {
     "id": 299908,
     "name": "赋予效果用技能",
-    "desc": "对所有友军赋予BUFF。",
+    "desc": "对所有场上我方和友方精灵赋予BUFF。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/img_wenhao.img_wenhao'"
   },
   {
@@ -2276,7 +3950,7 @@
   {
     "id": 299912,
     "name": "赋予效果用技能",
-    "desc": "红绒十字被动用EFFECT。",
+    "desc": "赋予场下精灵EFFECT。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/img_wenhao.img_wenhao'"
   },
   {
@@ -2295,6 +3969,12 @@
     "id": 299915,
     "name": "赋予效果用技能",
     "desc": "赋予1VN后场精灵buff",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/img_wenhao.img_wenhao'"
+  },
+  {
+    "id": 299916,
+    "name": "赋予效果用技能",
+    "desc": "对所有场下敌方赋予EFFECT。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/img_wenhao.img_wenhao'"
   },
   {

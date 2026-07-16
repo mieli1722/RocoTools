@@ -644,7 +644,7 @@
     "weight_high": 2320,
     "height_low": 28,
     "height_high": 39,
-    "hatch_data": 43200,
+    "hatch_data": 28800,
     "pet": {
       "id": 3078,
       "name": "烈钻鸟",
@@ -653,7 +653,7 @@
         "火",
         "翼"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 376
     }
   },
   {
@@ -1330,7 +1330,7 @@
         "恶",
         "虫"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 400
     }
   },
   {
@@ -1668,19 +1668,19 @@
     "id": 3228001,
     "pet_id": 3228001,
     "name": "友爱天天",
-    "weight_low": 2839,
-    "weight_high": 3760,
-    "height_low": 28,
-    "height_high": 39,
-    "hatch_data": 43200,
+    "weight_low": 1040,
+    "weight_high": 1676,
+    "height_low": 12,
+    "height_high": 17,
+    "hatch_data": 28800,
     "pet": {
       "id": 3228,
       "name": "友爱天天",
-      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_feiman.JL_feiman'",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_tiantian.JL_tiantian'",
       "types": [
-        "萌"
+        "普通"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 396
     }
   },
   {
@@ -1691,15 +1691,16 @@
     "weight_high": 2560,
     "height_low": 20,
     "height_high": 29,
-    "hatch_data": 43200,
+    "hatch_data": 300,
     "pet": {
       "id": 3230,
       "name": "加灵",
       "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_jialing.JL_jialing'",
       "types": [
-        "普通"
+        "普通",
+        "萌"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 414
     }
   },
   {
@@ -1724,7 +1725,7 @@
   {
     "id": 3236001,
     "pet_id": 3236001,
-    "name": "超能球球",
+    "name": "星星眼",
     "weight_low": 3220,
     "weight_high": 5120,
     "height_low": 36,
@@ -1732,7 +1733,7 @@
     "hatch_data": 57600,
     "pet": {
       "id": 3236,
-      "name": "超能球球",
+      "name": "星星眼",
       "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_chaonengqiuqiu.JL_chaonengqiuqiu'",
       "types": [
         "幻",
@@ -1970,7 +1971,7 @@
       "types": [
         "恶"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 430
     }
   },
   {
@@ -2107,7 +2108,7 @@
         "草",
         "火"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 44
     }
   },
   {
@@ -2311,11 +2312,11 @@
     "id": 3321001,
     "pet_id": 3321001,
     "name": "觅觅蝠",
-    "weight_low": 1,
-    "weight_high": 10,
-    "height_low": 1,
-    "height_high": 10,
-    "hatch_data": 1,
+    "weight_low": 2321,
+    "weight_high": 3748,
+    "height_low": 28,
+    "height_high": 33,
+    "hatch_data": 43200,
     "pet": {
       "id": 3321,
       "name": "觅觅蝠",
@@ -2323,7 +2324,7 @@
       "types": [
         "翼"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 403
     }
   },
   {
@@ -2366,6 +2367,25 @@
     }
   },
   {
+    "id": 3341001,
+    "pet_id": 3341001,
+    "name": "雪灵兽",
+    "weight_low": 1750,
+    "weight_high": 2760,
+    "height_low": 20,
+    "height_high": 24,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3341,
+      "name": "雪灵兽",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xuelingshou.JL_xuelingshou'",
+      "types": [
+        "冰"
+      ],
+      "pictorial_book_id": 390
+    }
+  },
+  {
     "id": 3344001,
     "pet_id": 3344001,
     "name": "乖乖鹄",
@@ -2402,18 +2422,18 @@
         "恶",
         "水"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 406
     }
   },
   {
     "id": 3351001,
     "pet_id": 3351001,
     "name": "霹雳宝宝",
-    "weight_low": 1,
-    "weight_high": 10,
-    "height_low": 1,
-    "height_high": 10,
-    "hatch_data": 1,
+    "weight_low": 2338,
+    "weight_high": 4320,
+    "height_low": 24,
+    "height_high": 29,
+    "hatch_data": 43200,
     "pet": {
       "id": 3351,
       "name": "霹雳宝宝",
@@ -2421,7 +2441,7 @@
       "types": [
         "电"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 387
     }
   },
   {
@@ -2441,6 +2461,25 @@
         "电"
       ],
       "pictorial_book_id": 226
+    }
+  },
+  {
+    "id": 3360001,
+    "pet_id": 3360001,
+    "name": "蝴蝶陶陶",
+    "weight_low": 1400,
+    "weight_high": 2452,
+    "height_low": 25,
+    "height_high": 33,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3360,
+      "name": "蝴蝶陶陶",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_hudietaotao.JL_hudietaotao'",
+      "types": [
+        "萌"
+      ],
+      "pictorial_book_id": 422
     }
   },
   {
@@ -2715,23 +2754,43 @@
     }
   },
   {
-    "id": 3403001,
-    "pet_id": 3403001,
-    "name": "晶尾蝎",
-    "weight_low": 1,
-    "weight_high": 10,
-    "height_low": 1,
-    "height_high": 10,
-    "hatch_data": 1,
+    "id": 3402001,
+    "pet_id": 3402001,
+    "name": "碎晶蝎",
+    "weight_low": 3262,
+    "weight_high": 5800,
+    "height_low": 17,
+    "height_high": 22,
+    "hatch_data": 43200,
     "pet": {
-      "id": 3403,
-      "name": "晶尾蝎",
-      "JL_res": null,
+      "id": 3402,
+      "name": "碎晶蝎",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_suijingxie.JL_suijingxie'",
       "types": [
         "恶",
         "地"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 381
+    }
+  },
+  {
+    "id": 3403001,
+    "pet_id": 3403001,
+    "name": "碎晶蝎",
+    "weight_low": 10,
+    "weight_high": 100,
+    "height_low": 10,
+    "height_high": 100,
+    "hatch_data": 110,
+    "pet": {
+      "id": 3403,
+      "name": "晶尾蝎",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_jingweixie.JL_jingweixie'",
+      "types": [
+        "恶",
+        "地"
+      ],
+      "pictorial_book_id": 382
     }
   },
   {
@@ -3108,8 +3167,8 @@
     "id": 3440001,
     "pet_id": 3440001,
     "name": "梦游",
-    "weight_low": 298,
-    "weight_high": 420,
+    "weight_low": 210,
+    "weight_high": 748,
     "height_low": 21,
     "height_high": 25,
     "hatch_data": 28800,
@@ -3121,7 +3180,7 @@
         "幽",
         "光"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 57
     }
   },
   {
@@ -3298,7 +3357,7 @@
         "翼",
         "幻"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 409
     }
   },
   {
@@ -3801,9 +3860,10 @@
       "name": "栗鼠",
       "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_lishu.JL_lishu'",
       "types": [
-        "毒"
+        "毒",
+        "普通"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 438
     }
   },
   {
@@ -3908,19 +3968,19 @@
     "id": 3591001,
     "pet_id": 3591001,
     "name": "十字蝌蚪的蛋",
-    "weight_low": 1,
-    "weight_high": 10,
-    "height_low": 1,
-    "height_high": 10,
-    "hatch_data": 1,
+    "weight_low": 123,
+    "weight_high": 380,
+    "height_low": 9,
+    "height_high": 15,
+    "hatch_data": 28800,
     "pet": {
       "id": 3591,
       "name": "十字蝌蚪",
-      "JL_res": null,
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_shizikedou.JL_shizikedou'",
       "types": [
         "水"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 427
     }
   },
   {
@@ -4065,10 +4125,10 @@
     "id": 3616001,
     "pet_id": 3616001,
     "name": "不咕钟",
-    "weight_low": 319,
-    "weight_high": 692,
+    "weight_low": 536,
+    "weight_high": 1216,
     "height_low": 10,
-    "height_high": 13,
+    "height_high": 15,
     "hatch_data": 28800,
     "pet": {
       "id": 3616,
@@ -4078,7 +4138,7 @@
         "机械",
         "幻"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 412
     }
   },
   {
@@ -4161,6 +4221,26 @@
     }
   },
   {
+    "id": 3675001,
+    "pet_id": 3675001,
+    "name": "守夜烛",
+    "weight_low": 4225,
+    "weight_high": 7320,
+    "height_low": 13,
+    "height_high": 20,
+    "hatch_data": 57600,
+    "pet": {
+      "id": 3675,
+      "name": "守夜烛",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_shouyezhu.JL_shouyezhu'",
+      "types": [
+        "火",
+        "光"
+      ],
+      "pictorial_book_id": 432
+    }
+  },
+  {
     "id": 3677001,
     "pet_id": 3677001,
     "name": "烟花团的蛋",
@@ -4200,6 +4280,26 @@
     }
   },
   {
+    "id": 3697001,
+    "pet_id": 3697001,
+    "name": "稻草人",
+    "weight_low": 6335,
+    "weight_high": 15840,
+    "height_low": 31,
+    "height_high": 44,
+    "hatch_data": 72000,
+    "pet": {
+      "id": 3697,
+      "name": "稻草人",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_daocaoren.JL_daocaoren'",
+      "types": [
+        "萌",
+        "武"
+      ],
+      "pictorial_book_id": 436
+    }
+  },
+  {
     "id": 3704001,
     "pet_id": 3704001,
     "name": "优优的蛋",
@@ -4223,20 +4323,20 @@
     "id": 3706001,
     "pet_id": 3706001,
     "name": "蜜果骸的蛋",
-    "weight_low": 1,
-    "weight_high": 10,
-    "height_low": 1,
-    "height_high": 10,
-    "hatch_data": 1,
+    "weight_low": 74,
+    "weight_high": 356,
+    "height_low": 15,
+    "height_high": 18,
+    "hatch_data": 28800,
     "pet": {
       "id": 3706,
       "name": "蜜果骸",
-      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_songzai.JL_songzai'",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_miguohai.JL_miguohai'",
       "types": [
         "幽",
         "草"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 434
     }
   },
   {
@@ -4256,6 +4356,45 @@
         "机械"
       ],
       "pictorial_book_id": 371
+    }
+  },
+  {
+    "id": 3710001,
+    "pet_id": 3710001,
+    "name": "咬咬小子",
+    "weight_low": 6545,
+    "weight_high": 10920,
+    "height_low": 37,
+    "height_high": 51,
+    "hatch_data": 57600,
+    "pet": {
+      "id": 3710,
+      "name": "咬咬小子",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_yaoyaoxiaozi.JL_yaoyaoxiaozi'",
+      "types": [
+        "机械"
+      ],
+      "pictorial_book_id": 418
+    }
+  },
+  {
+    "id": 3718001,
+    "pet_id": 3718001,
+    "name": "足尖元件",
+    "weight_low": 1085,
+    "weight_high": 2052,
+    "height_low": 11,
+    "height_high": 16,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3718,
+      "name": "足尖元件",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_zujianyuanjian.JL_zujianyuanjian'",
+      "types": [
+        "幻",
+        "机械"
+      ],
+      "pictorial_book_id": 420
     }
   },
   {
@@ -4352,7 +4491,7 @@
       "types": [
         "普通"
       ],
-      "pictorial_book_id": null
+      "pictorial_book_id": 441
     }
   },
   {
@@ -4391,6 +4530,143 @@
         "火"
       ],
       "pictorial_book_id": 340
+    }
+  },
+  {
+    "id": 3746001,
+    "pet_id": 3746001,
+    "name": "睡铃雪影娃娃",
+    "weight_low": 14350,
+    "weight_high": 22000,
+    "height_low": 30,
+    "height_high": 37,
+    "hatch_data": 57600,
+    "pet": {
+      "id": 3746,
+      "name": "睡铃雪影娃娃",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_xueyingwawachunri.JL_xueyingwawachunri'",
+      "types": [
+        "冰",
+        "草"
+      ],
+      "pictorial_book_id": 440
+    }
+  },
+  {
+    "id": 3747001,
+    "pet_id": 3747001,
+    "name": "莫比乌乌",
+    "weight_low": 980,
+    "weight_high": 1920,
+    "height_low": 25,
+    "height_high": 32,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3747,
+      "name": "莫比乌乌",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_mobiwuwu.JL_mobiwuwu'",
+      "types": [
+        "龙",
+        "萌"
+      ],
+      "pictorial_book_id": 398
+    }
+  },
+  {
+    "id": 3749001,
+    "pet_id": 3749001,
+    "name": "森豆丁",
+    "weight_low": 5600,
+    "weight_high": 11080,
+    "height_low": 31,
+    "height_high": 46,
+    "hatch_data": 72000,
+    "pet": {
+      "id": 3749,
+      "name": "森豆丁",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_sendouding.JL_sendouding'",
+      "types": [
+        "草"
+      ],
+      "pictorial_book_id": 384
+    }
+  },
+  {
+    "id": 3752001,
+    "pet_id": 3752001,
+    "name": "叮叮卯",
+    "weight_low": 105,
+    "weight_high": 360,
+    "height_low": 6,
+    "height_high": 13,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3752,
+      "name": "叮叮卯",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_dingdingmao.JL_dingdingmao'",
+      "types": [
+        "机械",
+        "虫"
+      ],
+      "pictorial_book_id": 379
+    }
+  },
+  {
+    "id": 3754001,
+    "pet_id": 3754001,
+    "name": "火豆丁",
+    "weight_low": 2625,
+    "weight_high": 4400,
+    "height_low": 37,
+    "height_high": 52,
+    "hatch_data": 72000,
+    "pet": {
+      "id": 3754,
+      "name": "火豆丁",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_huodouding.JL_huodouding'",
+      "types": [
+        "火"
+      ],
+      "pictorial_book_id": 393
+    }
+  },
+  {
+    "id": 3757001,
+    "pet_id": 3757001,
+    "name": "点点",
+    "weight_low": 1019,
+    "weight_high": 1556,
+    "height_low": 17,
+    "height_high": 23,
+    "hatch_data": 28800,
+    "pet": {
+      "id": 3757,
+      "name": "点点",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_diandian.JL_diandian'",
+      "types": [
+        "萌"
+      ],
+      "pictorial_book_id": 410
+    }
+  },
+  {
+    "id": 3759001,
+    "pet_id": 3759001,
+    "name": "苞米仔",
+    "weight_low": 3115,
+    "weight_high": 5200,
+    "height_low": 22,
+    "height_high": 30,
+    "hatch_data": 57600,
+    "pet": {
+      "id": 3759,
+      "name": "苞米仔",
+      "JL_res": "Texture2D'/Game/NewRoco/Modules/System/Common/Icon/Pet1024/JL_baomizai.JL_baomizai'",
+      "types": [
+        "草",
+        "火"
+      ],
+      "pictorial_book_id": 425
     }
   }
 ]

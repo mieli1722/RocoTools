@@ -87,8 +87,10 @@ export default function SkillDetail() {
 
   const damageType = ['物攻', '魔攻'].includes(skill.damage_type) ? skill.damage_type : null
   const skillType = skill.skill_type && skill.skill_type !== '攻击' ? skill.skill_type : null
-  const power = skill.dam_para?.find(v => v > 0) || null
-  const energy = skill.energy_cost?.find(v => v >= 0) ?? null
+  const powerValues = (skill.dam_para || []).filter(v => v >= 0)
+  const power = powerValues.length === 1 ? powerValues[0] : null
+  const energyValues = (skill.energy_cost || []).filter(v => v >= 0)
+  const energy = energyValues.length === 1 ? energyValues[0] : null
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-6">
@@ -131,18 +133,28 @@ export default function SkillDetail() {
       <div className="bg-white rounded-xl border p-5 mb-4">
         <h2 className="font-semibold mb-3">技能参数</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {power != null && (
+          {power != null ? (
             <div className="bg-gray-50 rounded-lg p-3 text-center">
               <div className="text-xs text-gray-500 mb-1">威力</div>
               <div className="text-lg font-semibold text-gray-800">{power}</div>
             </div>
-          )}
-          {energy != null && (
+          ) : powerValues.length > 1 ? (
+            <div className="bg-gray-50 rounded-lg p-3 text-center">
+              <div className="text-xs text-gray-500 mb-1">威力</div>
+              <div className="text-sm font-semibold text-gray-800">{powerValues.join(', ')}</div>
+            </div>
+          ) : null}
+          {energy != null ? (
             <div className="bg-gray-50 rounded-lg p-3 text-center">
               <div className="text-xs text-gray-500 mb-1">能耗</div>
               <div className="text-lg font-semibold text-gray-800">{energy}</div>
             </div>
-          )}
+          ) : energyValues.length > 1 ? (
+            <div className="bg-gray-50 rounded-lg p-3 text-center">
+              <div className="text-xs text-gray-500 mb-1">能耗</div>
+              <div className="text-sm font-semibold text-gray-800">{energyValues.join(', ')}</div>
+            </div>
+          ) : null}
           {(damageType || skillType) && (
             <div className="bg-gray-50 rounded-lg p-3 text-center">
               <div className="text-xs text-gray-500 mb-1">类型</div>

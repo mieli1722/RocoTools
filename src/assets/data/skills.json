@@ -501,7 +501,7 @@
     "flavor_text": "所谓重击，就是要让全身的力量爆发，绝对不要想着还会挥出第二拳。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/702059.702059'",
     "dam_para": [
-      110
+      140
     ],
     "energy_cost": [
       2,
@@ -1754,11 +1754,11 @@
     "dam_para": [
       0,
       160,
-      130,
+      140,
+      120,
       100,
-      70,
-      40,
-      10,
+      90,
+      80,
       1
     ],
     "energy_cost": [
@@ -1780,11 +1780,11 @@
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101082.101082'",
     "dam_para": [
       0,
-      10,
-      40,
-      70,
+      80,
+      90,
       100,
-      130,
+      120,
+      140,
       160,
       1
     ],
@@ -2054,7 +2054,7 @@
   {
     "id": 7021120,
     "name": "嗜痛",
-    "desc": "减伤80%，<desc_id=1016>应对攻击</>：期间自己每次受到伤害，获得双攻+40%。",
+    "desc": "减伤80%，<desc_id=1016>应对攻击</>：期间自己每受到1次攻击伤害，获得双攻+40%。",
     "flavor_text": "这愉悦的痛苦。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301096.301096'",
     "dam_para": [
@@ -2075,7 +2075,7 @@
   {
     "id": 7021121,
     "name": "应对！嗜痛",
-    "desc": "减伤80%，<desc_id=1016>应对攻击</>：期间自己每次受到伤害，获得双攻+40%。",
+    "desc": "减伤80%，<desc_id=1016>应对攻击</>：期间自己每受到1次攻击伤害，获得双攻+40%。",
     "flavor_text": "这愉悦的痛苦。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301096.301096'",
     "dam_para": [
@@ -2165,21 +2165,21 @@
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/201100.201100'",
     "dam_para": [
-      100,
+      55,
       0,
       0,
-      0,
-      0,
-      5000,
-      10000,
-      15000,
-      20000,
-      25000,
-      30000,
-      35000
+      9090,
+      18180,
+      27270,
+      36360,
+      45450,
+      54540,
+      63630,
+      72720,
+      81810
     ],
     "energy_cost": [
-      3
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "普通",
@@ -2277,30 +2277,30 @@
   },
   {
     "id": 7021190,
-    "name": "呵气",
-    "desc": "S3加尔A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "吹散",
+    "desc": "造成魔伤，<desc_id=3019>选择</>：驱散敌方所有<desc_id=1012>增益</>或驱散双方1层<desc_id=3010>印记</>。",
+    "flavor_text": "“呼——吹吹就不痛咯~”",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101111.101111'",
     "dam_para": [
-      0
+      65
     ],
     "energy_cost": [
       3
     ],
     "skill_priority": 5,
     "skill_dam_type": "普通",
-    "skill_type": "状态",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7021200,
-    "name": "大闹",
-    "desc": "S3加尔B",
+    "name": "S3测试用",
+    "desc": "S3测试用",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101106.101106'",
     "dam_para": [
       0
     ],
@@ -2315,12 +2315,18 @@
   },
   {
     "id": 7021210,
-    "name": "秘法洪流",
-    "desc": "S3加尔C",
-    "flavor_text": "",
-    "icon": "",
+    "name": "急中生智",
+    "desc": "造成​魔伤，自己有<desc_id=1013>减益</>时，​本​次技能​威力​+40。",
+    "flavor_text": "考得全会，蒙得全对！",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301104.301104'",
     "dam_para": [
-      70
+      80,
+      0,
+      2,
+      0,
+      40,
+      0,
+      0
     ],
     "energy_cost": [
       3
@@ -2336,7 +2342,7 @@
   {
     "id": 7021211,
     "name": "应对！秘法洪流",
-    "desc": "S3加尔C",
+    "desc": "造成​魔伤，自己有<desc_id=1013>减益</>时，​本​次技能​威力​+50。",
     "flavor_text": "",
     "icon": "",
     "dam_para": [
@@ -2369,6 +2375,141 @@
     "damage_type": "魔攻",
     "describe_type": [
       5
+    ]
+  },
+  {
+    "id": 7021230,
+    "name": "友谊满溢",
+    "desc": "造成​魔伤，​<desc_id=3019>选择</>：​每次使用后威力​永久​​+20​或​<desc_id=1015>应对状态</>​时​本​次技能​威力​+100%。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101112.101112'",
+    "dam_para": [
+      70
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": [
+      5,
+      1
+    ]
+  },
+  {
+    "id": 7021231,
+    "name": "应对！友谊满溢",
+    "desc": "造成​魔伤，​<desc_id=3019>选择</>：​每次使用后威力​永久​​+20​或​<desc_id=1015>应对状态</>​时​本​次技能​威力​+100%。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101112.101112'",
+    "dam_para": [
+      70
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": [
+      5,
+      1
+    ]
+  },
+  {
+    "id": 7021240,
+    "name": "大闹（Boss）",
+    "desc": "加尔",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101115.101115'",
+    "dam_para": [
+      125
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": []
+  },
+  {
+    "id": 7021250,
+    "name": "呵气（Boss）",
+    "desc": "加尔",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101116.101116'",
+    "dam_para": [
+      125
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": []
+  },
+  {
+    "id": 7021260,
+    "name": "白加尔专属技能",
+    "desc": "造成​魔伤，​每​释​放1​次​双生​技能，​赋予​自己​1​层随机永久​增益。​",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301115.301115'",
+    "dam_para": [
+      125
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": []
+  },
+  {
+    "id": 7021270,
+    "name": "黑加尔专属技能",
+    "desc": "造成​魔伤，​每​释​放1​次​双生​技能，​赋予​对​手1​层随机永久​减益。​",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301116.301116'",
+    "dam_para": [
+      125
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": []
+  },
+  {
+    "id": 7021280,
+    "name": "缓一缓",
+    "desc": "自己回复1​能量和​10​%生命，并获得​魔攻魔防+10%，速度+10。​",
+    "flavor_text": "放学路上坐在长椅上发呆了五分钟。好像什么都没做，但又好像什么都好起来了。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101114.101114'",
+    "dam_para": [
+      0
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "普通",
+    "skill_type": "状态",
+    "damage_type": 1,
+    "describe_type": [
+      12,
+      6
     ]
   },
   {
@@ -3371,32 +3512,37 @@
   },
   {
     "id": 7030560,
-    "name": "草光冲击",
-    "desc": "S3雪影娃娃·春日B",
-    "flavor_text": "",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
+    "name": "养分回流",
+    "desc": "造成​魔伤，​为场​下​所有​精灵​回复1​能量​。",
+    "flavor_text": "\"这次魔药课实验又失败了，唯一的安慰是给隔壁的对战课题组提供了三篇引用。\"",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/302042.302042'",
     "dam_para": [
-      85
+      75
     ],
     "energy_cost": [
-      4
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "草",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7030570,
-    "name": "丛花陷阱",
-    "desc": "S3半朽蜜果灵B",
+    "name": "甜蜜陷阱",
+    "desc": "造成魔伤，自己每有1能量，本次技能威力+10。",
     "flavor_text": "",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/202040.202040'",
     "dam_para": [
-      85
+      50,
+      3,
+      1,
+      20011583,
+      0,
+      10
     ],
     "energy_cost": [
       4
@@ -3404,19 +3550,19 @@
     "skill_priority": 5,
     "skill_dam_type": "草",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7030580,
-    "name": "花瓣群舞",
-    "desc": "S3炮米花B",
+    "name": "撒花",
+    "desc": "造成魔伤，<desc_id=3019>选择</>：自己生命大于80%时威力+50或<desc_id=1015>应对状态</>时自己回复35%生命。",
     "flavor_text": "",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/202043.202043'",
     "dam_para": [
-      90
+      95
     ],
     "energy_cost": [
       4
@@ -3433,12 +3579,12 @@
   },
   {
     "id": 7030581,
-    "name": "应对！花瓣群舞",
-    "desc": "S3炮米花B",
+    "name": "应对！撒花",
+    "desc": "造成魔伤，<desc_id=3019>选择</>：自己生命大于80%时威力+50或<desc_id=1015>应对状态</>时自己回复35%生命。",
     "flavor_text": "",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/202043.202043'",
     "dam_para": [
-      90
+      95
     ],
     "energy_cost": [
       4
@@ -3455,15 +3601,15 @@
   },
   {
     "id": 7030590,
-    "name": "硕果",
-    "desc": "S3森巨人A",
+    "name": "丰收",
+    "desc": "造​成​物伤，​自己​回复​20%生命​。",
     "flavor_text": "",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102039.102039'",
     "dam_para": [
-      90
+      85
     ],
     "energy_cost": [
-      4
+      5
     ],
     "skill_priority": 5,
     "skill_dam_type": "草",
@@ -3476,20 +3622,20 @@
   },
   {
     "id": 7030600,
-    "name": "凝翠",
-    "desc": "S3森巨人B",
+    "name": "补觉",
+    "desc": "<desc_id=3019>选择</>：自己回复25%生命或回复8能量。",
     "flavor_text": "",
-    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102038.102038'",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/102045.102045'",
     "dam_para": [
-      90
+      0
     ],
     "energy_cost": [
-      4
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "草",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": [
       12,
       6
@@ -4442,14 +4588,14 @@
   {
     "id": 7040630,
     "name": "花火",
-    "desc": "S3火羽A",
+    "desc": "造成物伤，敌方获得4层<desc_id=1002>灼烧</>。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/103047.103047'",
     "dam_para": [
-      40
+      70
     ],
     "energy_cost": [
-      1
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "火",
@@ -4462,19 +4608,40 @@
   {
     "id": 7040640,
     "name": "暖气",
-    "desc": "S3炮米花A",
+    "desc": "减伤70%，<desc_id=1016>应对攻击</>：下一次攻击时，技能威力+50。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/103042.103042'",
     "dam_para": [
-      40
+      0
     ],
     "energy_cost": [
-      1
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "火",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "防御",
+    "damage_type": 1,
+    "describe_type": [
+      1,
+      11
+    ]
+  },
+  {
+    "id": 7040641,
+    "name": "应对！暖气",
+    "desc": "减伤70%，<desc_id=1016>应对攻击</>：下一次攻击时，技能威力+50。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/103042.103042'",
+    "dam_para": [
+      0
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "火",
+    "skill_type": "防御",
+    "damage_type": 1,
     "describe_type": [
       1,
       11
@@ -4482,40 +4649,40 @@
   },
   {
     "id": 7040650,
-    "name": "焚炎斩",
-    "desc": "S3火巨人A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "焚身",
+    "desc": "造成高额物理伤害，自己下回合获得眩晕。",
+    "flavor_text": "\"此后无退路，此刻即终局。\"",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/203037.203037'",
     "dam_para": [
-      60
+      180
     ],
     "energy_cost": [
-      2
+      5
     ],
     "skill_priority": 5,
     "skill_dam_type": "火",
     "skill_type": "攻击",
-    "damage_type": "魔攻",
+    "damage_type": "物攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7040660,
-    "name": "零火",
-    "desc": "S3火巨人B",
+    "name": "野火",
+    "desc": "<desc_id=3019>选择</>：敌方获得7层<desc_id=1002>灼烧</>或物防-90%。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/103049.103049'",
     "dam_para": [
-      75
+      0
     ],
     "energy_cost": [
-      3
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "火",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": [
       12,
       7
@@ -5452,10 +5619,62 @@
   },
   {
     "id": 7050480,
-    "name": "破浪",
-    "desc": "S3深渊蛙A",
+    "name": "叠浪",
+    "desc": "造​成​物伤，​3连击，本技能能耗每-1，威力+10。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/104035.104035'",
+    "dam_para": [
+      10,
+      30000,
+      20000,
+      10000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "水",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5,
+      15
+    ]
+  },
+  {
+    "id": 7050490,
+    "name": "沉溺",
+    "desc": "造成物伤，天气为<desc_id=3008>雨天</>时，本技能能耗-2。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/104037.104037'",
+    "dam_para": [
+      110
+    ],
+    "energy_cost": [
+      4
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "水",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5
+    ]
+  },
+  {
+    "id": 7050500,
+    "name": "S3测试用",
+    "desc": "S3测试用",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101114.101114'",
     "dam_para": [
       0
     ],
@@ -5466,47 +5685,6 @@
     "skill_dam_type": "水",
     "skill_type": "状态",
     "damage_type": 1,
-    "describe_type": [
-      5,
-      15
-    ]
-  },
-  {
-    "id": 7050490,
-    "name": "沉溺",
-    "desc": "S3障眼魔B",
-    "flavor_text": "",
-    "icon": "",
-    "dam_para": [
-      0
-    ],
-    "energy_cost": [
-      3
-    ],
-    "skill_priority": 5,
-    "skill_dam_type": "水",
-    "skill_type": "攻击",
-    "damage_type": "魔攻",
-    "describe_type": [
-      5
-    ]
-  },
-  {
-    "id": 7050500,
-    "name": "升华",
-    "desc": "S3友爱星飞B",
-    "flavor_text": "",
-    "icon": "",
-    "dam_para": [
-      0
-    ],
-    "energy_cost": [
-      3
-    ],
-    "skill_priority": 5,
-    "skill_dam_type": "水",
-    "skill_type": "攻击",
-    "damage_type": "魔攻",
     "describe_type": []
   },
   {
@@ -5854,7 +6032,7 @@
       0
     ],
     "energy_cost": [
-      0
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "光",
@@ -5876,7 +6054,7 @@
       0
     ],
     "energy_cost": [
-      0
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "光",
@@ -5890,20 +6068,20 @@
   },
   {
     "id": 7060250,
-    "name": "开幕",
-    "desc": "S3流明坎德拉A",
+    "name": "点亮",
+    "desc": "减伤90%，<desc_id=1016>应对攻击</>：自己获得光系技能威力永久+50%。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/205016.205016'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      0
+      2
     ],
-    "skill_priority": null,
-    "skill_dam_type": "",
-    "skill_type": "",
-    "damage_type": null,
+    "skill_priority": 5,
+    "skill_dam_type": "光",
+    "skill_type": "防御",
+    "damage_type": 1,
     "describe_type": [
       1,
       11
@@ -5911,20 +6089,20 @@
   },
   {
     "id": 7060251,
-    "name": "应对！开幕",
-    "desc": "S3流明坎德拉A",
+    "name": "应对！点亮",
+    "desc": "减伤90%，<desc_id=1016>应对攻击</>：自己获得光系技能威力永久+50%。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/205016.205016'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      0
+      2
     ],
-    "skill_priority": null,
-    "skill_dam_type": "",
-    "skill_type": "",
-    "damage_type": null,
+    "skill_priority": 5,
+    "skill_dam_type": "光",
+    "skill_type": "防御",
+    "damage_type": 1,
     "describe_type": [
       1,
       11
@@ -5932,20 +6110,20 @@
   },
   {
     "id": 7060260,
-    "name": "集光器",
-    "desc": "S3流明坎德拉B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "透镜实验",
+    "desc": "造​成​物伤，​<desc_id=3019>选择</>：​敌方携​带光​系​技​能​时​威力​+50或<desc_id=1015>应对状态</>​时​被​应对​的​技能​变​为​透射​。",
+    "flavor_text": "\"实验记录第318号：将光源导入透镜后折射率异常——对面实验室的光系技能石竟然被覆写了。建议禁止该实验。\"",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/205018.205018'",
     "dam_para": [
-      0
+      115
     ],
     "energy_cost": [
-      0
+      4
     ],
-    "skill_priority": null,
-    "skill_dam_type": "",
-    "skill_type": "",
-    "damage_type": null,
+    "skill_priority": 5,
+    "skill_dam_type": "光",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
     "describe_type": [
       5,
       1
@@ -5953,20 +6131,20 @@
   },
   {
     "id": 7060261,
-    "name": "应对！集光器",
-    "desc": "S3流明坎德拉B",
+    "name": "应对！透镜实验",
+    "desc": "造​成​物伤，​<desc_id=3019>选择</>：​敌方携​带光​系​技​能​时​威力​+50或<desc_id=1015>应对状态</>​时​被​应对​的​技能​变​为​透射。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/205018.205018'",
     "dam_para": [
-      0
+      115
     ],
     "energy_cost": [
-      0
+      4
     ],
-    "skill_priority": null,
-    "skill_dam_type": "",
-    "skill_type": "",
-    "damage_type": null,
+    "skill_priority": 5,
+    "skill_dam_type": "光",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
     "describe_type": [
       5,
       1
@@ -6015,11 +6193,11 @@
   {
     "id": 7070020,
     "name": "齿轮扭矩",
-    "desc": "造成物伤，每回合位置发生变化时，本技能威力永久+20。",
+    "desc": "造成物伤，每回合位置发生变化时，本技能威力永久+15。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/720008.720008'",
     "dam_para": [
-      80
+      70
     ],
     "energy_cost": [
       3
@@ -6422,30 +6600,32 @@
   },
   {
     "id": 7070200,
-    "name": "礼炮",
-    "desc": "S3离心舞者B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "六自由度",
+    "desc": "造成魔伤，威力额外增加两侧技能威力差的二分之一，<desc_id=1033>传动</>1。",
+    "flavor_text": "勇敢地走向任何想去的地方吧。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106024.106024'",
     "dam_para": [
-      75
+      50,
+      0,
+      50
     ],
     "energy_cost": [
-      2
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "机械",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7070210,
-    "name": "进行曲",
-    "desc": "S3胡桃王子A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "蒸汽进行曲",
+    "desc": "<desc_id=3019>选择</>：​自己获得速度​+60或​物攻+90%。",
+    "flavor_text": "黄金时代的工匠们曾争论不休——将多余的蒸汽注入驱动轴还是增压舱？两种思路各自发展了三百年。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106020.106020'",
     "dam_para": [
       0
     ],
@@ -6463,12 +6643,12 @@
   },
   {
     "id": 7070220,
-    "name": "杖责",
-    "desc": "S3胡桃王子B",
+    "name": "轮班",
+    "desc": "造​成​物伤，​<desc_id=1033>传动</>​1​，<desc_id=3019>选择</>：​本技能位于1号​位​时​威力​+65或本​回​合额​外​<desc_id=1033>传动</>​1。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/206022.206022'",
     "dam_para": [
-      95
+      70
     ],
     "energy_cost": [
       3
@@ -6476,7 +6656,7 @@
     "skill_priority": 5,
     "skill_dam_type": "机械",
     "skill_type": "攻击",
-    "damage_type": "魔攻",
+    "damage_type": "物攻",
     "describe_type": [
       5
     ]
@@ -6486,7 +6666,7 @@
     "name": "应对！杖责",
     "desc": "S3胡桃王子B",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/206022.206022'",
     "dam_para": [
       95
     ],
@@ -6501,20 +6681,20 @@
   },
   {
     "id": 7070230,
-    "name": "机械飞轮",
-    "desc": "S3卯山咪钥A",
+    "name": "锁芯",
+    "desc": "造成魔伤，此技能位置不会改变。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106030.106030'",
     "dam_para": [
-      95
+      75
     ],
     "energy_cost": [
-      3
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "机械",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
@@ -6585,7 +6765,7 @@
   {
     "id": 7070260,
     "name": "排气",
-    "desc": "敌方​获得​全技能威力​-20，若​自己受​到​​抵抗​伤害，​敌方​额外获得全技能威力-20，使用后重置",
+    "desc": "敌方获得威力-20，自己每受到1次抵抗伤害（不含连击），敌方额外获得威力-20，使用后重置。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106025.106025'",
     "dam_para": [
@@ -6648,7 +6828,7 @@
   {
     "id": 7070280,
     "name": "微型斥候",
-    "desc": "造成魔伤，自己每​受​到​一​次​抵抗​伤害，​本技​能​威力​永久​+20。",
+    "desc": "造成魔伤，每受到1次抵抗的技能攻击（不含连击），​本技​能​威力​永久​+20。",
     "flavor_text": "正在评估——【威胁等级】，嘀嗒，威胁等级评估为——【极高】，判断小洛克需要被保护，正在提高本技能威力。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106028.106028'",
     "dam_para": [
@@ -6683,6 +6863,26 @@
     "damage_type": 1,
     "describe_type": [
       12
+    ]
+  },
+  {
+    "id": 7070300,
+    "name": "绞轮",
+    "desc": "造成物伤，每受到1次抵抗的技能攻击（不含连击），​本技能能耗永久-1。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106031.106031'",
+    "dam_para": [
+      115
+    ],
+    "energy_cost": [
+      5
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "机械",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5
     ]
   },
   {
@@ -6794,7 +6994,7 @@
   {
     "id": 7080150,
     "name": "石锁",
-    "desc": "造成物伤，敌方3回合无法更换精灵。",
+    "desc": "造成物伤，敌方获得3回合<desc_id=3023>禁足</>。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/708007.708007'",
     "dam_para": [
@@ -6896,7 +7096,7 @@
   {
     "id": 7080190,
     "name": "流沙",
-    "desc": "敌方3回合无法更换精灵，<desc_id=1017>应对防御</>：敌方获得双防-60%。",
+    "desc": "敌方获得3回合<desc_id=3023>禁足</>，<desc_id=1017>应对防御</>：敌方获得双防-60%。",
     "flavor_text": "越挣扎，时间反而流走得越快。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/708017.708017'",
     "dam_para": [
@@ -6918,7 +7118,7 @@
   {
     "id": 7080191,
     "name": "应对！流沙",
-    "desc": "敌方3回合无法更换精灵，<desc_id=1017>应对防御</>：敌方获得双防-60%。",
+    "desc": "敌方获得3回合<desc_id=3023>禁足</>，<desc_id=1017>应对防御</>：敌方获得双防-60%。",
     "flavor_text": "越挣扎，时间反而流走得越快。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/708017.708017'",
     "dam_para": [
@@ -7642,52 +7842,40 @@
   },
   {
     "id": 7080450,
-    "name": "飞沙",
-    "desc": "S3蝎子王A",
+    "name": "扬尘",
+    "desc": "造成​魔伤，​天气为<desc_id=3006>沙暴</>时，<desc_id=1020>先手</>+1。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/107044.107044'",
     "dam_para": [
-      0
+      80
     ],
     "energy_cost": [
       3
     ],
     "skill_priority": 5,
     "skill_dam_type": "地",
-    "skill_type": "状态",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7080460,
-    "name": "磐岩",
-    "desc": "S3蝎子王B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "沙石阵",
+    "desc": "自己获得速度​-​20，​<desc_id=3019>选择</>：且额外获得​物防+90%或​魔防​+90%。",
+    "flavor_text": "沙石从未追赶我，但我仍会被沙石掩埋。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/107045.107045'",
     "dam_para": [
-      60,
-      6,
-      170,
-      160,
-      150,
-      140,
-      130,
-      120,
-      110,
-      100,
-      90,
-      80,
-      70
+      0
     ],
     "energy_cost": [
-      4
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "地",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": [
       12,
       6
@@ -8611,7 +8799,7 @@
   },
   {
     "id": 7090430,
-    "name": "冰封",
+    "name": "冷凝",
     "desc": "造​成​物伤，​敌方每有1层<desc_id=1004>冻结</>，自己回复1能量。",
     "flavor_text": "冰越厚，越安静，越有力。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/108039.108039'",
@@ -8669,6 +8857,68 @@
     "describe_type": [
       5,
       1
+    ]
+  },
+  {
+    "id": 7090450,
+    "name": "冰裂",
+    "desc": "造​成​物伤，​<desc_id=3019>选择</>：​敌方​获得​物防-30%或​敌方获得速度​-20。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/108042.108042'",
+    "dam_para": [
+      70
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "冰",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5
+    ]
+  },
+  {
+    "id": 7090460,
+    "name": "雪原狩猎",
+    "desc": "造​成​物伤，​天气为<desc_id=3007>暴风雪</>时，本次技能威力​+50%",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/208041.208041'",
+    "dam_para": [
+      80
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "冰",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5
+    ]
+  },
+  {
+    "id": 7090470,
+    "name": "打喷嚏",
+    "desc": "3连击，​每​次​连击敌方获得1层<desc_id=1004>冻结</>。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/108042.108042'",
+    "dam_para": [
+      0
+    ],
+    "energy_cost": [
+      1
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "冰",
+    "skill_type": "状态",
+    "damage_type": 1,
+    "describe_type": [
+      12,
+      7,
+      15
     ]
   },
   {
@@ -9192,20 +9442,20 @@
   },
   {
     "id": 7100300,
-    "name": "震慑",
-    "desc": "S3克莱因龙A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "龙守望",
+    "desc": "下次技能无需<desc_id=1007>蓄力</>，本技能可在<desc_id=1007>蓄力</>状态下使用。<desc_id=3019>选择</>：本次能耗-1或<desc_id=1017>应对防御</>时打断，敌方下回合获得眩晕。",
+    "flavor_text": "\"村民日记：今天龙又在山顶盯着我们看了一整天，什么都没做。但我们谁也没敢回家收庄稼。\"",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/209020.209020'",
     "dam_para": [
-      190
+      0
     ],
     "energy_cost": [
-      5
+      1
     ],
-    "skill_priority": 6,
+    "skill_priority": 5,
     "skill_dam_type": "龙",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": [
       12,
       1
@@ -9213,15 +9463,15 @@
   },
   {
     "id": 7100301,
-    "name": "应对！震慑",
-    "desc": "S3克莱因龙A",
+    "name": "应对！龙守望",
+    "desc": "下次技能无需<desc_id=1007>蓄力</>，本技能可在<desc_id=1007>蓄力</>状态下使用。<desc_id=3019>选择</>：本次能耗-1或<desc_id=1017>应对防御</>时打断，敌方下回合获得眩晕。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/209020.209020'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      2
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "龙",
@@ -9234,10 +9484,10 @@
   },
   {
     "id": 7100310,
-    "name": "撕扯",
-    "desc": "S3溯源钟A",
+    "name": "S3测试用",
+    "desc": "S3测试用",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106031.106031'",
     "dam_para": [
       0
     ],
@@ -9878,14 +10128,14 @@
   {
     "id": 7110410,
     "name": "电离爆破",
-    "desc": "敌方获得速度-40，3连击。",
+    "desc": "敌方获得魔攻-20%，速度-20，2连击。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/110027.110027'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      3
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "电",
@@ -9983,20 +10233,20 @@
   },
   {
     "id": 7110440,
-    "name": "雷暴雨",
-    "desc": "S3雷神之子A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "惊雷",
+    "desc": "将天气改为<desc_id=3021>雷鸣</>，持续8回合。",
+    "flavor_text": "从新型电系魔法中得到灵感：雷暴之下，没有绝缘体。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/110034.110034'",
     "dam_para": [
-      90
+      0
     ],
     "energy_cost": [
-      3
+      5
     ],
     "skill_priority": 5,
     "skill_dam_type": "电",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": [
       12,
       25
@@ -10005,11 +10255,11 @@
   {
     "id": 7110450,
     "name": "通电",
-    "desc": "S3雷神之子B",
-    "flavor_text": "",
-    "icon": "",
+    "desc": "造​成​物伤，​敌方获得​1​层<desc_id=3022>引电</>。​",
+    "flavor_text": "\"安全须知第一条：不要摸它。第二条：它摸了你的话，不要摸别人。\"",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/110032.110032'",
     "dam_para": [
-      90
+      75
     ],
     "energy_cost": [
       3
@@ -10025,8 +10275,8 @@
   {
     "id": 7110451,
     "name": "应对！通电",
-    "desc": "S3雷神之子B",
-    "flavor_text": "",
+    "desc": "造​成​物伤，​敌方获得​1​层<desc_id=3022>引电</>。​",
+    "flavor_text": "\"安全须知第一条：不要摸它。第二条：它摸了你的话，不要摸别人。\"",
     "icon": "",
     "dam_para": [
       90
@@ -10359,7 +10609,7 @@
       0
     ],
     "energy_cost": [
-      6
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "毒",
@@ -10452,7 +10702,7 @@
   {
     "id": 7120220,
     "name": "鸩毒",
-    "desc": "造成魔伤，敌方每有1层<desc_id=1036>中毒效果</>，本次技能威力+10，<desc_id=1015>应对状态</>：改为本次威力+20。",
+    "desc": "造成魔伤，敌方每有1层<desc_id=1036>中毒效果</>，本次技能威力+10，<desc_id=1015>应对状态</>：改为本次威力+40。",
     "flavor_text": "一种从黄金时代遗迹中挖掘到的炼金药剂。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111019.111019'",
     "dam_para": [
@@ -10478,7 +10728,7 @@
   {
     "id": 7120221,
     "name": "应对！鸩毒",
-    "desc": "造成魔伤，敌方每有1层<desc_id=1036>中毒效果</>，本次技能威力+10，<desc_id=1015>应对状态</>：改为本次威力+20。",
+    "desc": "造成魔伤，敌方每有1层<desc_id=1036>中毒效果</>，本次技能威力+10，<desc_id=1015>应对状态</>：改为本次威力+40。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111019.111019'",
     "dam_para": [
@@ -10487,7 +10737,7 @@
       2,
       28,
       0,
-      20
+      40
     ],
     "energy_cost": [
       3
@@ -10588,39 +10838,39 @@
   },
   {
     "id": 7120260,
-    "name": "蛰伏",
-    "desc": "S3徘徊爪爪A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "毒誓",
+    "desc": "对敌方精灵造成物理伤害。",
+    "flavor_text": "紫雀花下说出的誓言，终将应验。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111031.111031'",
     "dam_para": [
-      0
+      120
     ],
     "energy_cost": [
-      1
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "毒",
-    "skill_type": "状态",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "物攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7120270,
-    "name": "松脂",
-    "desc": "S3壳栗丝鼠A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "溶解",
+    "desc": "减伤90%，<desc_id=1016>应对攻击</>：驱散敌方1种<desc_id=1012>增益</>。",
+    "flavor_text": "紫雀花王朝的某些魔法师战斗时从不着甲，他们不相信也不需要任何盔甲的保护。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111028.111028'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      3
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "毒",
-    "skill_type": "状态",
+    "skill_type": "防御",
     "damage_type": 1,
     "describe_type": [
       1,
@@ -10629,15 +10879,15 @@
   },
   {
     "id": 7120271,
-    "name": "应对！松脂",
-    "desc": "S3壳栗丝鼠A",
+    "name": "应对！溶解",
+    "desc": "减伤90%，<desc_id=1016>应对攻击</>：驱散敌方1种<desc_id=1012>增益</>。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111028.111028'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      1
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "毒",
@@ -10650,20 +10900,20 @@
   },
   {
     "id": 7120280,
-    "name": "毒线针",
-    "desc": "S3壳栗丝鼠B",
+    "name": "过敏原",
+    "desc": "造成魔伤，1连击，若敌方有<desc_id=1036>中毒效果</>，本次技能<desc_id=3005>连击数</>+2。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111030.111030'",
     "dam_para": [
-      0
+      35
     ],
     "energy_cost": [
-      1
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "毒",
-    "skill_type": "防御",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5,
       15
@@ -11181,10 +11431,10 @@
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/112021.112021'",
     "dam_para": [
-      95
+      85
     ],
     "energy_cost": [
-      4
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "虫",
@@ -11202,10 +11452,10 @@
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/112021.112021'",
     "dam_para": [
-      95
+      85
     ],
     "energy_cost": [
-      4
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "虫",
@@ -11300,10 +11550,10 @@
   },
   {
     "id": 7130330,
-    "name": "虫云",
-    "desc": "S3卯山咪钥B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "振翅",
+    "desc": "<desc_id=3019>选择</>：己方队伍​获得​1​次​<desc_id=1009>奉献</>：​连击​+1或​威力​+20。",
+    "flavor_text": "每一片微小的翅膀都甘愿为整体而振动。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/212026.212026'",
     "dam_para": [
       0
     ],
@@ -11312,7 +11562,7 @@
     ],
     "skill_priority": 5,
     "skill_dam_type": "虫",
-    "skill_type": "防御",
+    "skill_type": "状态",
     "damage_type": 1,
     "describe_type": [
       12,
@@ -11320,21 +11570,41 @@
     ]
   },
   {
-    "id": 7130340,
-    "name": "横剪",
-    "desc": "S3邪眼巨魔B",
+    "id": 7130331,
+    "name": "应对！虫云",
+    "desc": "<desc_id=3019>殊途</>：<span fork_road=\"begin\"/>己方队伍​获得​1​次​<desc_id=1009>奉献</>：​能​耗​-2<span fork_road=\"or\">或</>​威力​+20。<span fork_road=\"end\"/>",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/212026.212026'",
     "dam_para": [
-      0
+      80
     ],
     "energy_cost": [
-      2
+      3
     ],
     "skill_priority": 5,
     "skill_dam_type": "虫",
-    "skill_type": "防御",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5
+    ]
+  },
+  {
+    "id": 7130340,
+    "name": "拟寄生",
+    "desc": "造成​魔伤，​偷取​敌​方​1​层​<desc_id=3010>印记</>。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/212035.212035'",
+    "dam_para": [
+      80
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "虫",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
@@ -12230,12 +12500,33 @@
   },
   {
     "id": 7140330,
-    "name": "铁箍",
-    "desc": "S3深渊蛙B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "马步",
+    "desc": "本技能先​手​-1，<desc_id=3019>选择</>：​若自己生命​低于​20%，​回复60%​生命或若自己​生命​高于​80%，​获得​物​攻+​150%。",
+    "flavor_text": "某个擅长对决的魔法师点评此技能：能稳住心神的洛克不会被打倒。先学挨打，再学进攻。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/313037.313037'",
     "dam_para": [
-      100
+      0
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 4,
+    "skill_dam_type": "武",
+    "skill_type": "状态",
+    "damage_type": 1,
+    "describe_type": [
+      12,
+      6
+    ]
+  },
+  {
+    "id": 7140340,
+    "name": "驱赶",
+    "desc": "造成​魔伤，​<desc_id=3019>选择</>：​本​次技能​威力​+20或​<desc_id=1015>应对状态</>​时​本​次​技能威力​+140。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/113038.113038'",
+    "dam_para": [
+      70
     ],
     "energy_cost": [
       3
@@ -12245,18 +12536,18 @@
     "skill_type": "攻击",
     "damage_type": "魔攻",
     "describe_type": [
-      12,
-      6
+      5,
+      1
     ]
   },
   {
-    "id": 7140340,
-    "name": "驱赶",
-    "desc": "S3稻草守护者B",
+    "id": 7140341,
+    "name": "应对！驱赶",
+    "desc": "造成​魔伤，​<desc_id=3019>选择</>：​本​次技能​威力​+20或​<desc_id=1015>应对状态</>​时​本​次​技能威力​+140。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/113038.113038'",
     "dam_para": [
-      100
+      210
     ],
     "energy_cost": [
       3
@@ -12764,7 +13055,7 @@
       0
     ],
     "energy_cost": [
-      0
+      1
     ],
     "skill_priority": 5,
     "skill_dam_type": "翼",
@@ -12935,8 +13226,8 @@
   },
   {
     "id": 7150330,
-    "name": "颠簸",
-    "desc": "S3友爱星飞A",
+    "name": "S3测试用",
+    "desc": "S3测试用",
     "flavor_text": "",
     "icon": "",
     "dam_para": [
@@ -12953,8 +13244,8 @@
   },
   {
     "id": 7150331,
-    "name": "应对！颠簸",
-    "desc": "S3友爱星飞A",
+    "name": "S3测试用",
+    "desc": "S3测试用",
     "flavor_text": "",
     "icon": "",
     "dam_para": [
@@ -12971,10 +13262,10 @@
   },
   {
     "id": 7150340,
-    "name": "失衡",
-    "desc": "S3溯源钟B",
+    "name": "S3测试用",
+    "desc": "S3测试用",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/118036.118036'",
     "dam_para": [
       100,
       6,
@@ -12995,16 +13286,57 @@
     ],
     "skill_priority": 5,
     "skill_dam_type": "翼",
-    "skill_type": "攻击",
-    "damage_type": "物攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": []
   },
   {
     "id": 7150350,
-    "name": "翘曲加速",
-    "desc": "S3星云旅者A",
+    "name": "远行",
+    "desc": "造成​魔伤，​自己​每​先​于​敌方行动1次，本技能威力永久+25。",
+    "flavor_text": "一直在离开。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/214036.214036'",
+    "dam_para": [
+      50
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "翼",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": [
+      5
+    ]
+  },
+  {
+    "id": 7150360,
+    "name": "试飞",
+    "desc": "造​成​物伤，​2​连击。​<desc_id=3019>选择</>：​每​次​使用​后本​技​能​威力永久​+10<span fork_road=\"or\">​或</>​​​连击​数​永久​+1。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/114037.114037'",
+    "dam_para": [
+      20
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "翼",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5,
+      15
+    ]
+  },
+  {
+    "id": 7150370,
+    "name": "超声波",
+    "desc": "自己获得全技​能​威力​+30，​<desc_id=3019>选择</>：​本​次​能​耗​-1或<desc_id=1017>应对防御</>时​改为全技能​威力​永久​+50。",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/114031.114031'",
     "dam_para": [
       0
     ],
@@ -13016,47 +13348,6 @@
     "skill_type": "状态",
     "damage_type": 1,
     "describe_type": [
-      5
-    ]
-  },
-  {
-    "id": 7150360,
-    "name": "风刃",
-    "desc": "S3火羽B",
-    "flavor_text": "",
-    "icon": "",
-    "dam_para": [
-      0
-    ],
-    "energy_cost": [
-      3
-    ],
-    "skill_priority": 5,
-    "skill_dam_type": "翼",
-    "skill_type": "防御",
-    "damage_type": 1,
-    "describe_type": [
-      5,
-      15
-    ]
-  },
-  {
-    "id": 7150370,
-    "name": "速降",
-    "desc": "S3夜游魔A",
-    "flavor_text": "",
-    "icon": "",
-    "dam_para": [
-      0
-    ],
-    "energy_cost": [
-      3
-    ],
-    "skill_priority": 5,
-    "skill_dam_type": "翼",
-    "skill_type": "防御",
-    "damage_type": 1,
-    "describe_type": [
       12,
       1,
       6
@@ -13064,18 +13355,15 @@
   },
   {
     "id": 7150371,
-    "name": "应对！速降",
-    "desc": "S3夜游魔A",
+    "name": "应对！超声波",
+    "desc": "自己获得全技​能​威力​+30，​<desc_id=3019>选择</>：​本​次​能​耗​-1或​<desc_id=1017>应对防御</>时​改为全技能​威力​永久​+50。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/114031.114031'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      0,
-      0,
-      1,
-      -5000
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "翼",
@@ -13640,10 +13928,36 @@
   },
   {
     "id": 7160330,
-    "name": "麻布袋",
-    "desc": "S3徘徊爪爪B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "拆礼物",
+    "desc": "造​成​物伤，​若​​敌方有​<desc_id=1006>萌化</>，​本次技能威力+100。",
+    "flavor_text": "收到礼物的快乐在于拆的瞬间。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/315024.315024'",
+    "dam_para": [
+      50,
+      1,
+      21020040,
+      0,
+      100,
+      0,
+      1
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "萌",
+    "skill_type": "攻击",
+    "damage_type": "物攻",
+    "describe_type": [
+      5
+    ]
+  },
+  {
+    "id": 7160340,
+    "name": "委屈",
+    "desc": "减伤70%，<desc_id=1016>应对攻击</>：自己获得1层<desc_id=3012>萌芽印记</>。",
+    "flavor_text": "“好了好了，是我错了。”",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115025.115025'",
     "dam_para": [
       0
     ],
@@ -13655,36 +13969,16 @@
     "skill_type": "防御",
     "damage_type": 1,
     "describe_type": [
-      5
-    ]
-  },
-  {
-    "id": 7160340,
-    "name": "心盾",
-    "desc": "S3稻草守护者A",
-    "flavor_text": "",
-    "icon": "",
-    "dam_para": [
-      0
-    ],
-    "energy_cost": [
-      4
-    ],
-    "skill_priority": 5,
-    "skill_dam_type": "萌",
-    "skill_type": "状态",
-    "damage_type": 1,
-    "describe_type": [
       1,
       11
     ]
   },
   {
     "id": 7160341,
-    "name": "心盾",
-    "desc": "S3稻草守护者A",
+    "name": "应对！委屈",
+    "desc": "减伤70%，<desc_id=1016>应对攻击</>：自己获得1层<desc_id=3012>萌芽印记</>。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115025.115025'",
     "dam_para": [
       0
     ],
@@ -13693,7 +13987,7 @@
     ],
     "skill_priority": 5,
     "skill_dam_type": "萌",
-    "skill_type": "状态",
+    "skill_type": "防御",
     "damage_type": 1,
     "describe_type": [
       1,
@@ -13702,12 +13996,12 @@
   },
   {
     "id": 7160350,
-    "name": "萌发",
-    "desc": "S3克莱因龙B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "可爱",
+    "desc": "对敌方精灵造成魔法伤害。",
+    "flavor_text": "除了可爱之外一无是处。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115029.115029'",
     "dam_para": [
-      90
+      100
     ],
     "energy_cost": [
       3
@@ -13715,19 +14009,19 @@
     "skill_priority": 5,
     "skill_dam_type": "萌",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7160360,
-    "name": "小龙卷",
-    "desc": "S3珀尔鼬A",
+    "name": "转圈圈",
+    "desc": "造成魔伤，若敌方本回合更换精灵，本次攻击使敌方获得<desc_id=1006>萌化</>。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115030.115030'",
     "dam_para": [
-      90
+      85
     ],
     "energy_cost": [
       3
@@ -13735,27 +14029,33 @@
     "skill_priority": 5,
     "skill_dam_type": "萌",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7160370,
-    "name": "弹簧跳",
-    "desc": "S3珀尔鼬B",
+    "name": "蹦跶",
+    "desc": "造成​魔伤，​自己​有​<desc_id=1013>减益</>​时​本​技​能​能​耗​-1，​<desc_id=3019>选择</>：​自己​获得​<desc_id=1006>萌化</>或​解除<desc_id=1006>萌化</>​。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115031.115031'",
     "dam_para": [
-      90
+      110
     ],
     "energy_cost": [
-      3
+      3,
+      0,
+      2,
+      0,
+      -1,
+      0,
+      0
     ],
     "skill_priority": 5,
     "skill_dam_type": "萌",
     "skill_type": "攻击",
-    "damage_type": "物攻",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
@@ -13770,7 +14070,7 @@
       0
     ],
     "energy_cost": [
-      2
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "萌",
@@ -13779,6 +14079,47 @@
     "describe_type": [
       12,
       8
+    ]
+  },
+  {
+    "id": 7160390,
+    "name": "耍赖",
+    "desc": "自己​获得​双​攻​永久​+10%，2连击。​自己​有​<desc_id=1013>减益</>​时，​本次技能连击​数​+1。",
+    "flavor_text": "“不给糖就捣蛋！\"",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/101106.101106'",
+    "dam_para": [
+      0
+    ],
+    "energy_cost": [
+      2
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "萌",
+    "skill_type": "状态",
+    "damage_type": 1,
+    "describe_type": [
+      12,
+      6
+    ]
+  },
+  {
+    "id": 7160400,
+    "name": "做好事",
+    "desc": "造成​魔伤，​自己每​使用过1​次​<desc_id=3019>选择</>​技能，​​自己​获得3层随机永久​<desc_id=1012>增益</>，​使用后​重置。​",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301115.301115'",
+    "dam_para": [
+      80
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "萌",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": [
+      5
     ]
   },
   {
@@ -14305,15 +14646,15 @@
   },
   {
     "id": 7170280,
-    "name": "镜影",
-    "desc": "S3半朽蜜果灵A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "魔镜",
+    "desc": "敌方获得魔防​-50%，​且​失​去​3​能量​。",
+    "flavor_text": "魔镜魔镜告诉我，谁是最棒的果？",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/116023.116023'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      1
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "幽",
@@ -14363,6 +14704,26 @@
     "describe_type": [
       12,
       7
+    ]
+  },
+  {
+    "id": 7170310,
+    "name": "吃独食",
+    "desc": "造成​魔伤，​自己每​使用过1​次​<desc_id=3019>选择</>​技能，​​敌方​获得3​层随机永久​<desc_id=1013>减益</>，​使用后​重置。​",
+    "flavor_text": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301116.301116'",
+    "dam_para": [
+      80
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "幽",
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
+    "describe_type": [
+      5
     ]
   },
   {
@@ -15099,7 +15460,7 @@
   {
     "id": 7180350,
     "name": "伪造账单",
-    "desc": "若敌方本回合回复生命，改为失去2倍。<desc_id=1020>先手</>+1。",
+    "desc": "若敌方本回合回复生命，改为失去2倍（含溢出的回复量）。<desc_id=1020>先手</>+1。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117034.117034'",
     "dam_para": [
@@ -15202,20 +15563,23 @@
   },
   {
     "id": 7180380,
-    "name": "黑荆棘",
-    "desc": "S3卡拉波斯A",
-    "flavor_text": "",
-    "icon": "",
+    "name": "限时特惠",
+    "desc": "造成魔伤，敌方每有1只力竭精灵，本次技能能耗-1。",
+    "flavor_text": "收到一封信，说远行商人竟然来学校慰问。去了之后发现学弟骑着吃胖的电咩咩在那东张西望。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117039.117039'",
     "dam_para": [
-      0
+      140
     ],
     "energy_cost": [
-      1
+      6,
+      2,
+      1,
+      -1
     ],
-    "skill_priority": 6,
+    "skill_priority": 5,
     "skill_dam_type": "恶",
-    "skill_type": "状态",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
@@ -15223,19 +15587,19 @@
   {
     "id": 7180390,
     "name": "纺纱",
-    "desc": "S3卡拉波斯B",
-    "flavor_text": "",
-    "icon": "",
+    "desc": "敌方获得1层<desc_id=3020>暗涌印记</>。",
+    "flavor_text": "未来还没有被纺织，经纬仍是一团混沌。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117037.117037'",
     "dam_para": [
-      130
+      0
     ],
     "energy_cost": [
-      3
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "恶",
-    "skill_type": "攻击",
-    "damage_type": "魔攻",
+    "skill_type": "状态",
+    "damage_type": 1,
     "describe_type": [
       12,
       8
@@ -15243,32 +15607,35 @@
   },
   {
     "id": 7180400,
-    "name": "暗影波",
-    "desc": "S3夜游魔B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "血契",
+    "desc": "造成物伤，自己每失去10%生命，本技能威力+10。",
+    "flavor_text": "向恶魔献上鲜血吧！没有的话，香蕉也可以。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117041.117041'",
     "dam_para": [
-      130
+      75,
+      1000,
+      10,
+      0
     ],
     "energy_cost": [
-      3
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "恶",
     "skill_type": "攻击",
-    "damage_type": "魔攻",
+    "damage_type": "物攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7180410,
-    "name": "凝望",
-    "desc": "S3邪眼巨魔A",
+    "name": "困兽",
+    "desc": "造成物伤，若自己生命低于50%，本次攻击<desc_id=1029>吸血</>50%。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117042.117042'",
     "dam_para": [
-      130
+      90
     ],
     "energy_cost": [
       3
@@ -15276,19 +15643,19 @@
     "skill_priority": 5,
     "skill_dam_type": "恶",
     "skill_type": "攻击",
-    "damage_type": "魔攻",
+    "damage_type": "物攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7180420,
-    "name": "晃攻",
-    "desc": "S3障眼魔A",
+    "name": "下注",
+    "desc": "造​成​物伤，​<desc_id=3019>选择</>：​本次技能​威力​+40，使用后​自己​生命​-10%或​自己​生命​低于​50%时本次技能​威力​+100。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/117043.117043'",
     "dam_para": [
-      130
+      85
     ],
     "energy_cost": [
       3
@@ -15296,7 +15663,7 @@
     "skill_priority": 5,
     "skill_dam_type": "恶",
     "skill_type": "攻击",
-    "damage_type": "魔攻",
+    "damage_type": "物攻",
     "describe_type": [
       5
     ]
@@ -15825,40 +16192,46 @@
   },
   {
     "id": 7190410,
-    "name": "舞玲珑",
-    "desc": "S3离心舞者A",
+    "name": "许愿池",
+    "desc": "造成​魔伤，​双方已有的<desc_id=3010>印记</>层数+1。",
     "flavor_text": "",
-    "icon": "",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/318031.318031'",
     "dam_para": [
-      0
+      55
     ],
     "energy_cost": [
-      3
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "幻",
-    "skill_type": "防御",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
   },
   {
     "id": 7190420,
-    "name": "虚径",
-    "desc": "S3星云旅者B",
-    "flavor_text": "",
-    "icon": "",
+    "name": "星痕",
+    "desc": "造成​魔伤，​若​对​手​有​<desc_id=3010>印记</>，​本次技​能​威力​+40。",
+    "flavor_text": "天空被流星划伤了，它喊疼的时候发出咻——咻——的声音。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/118025.118025'",
     "dam_para": [
-      0
+      90,
+      2,
+      26,
+      0,
+      40,
+      0,
+      1
     ],
     "energy_cost": [
       3
     ],
     "skill_priority": 5,
     "skill_dam_type": "幻",
-    "skill_type": "防御",
-    "damage_type": 1,
+    "skill_type": "攻击",
+    "damage_type": "魔攻",
     "describe_type": [
       5
     ]
@@ -15907,6 +16280,26 @@
     "damage_type": "物攻",
     "describe_type": [
       5
+    ]
+  },
+  {
+    "id": 7190450,
+    "name": "薄纱环",
+    "desc": "<desc_id=3019>选择</>：对手随机获得1种负面<desc_id=3010>印记</>或自己随机获得1种正面<desc_id=3010>印记</>。",
+    "flavor_text": "死去的愿望漂浮聚集，黯淡的光芒被旅者拾取。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/118036.118036'",
+    "dam_para": [
+      0
+    ],
+    "energy_cost": [
+      3
+    ],
+    "skill_priority": 5,
+    "skill_dam_type": "幻",
+    "skill_type": "状态",
+    "damage_type": 1,
+    "describe_type": [
+      12
     ]
   }
 ]
