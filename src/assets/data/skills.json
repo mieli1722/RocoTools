@@ -6601,16 +6601,16 @@
   {
     "id": 7070200,
     "name": "六自由度",
-    "desc": "造成魔伤，威力额外增加两侧技能威力差的二分之一，<desc_id=1033>传动</>1。",
+    "desc": "造成魔伤，威力额外增加两侧技能威力差的四分之一，<desc_id=1033>传动</>1。",
     "flavor_text": "勇敢地走向任何想去的地方吧。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/106024.106024'",
     "dam_para": [
-      50,
+      30,
       0,
-      50
+      25
     ],
     "energy_cost": [
-      3
+      4
     ],
     "skill_priority": 5,
     "skill_dam_type": "机械",
