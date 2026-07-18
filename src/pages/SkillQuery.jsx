@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Search } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import { loadSkills } from '../utils/data'
+import { loadSkills, loadTypeIdMap } from '../utils/data'
 import TypeBadge from '../components/TypeBadge'
 import DescText from '../components/DescText'
 
@@ -37,23 +37,32 @@ export default function SkillQuery() {
   const [selectedTypes, setSelectedTypes] = useState([])
   const [selectedTags, setSelectedTags] = useState([])
   const [selectedEnergy, setSelectedEnergy] = useState([])
+  const [typeIdMap, setTypeIdMap] = useState({})
 
   useEffect(() => {
-    loadSkills().then(data => {
+    Promise.all([loadSkills(), loadTypeIdMap()]).then(([data, tim]) => {
       setSkills(data)
+      setTypeIdMap(tim || {})
       setLoading(false)
     })
   }, [])
 
+  // 构建 type 名 → ID 的映射，用于按游戏内顺序排列
+  const typeOrder = useMemo(() => {
+    const map = {}
+    Object.entries(typeIdMap).forEach(([id, name]) => { map[name] = Number(id) })
+    return map
+  }, [typeIdMap])
+
   const allTypes = useMemo(() => {
     const set = new Set()
     skills.forEach(s => {
-      if (s.skill_dam_type && !['无', '空', '岩（废弃！）'].includes(s.skill_dam_type)) {
+      if (s.skill_dam_type && typeOrder[s.skill_dam_type]) {
         set.add(s.skill_dam_type)
       }
     })
-    return Array.from(set).sort()
-  }, [skills])
+    return Array.from(set).sort((a, b) => (typeOrder[a] || 99) - (typeOrder[b] || 99))
+  }, [skills, typeOrder])
 
   const allTags = useMemo(() => {
     const set = new Set()

@@ -14,12 +14,6 @@ const XUEMAI_ICON_MAP = {
   '幽': 'img_youling.png', '地': 'img_shan.png',
 };
 
-const TYPE_ID_MAP = {
-  1: '草', 2: '普通', 3: '虫', 4: '火', 5: '水', 6: '光', 
-  8: '地', 9: '冰', 10: '龙', 11: '电', 12: '毒', 13: '武', 14: '萌',
-  15: '幽', 16: '翼', 17: '恶', 18: '机械', 19: '幻', 20: '?',
-};
-
 const base = import.meta.env.BASE_URL;
 
 function getForms(pet, petMap) {
@@ -100,7 +94,7 @@ function formatTimeRange(arr) {
   return `${a}时`
 }
 
-function formatCondition(node, weatherMap) {
+function formatCondition(node, weatherMap, bloodMap, typeIdMap, skillMap, petMap, npcNameMap) {
   const parts = []
   if (node.evolution_need_level) {
     parts.push(`Lv.${node.evolution_need_level}`)
@@ -130,7 +124,7 @@ function formatCondition(node, weatherMap) {
     } else if (type === 7) {
       const v1 = Array.isArray(d1) ? d1[0] : d1
       const v2 = Array.isArray(d2) ? d2[0] : d2
-      const tname = TYPE_ID_MAP[v2] || v2
+      const tname = typeIdMap?.[v2] || v2
       parts.push(`击败${v1}只${tname}系精灵`)
     } else if (type === 8) {
       const v = Array.isArray(d1) ? d1[0] : d1
@@ -145,22 +139,34 @@ function formatCondition(node, weatherMap) {
       parts.push(`成长星级${v}`)
     } else if (type === 13) {
       const v = Array.isArray(d1) ? d1[0] : d1
-      parts.push(`血脉${v}`)
+      const bname = bloodMap?.[v] || v
+      parts.push(`${bname}血脉`)
     } else if (type === 14) {
-      const v = Array.isArray(d1) ? d1[0] : d1
-      parts.push(`身高范围${v}`)
+      if (Array.isArray(d1) && d1.length >= 2) {
+        parts.push(`身高${(d1[0] / 100).toFixed(1)}%~${(d1[1] / 100).toFixed(1)}%`)
+      } else {
+        const v = Array.isArray(d1) ? d1[0] : d1
+        parts.push(`身高${(v / 100).toFixed(1)}%`)
+      }
     } else if (type === 16) {
       const v1 = Array.isArray(d1) ? d1[0] : d1
       const v2 = Array.isArray(d2) ? d2[0] : d2
-      parts.push(`使用技能${v1}×${v2}次`)
+      const sname = skillMap?.[v1]?.name || `技能#${v1}`
+      parts.push(<span>使用 <Link to={`/skills/${v1}`} className="text-blue-600 hover:underline">{sname}</Link> ×{v2}次</span>)
     } else if (type === 18) {
       const v1 = Array.isArray(d1) ? d1[0] : d1
       const v2 = Array.isArray(d2) ? d2[0] : d2
-      parts.push(`击败#${v1}×${v2}次`)
+      const pname = petMap?.[v1]?.name || `#${v1}`
+      parts.push(<span>击败 <Link to={`/pets/${v1}`} className="text-blue-600 hover:underline">{pname}</Link> ×{v2}次</span>)
     } else if (type === 20) {
-      const v1 = Array.isArray(d1) ? d1[0] : d1
+      const v1 = Array.isArray(d1) ? d1 : [d1]
       const v2 = Array.isArray(d2) ? d2[0] : d2
-      parts.push(`收集地图资源${v1}×${v2}次`)
+      const prefixRE = /^(大型|中型|小型)/
+      const suffixRE = /-(秋天|冬天|春天|雪山)版$/
+      const rawNames = v1.map(id => npcNameMap?.[id] || `#${id}`)
+      const baseNames = [...new Set(rawNames.map(n => n.replace(prefixRE, '').replace(suffixRE, '')))]
+      const label = baseNames.map((n, i) => <span key={i}>{n}{i < baseNames.length - 1 && '、'}<br /></span>)
+      parts.push(<span>收集 {' '}{label} ×{v2}次</span>)
     } else if (type === 21) {
       const v = Array.isArray(d1) ? d1[0] : d1
       parts.push(`收集星光值${v}`)
@@ -170,7 +176,7 @@ function formatCondition(node, weatherMap) {
       parts.push(`未知(type=${type}${v1 !== undefined ? `,d1=${v1}` : ''}${v2 !== undefined ? `,d2=${v2}` : ''})`)
     }
   }
-  return parts.length > 0 ? parts.join(' + ') : null
+  return parts.length > 0 ? parts : null
 }
 
 function buildEvolutionTree(rootId, petMap) {
@@ -217,7 +223,7 @@ function NameLabel({ node }) {
   )
 }
 
-function EvolutionNode({ node, petId, weatherMap }) {
+function EvolutionNode({ node, petId, weatherMap, bloodMap, typeIdMap, skillMap, petMap, npcNameMap }) {
   const isCurrent = node.id === petId
   const branches = node.branches || []
 
@@ -243,7 +249,7 @@ function EvolutionNode({ node, petId, weatherMap }) {
             {branches.map((child, idx) => {
               const isFirst = idx === 0
               const isLast = idx === branches.length - 1
-              const childCondition = formatCondition(child, weatherMap)
+              const childCondition = formatCondition(child, weatherMap, bloodMap, typeIdMap, skillMap, petMap, npcNameMap)
               return (
                 <div key={child.id} className="flex-1 flex flex-col items-center relative min-w-[5rem] px-1">
                   {branches.length > 1 && (
@@ -256,15 +262,15 @@ function EvolutionNode({ node, petId, weatherMap }) {
                     />
                   )}
                   <div className="h-3 w-px bg-gray-300"></div>
-                  {childCondition && (
+                  {childCondition && childCondition.length > 0 && (
                     <>
-                      <div className="text-[10px] text-blue-600 font-medium text-center px-1.5 py-0.5 bg-blue-50 rounded border border-blue-100 whitespace-nowrap">
-                        {childCondition}
+                      <div className="text-[10px] text-blue-600 font-medium text-center px-1.5 py-0.5 bg-blue-50 rounded border border-blue-100">
+                        {childCondition.map((part, i) => <span key={i}>{i > 0 && <span className="text-gray-400"> + </span>}{part}</span>)}
                       </div>
                       <div className="h-3 w-px bg-gray-300"></div>
                     </>
                   )}
-                  <EvolutionNode node={child} petId={petId} weatherMap={weatherMap} />
+                  <EvolutionNode node={child} petId={petId} weatherMap={weatherMap} bloodMap={bloodMap} typeIdMap={typeIdMap} skillMap={skillMap} petMap={petMap} npcNameMap={npcNameMap} />
                 </div>
               )
             })}
@@ -284,6 +290,9 @@ export default function PetDetail() {
   const [petMap, setPetMap] = useState({})
   const [evoTrees, setEvoTrees] = useState([])
   const [weatherMap, setWeatherMap] = useState(new Map())
+  const [bloodMap, setBloodMap] = useState({})
+  const [typeIdMap, setTypeIdMap] = useState({})
+  const [npcNameMap, setNpcNameMap] = useState({})
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -300,6 +309,28 @@ export default function PetDetail() {
         setWeatherMap(wm)
       } catch (e) {
         setWeatherMap(new Map())
+      }
+
+      try {
+        const bmod = await import('../assets/data/bloods.json')
+        const bm = Object.fromEntries((bmod.default || []).map(b => [b.id, b.name]))
+        setBloodMap(bm)
+      } catch (e) {
+        setBloodMap({})
+      }
+
+      try {
+        const tmod = await import('../assets/data/type_id_map.json')
+        setTypeIdMap(tmod.default || {})
+      } catch (e) {
+        setTypeIdMap({})
+      }
+
+      try {
+        const nmod = await import('../assets/data/npc_name_map.json')
+        setNpcNameMap(nmod.default || {})
+      } catch (e) {
+        setNpcNameMap({})
       }
 
       if (found) {
@@ -442,7 +473,7 @@ export default function PetDetail() {
           <h2 className="font-semibold mb-4">进化链</h2>
           <div className="flex justify-center gap-8 min-w-max">
             {evoTrees.map(tree => (
-              <EvolutionNode key={tree.id} node={tree} petId={pet.id} weatherMap={weatherMap} />
+              <EvolutionNode key={tree.id} node={tree} petId={pet.id} weatherMap={weatherMap} bloodMap={bloodMap} typeIdMap={typeIdMap} skillMap={skillMap} petMap={petMap} npcNameMap={npcNameMap} />
             ))}
           </div>
         </div>

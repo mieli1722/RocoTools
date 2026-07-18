@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "普通",
+    "full_name": "普通系血脉"
+  },
+  {
+    "id": 2,
+    "name": "草",
+    "full_name": "草系血脉"
+  },
+  {
+    "id": 3,
+    "name": "火",
+    "full_name": "火系血脉"
+  },
+  {
+    "id": 4,
+    "name": "水",
+    "full_name": "水系血脉"
+  },
+  {
+    "id": 5,
+    "name": "光",
+    "full_name": "光系血脉"
+  },
+  {
+    "id": 6,
+    "name": "地",
+    "full_name": "地系血脉"
+  },
+  {
+    "id": 7,
+    "name": "冰",
+    "full_name": "冰系血脉"
+  },
+  {
+    "id": 8,
+    "name": "龙",
+    "full_name": "龙系血脉"
+  },
+  {
+    "id": 9,
+    "name": "电",
+    "full_name": "电系血脉"
+  },
+  {
+    "id": 10,
+    "name": "毒",
+    "full_name": "毒系血脉"
+  },
+  {
+    "id": 11,
+    "name": "虫",
+    "full_name": "虫系血脉"
+  },
+  {
+    "id": 12,
+    "name": "武",
+    "full_name": "武系血脉"
+  },
+  {
+    "id": 13,
+    "name": "翼",
+    "full_name": "翼系血脉"
+  },
+  {
+    "id": 14,
+    "name": "萌",
+    "full_name": "萌系血脉"
+  },
+  {
+    "id": 15,
+    "name": "幽",
+    "full_name": "幽系血脉"
+  },
+  {
+    "id": 16,
+    "name": "恶",
+    "full_name": "恶系血脉"
+  },
+  {
+    "id": 17,
+    "name": "机械",
+    "full_name": "机械系血脉"
+  },
+  {
+    "id": 18,
+    "name": "幻",
+    "full_name": "幻系血脉"
+  },
+  {
+    "id": 19,
+    "name": "首领",
+    "full_name": "首领血脉"
+  },
+  {
+    "id": 20,
+    "name": "巨兽",
+    "full_name": "巨兽血脉"
+  },
+  {
+    "id": 21,
+    "name": "黑魔法",
+    "full_name": "黑魔法血脉"
+  },
+  {
+    "id": 22,
+    "name": "异核",
+    "full_name": "异核血脉"
+  },
+  {
+    "id": 23,
+    "name": "污染",
+    "full_name": "污染血脉"
+  },
+  {
+    "id": 24,
+    "name": "奇异",
+    "full_name": "奇异血脉"
+  }
+]

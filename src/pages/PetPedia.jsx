@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { loadPets } from '../utils/data'
+import { loadPets, loadTypeIdMap } from '../utils/data'
 import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
 
@@ -13,19 +13,28 @@ export default function PetPedia() {
   const [selectedTypes, setSelectedTypes] = useState([])
   const [onlyShiny, setOnlyShiny] = useState(false)
   const [unreleasedMode, setUnreleasedMode] = useState(0)  // 0=隐藏 1=全部 2=仅未实装
+  const [typeIdMap, setTypeIdMap] = useState({})
 
   useEffect(() => {
-    loadPets().then(data => {
+    Promise.all([loadPets(), loadTypeIdMap()]).then(([data, tim]) => {
       setPets(data)
+      setTypeIdMap(tim || {})
       setLoading(false)
     })
   }, [])
 
+  // 构建 type 名 → ID 的映射，用于按游戏内顺序排列
+  const typeOrder = useMemo(() => {
+    const map = {}
+    Object.entries(typeIdMap).forEach(([id, name]) => { map[name] = Number(id) })
+    return map
+  }, [typeIdMap])
+
   const allTypes = useMemo(() => {
     const set = new Set()
     pets.forEach(p => p.types?.forEach(t => { if (t) set.add(t) }))
-    return Array.from(set).sort()
-  }, [pets])
+    return Array.from(set).sort((a, b) => (typeOrder[a] || 99) - (typeOrder[b] || 99))
+  }, [pets, typeOrder])
 
   const toggleType = (type) => {
     setSelectedTypes(prev =>
