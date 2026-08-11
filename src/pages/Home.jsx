@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { BookOpen, Zap, Sword, Smile, Egg, Search } from 'lucide-react'
+import { BookOpen, Zap, Sword, Smile, Egg, Search, Calendar } from 'lucide-react'
 
 const CARDS = [
   { to: '/pets', title: '精灵图鉴', desc: '浏览全部图鉴精灵、种族值、进化链与技能', icon: BookOpen, color: 'bg-green-500' },
@@ -7,7 +7,8 @@ const CARDS = [
   { to: '/skills', title: '技能查询', desc: '搜索技能威力、效果、能耗与技能类型', icon: Sword, color: 'bg-red-500' },
   { to: '/natures', title: '性格查询', desc: '查看性格对六项能力值的加成与减成', icon: Smile, color: 'bg-pink-500' },
   { to: '/egg-groups', title: '蛋组查询', desc: '查询精灵蛋组信息', icon: Egg, color: 'bg-blue-500' },
-  { to: '/egg-predictor', title: '神秘蛋推测', desc: '根据蛋的身高体重推测可能是什么精灵', icon: Search, color: 'bg-indigo-500' }
+  { to: '/egg-predictor', title: '神秘蛋推测', desc: '根据蛋的身高体重推测可能是什么精灵', icon: Search, color: 'bg-indigo-500' },
+  { to: '/activities', title: '活动时间表', desc: '查看当前进行中的活动以及即将开始的活动', icon: Calendar, color: 'bg-orange-500' }
 ]
 
 export default function Home() {

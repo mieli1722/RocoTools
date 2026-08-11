@@ -9,6 +9,7 @@ import NatureQuery from './pages/NatureQuery'
 import EggGroupQuery from './pages/EggGroupQuery'
 import EggPredictor from './pages/EggPredictor'
 import SkillDetail from './pages/SkillDetail'
+import ActivitySchedule from './pages/ActivitySchedule'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/natures" element={<NatureQuery />} />
           <Route path="/egg-groups" element={<EggGroupQuery />} />
           <Route path="/egg-predictor" element={<EggPredictor />} />
+          <Route path="/activities" element={<ActivitySchedule />} />
         </Routes>
       </main>
       <footer className="bg-white border-t py-4 text-center text-sm text-gray-500">

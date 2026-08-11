@@ -5,12 +5,15 @@ import { loadPets, loadTypeIdMap } from '../utils/data'
 import { petIconUrl } from '../utils/icons'
 import TypeBadge from '../components/TypeBadge'
 
+const WISH_NUMBERS = [16, 20, 24, 28, 32, 40, 42, 56, 60, 80]
+
 export default function PetPedia() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState('')
   const [pictorialQuery, setPictorialQuery] = useState('')
   const [selectedTypes, setSelectedTypes] = useState([])
+  const [selectedWishes, setSelectedWishes] = useState([])
   const [onlyShiny, setOnlyShiny] = useState(false)
   const [unreleasedMode, setUnreleasedMode] = useState(0)  // 0=隐藏 1=全部 2=仅未实装
   const [typeIdMap, setTypeIdMap] = useState({})
@@ -42,18 +45,25 @@ export default function PetPedia() {
     )
   }
 
-  const hasFilter = selectedTypes.length > 0 || onlyShiny || unreleasedMode === 2
+  const toggleWish = (num) => {
+    setSelectedWishes(prev =>
+      prev.includes(num) ? prev.filter(n => n !== num) : [...prev, num]
+    )
+  }
+
+  const hasFilter = selectedTypes.length > 0 || selectedWishes.length > 0 || onlyShiny || unreleasedMode === 2
 
   const filtered = useMemo(() => {
     const list = pets.filter(p => {
       const matchName = (p.name || '').toLowerCase().includes(query.toLowerCase())
       const matchType = selectedTypes.length === 0 || (p.types || []).some(t => selectedTypes.includes(t))
       const matchShiny = !onlyShiny || !!p.have_shiny
+      const matchWish = selectedWishes.length === 0 || selectedWishes.includes(p.wish_number)
       const hasPictorial = !!p.pictorial_book_id
       const matchUnreleased = unreleasedMode === 1 || (unreleasedMode === 0 ? hasPictorial : !hasPictorial)
       const pictorialId = p.pictorial_book_id || 0
       const matchPictorial = !pictorialQuery || String(pictorialId) === pictorialQuery.trim()
-      return matchName && matchType && matchShiny && matchUnreleased && matchPictorial
+      return matchName && matchType && matchShiny && matchWish && matchUnreleased && matchPictorial
     })
     // 图鉴编号排序，没有 pictorial_book_id 的放最后
     list.sort((a, b) => {
@@ -65,7 +75,7 @@ export default function PetPedia() {
       return aId - bId
     })
     return list
-  }, [pets, query, pictorialQuery, selectedTypes, onlyShiny, unreleasedMode])
+  }, [pets, query, pictorialQuery, selectedTypes, selectedWishes, onlyShiny, unreleasedMode])
 
   if (loading) return <div className="p-10 text-center text-gray-500">加载中...</div>
 
@@ -116,9 +126,25 @@ export default function PetPedia() {
           })}
         </div>
 
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm text-gray-500">星光值：</span>
+          {WISH_NUMBERS.map(num => {
+            const active = selectedWishes.includes(num)
+            return (
+              <button
+                key={num}
+                onClick={() => toggleWish(num)}
+                className={`px-2 py-1 rounded-lg border text-sm transition ${active ? 'bg-blue-50 border-blue-300 text-blue-700' : 'bg-white hover:bg-gray-50'}`}
+              >
+                {num}
+              </button>
+            )
+          })}
+        </div>
+
         {hasFilter && (
           <button
-            onClick={() => { setSelectedTypes([]); setOnlyShiny(false); setUnreleasedMode(0); setPictorialQuery('') }}
+            onClick={() => { setSelectedTypes([]); setSelectedWishes([]); setOnlyShiny(false); setUnreleasedMode(0); setPictorialQuery('') }}
             className="text-sm text-gray-500 hover:text-gray-700 self-start"
           >
             清除筛选

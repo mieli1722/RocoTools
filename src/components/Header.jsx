@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Home, BookOpen, Zap, Sword, Smile, Egg, Search } from 'lucide-react';
+import { Home, BookOpen, Zap, Sword, Smile, Egg, Search, Calendar } from 'lucide-react';
 
 const NAV = [
   { to: '/', label: '首页', icon: Home },
@@ -9,6 +9,7 @@ const NAV = [
   { to: '/natures', label: '性格查询', icon: Smile },
   { to: '/egg-groups', label: '蛋组查询', icon: Egg },
   { to: '/egg-predictor', label: '蛋推测', icon: Search },
+  { to: '/activities', label: '活动时间表', icon: Calendar },
 ];
 
 export default function Header() {

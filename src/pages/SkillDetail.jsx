@@ -36,6 +36,7 @@ export default function SkillDetail() {
     const results = []
 
     Object.values(petMap).forEach(pet => {
+      if (!pet.pictorial_book_id) return
       // 升级技能
       const lvl = (pet.level_skills || []).find(s => s.skill_id === sid)
       if (lvl) {
@@ -214,7 +215,7 @@ export default function SkillDetail() {
             ))}
           </div>
         ) : (
-          <div className="text-sm text-gray-400">暂无可学该技能的精灵数据</div>
+          <div className="text-sm text-gray-400">暂无可学该技能的已实装精灵数据</div>
         )}
       </div>
     </div>

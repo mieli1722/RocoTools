@@ -47,3 +47,8 @@ export async function loadNpcNameMap() {
   const mod = await import('../assets/data/npc_name_map.json');
   return mod.default;
 }
+
+export async function loadActivities() {
+  const mod = await import('../assets/data/activities.json');
+  return mod.default;
+}

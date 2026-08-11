@@ -35,9 +35,9 @@ export default function EggGroupQuery() {
   const filtered = useMemo(() => {
     let list
     if (currentGroup) {
-      list = pets.filter(p => p.egg_groups?.some(g => g.name === currentGroup))
+      list = pets.filter(p => p.pictorial_book_id && p.egg_groups?.some(g => g.name === currentGroup))
     } else if (onlyShiny) {
-      list = pets.filter(p => !!p.have_shiny)
+      list = pets.filter(p => p.pictorial_book_id && !!p.have_shiny)
     } else {
       return []
     }
