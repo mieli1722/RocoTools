@@ -480,8 +480,8 @@
       65,
       1,
       2,
-      0,
-      260
+      1,
+      400
     ],
     "energy_cost": [
       2
@@ -2168,15 +2168,15 @@
       55,
       0,
       0,
-      9090,
-      18180,
-      27270,
-      36360,
-      45450,
-      54540,
-      63630,
-      72720,
-      81810
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450
     ],
     "energy_cost": [
       1
@@ -2794,7 +2794,7 @@
   {
     "id": 7030260,
     "name": "孢子",
-    "desc": "敌方获得1层<desc_id=1008>寄生</>。",
+    "desc": "敌方获得3层<desc_id=1008>寄生</>。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/701003.701003'",
     "dam_para": [
@@ -5312,12 +5312,12 @@
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/104028.104028'",
     "dam_para": [
       90,
-      6666,
-      5555,
-      4444,
-      3333,
-      2222,
-      1111,
+      60,
+      50,
+      40,
+      30,
+      20,
+      10,
       0,
       0,
       0,
@@ -5625,9 +5625,9 @@
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/104035.104035'",
     "dam_para": [
       10,
-      30000,
-      20000,
-      10000,
+      30,
+      20,
+      10,
       0,
       0,
       0,
@@ -10707,7 +10707,7 @@
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111019.111019'",
     "dam_para": [
       75,
-      2,
+      0,
       2,
       28,
       0,
@@ -10733,7 +10733,7 @@
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/111019.111019'",
     "dam_para": [
       75,
-      2,
+      0,
       2,
       28,
       0,
@@ -13507,14 +13507,14 @@
   {
     "id": 7160170,
     "name": "示弱",
-    "desc": "自己获得<desc_id=1006>萌化</>：速度永久+150。",
+    "desc": "自己获得<desc_id=1006>萌化</>：速度永久+130。",
     "flavor_text": "“它只是一个柔弱无害的小小精灵罢了！”",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/716004.716004'",
     "dam_para": [
       0
     ],
     "energy_cost": [
-      1
+      2
     ],
     "skill_priority": 5,
     "skill_dam_type": "萌",
@@ -13678,7 +13678,7 @@
   {
     "id": 7160250,
     "name": "撒娇",
-    "desc": "造成魔伤，3连击。自己获得<desc_id=1006>萌化</>：威力永久+20。",
+    "desc": "造成魔伤，3连击。自己获得<desc_id=1006>萌化</>：威力永久+10。",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/115013.115013'",
     "dam_para": [
@@ -14105,7 +14105,7 @@
   {
     "id": 7160400,
     "name": "做好事",
-    "desc": "造成​魔伤，​自己每​使用过1​次​<desc_id=3019>选择</>​技能，​​自己​获得3层随机永久​<desc_id=1012>增益</>，​使用后​重置。​",
+    "desc": "造成​魔伤，​自己每​使用过1​次​<desc_id=3019>选择</>​技能，​​自己​获得3层随机永久​<desc_id=3014>属性增益</>，​使用后​重置。​",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301115.301115'",
     "dam_para": [
@@ -14709,7 +14709,7 @@
   {
     "id": 7170310,
     "name": "吃独食",
-    "desc": "造成​魔伤，​自己每​使用过1​次​<desc_id=3019>选择</>​技能，​​敌方​获得3​层随机永久​<desc_id=1013>减益</>，​使用后​重置。​",
+    "desc": "造成​魔伤，​自己每​使用过1​次​<desc_id=3019>选择</>​技能，​​敌方​获得3​层随机永久​<desc_id=3018>属性减益</>，​使用后​重置。​",
     "flavor_text": "",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/SkillIcon/301116.301116'",
     "dam_para": [

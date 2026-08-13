@@ -1472,7 +1472,7 @@
   {
     "id": 200246,
     "name": "整点报时",
-    "desc": "回合​结束​时，​若本场战斗累计消耗的能量恰好为12，则回满能量和生命。",
+    "desc": "每场战斗1次，回合​结束​时，​若自己累计消耗的能量恰好为12，则回满能量和生命。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200246.200246'"
   },
   {
@@ -1856,13 +1856,13 @@
   {
     "id": 200311,
     "name": "冰雪魂魄",
-    "desc": "天气为<desc_id=3007>暴风雪</>时，敌方队伍中的精灵每有1层<desc_id=1004>冻结</>，冰系技能威力+10%。",
+    "desc": "天气为<desc_id=3007>暴风雪</>时，冰系技能威力+100%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200311.200311'"
   },
   {
     "id": 200312,
     "name": "光度换算",
-    "desc": "携带的火系​技​能​获得​<desc_id=3019>选择</>：使用后​失去​15%​生命，​光系​技​能​威力​永久​+20。",
+    "desc": "携带的火系​技​能​获得​<desc_id=3019>选择</>：使用后​失去​15%​生命，​光系​技​能​威力​永久​+30。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200312.200312'"
   },
   {
@@ -3128,7 +3128,7 @@
   {
     "id": 288170,
     "name": "长久保存制法",
-    "desc": "自己的聚能获得<desc_id=3019>选择</>：敌方失去3能量。",
+    "desc": "自己的聚能获得<desc_id=3019>选择</>：偷取敌方3能量。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200264.200264'"
   },
   {
@@ -3332,13 +3332,13 @@
   {
     "id": 288204,
     "name": "冰雪魂魄",
-    "desc": "天气为<desc_id=3007>暴风雪</>时，敌方队伍中的精灵每有1层<desc_id=1004>冻结</>，冰系技能威力+10%。",
+    "desc": "天气为<desc_id=3007>暴风雪</>时，冰系技能威力+100%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200311.200311'"
   },
   {
     "id": 288205,
     "name": "光度换算",
-    "desc": "携带的火系​技​能​获得​<desc_id=3019>选择</>：使用后​失去​15%​生命，​光系​技​能​威力​永久​+20。【<desc_id=8001>无法叠加</>】",
+    "desc": "携带的火系​技​能​获得​<desc_id=3019>选择</>：使用后​失去​15%​生命，​光系​技​能​威力​永久​+30。【<desc_id=8001>无法叠加</>】",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200312.200312'"
   },
   {
@@ -3544,6 +3544,54 @@
     "name": "扫荡",
     "desc": "敌方每使用1次「聚能」技能或更换精灵，自己入场时获得魔攻+20%和魔防+10%。",
     "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200160.200160'"
+  },
+  {
+    "id": 289100,
+    "name": "草木苏醒时",
+    "desc": "每回复1能量，物攻和魔攻永久+20%，攻击后重置。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200076.200076'"
+  },
+  {
+    "id": 289101,
+    "name": "变形活画",
+    "desc": "行动时，敌方每有1层<desc_id=1012>增益</>，本次行动技能威力+10%，速度+2。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200243.200243'"
+  },
+  {
+    "id": 289102,
+    "name": "得寸进尺",
+    "desc": "天气为<desc_id=3008>雨天</>，或处于其他水系环境中时，获得双攻+100%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200079.200079'"
+  },
+  {
+    "id": 289103,
+    "name": "无差别过滤",
+    "desc": "在场时，所有精灵<desc_id=3005>连击数</>-50%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200209.200209'"
+  },
+  {
+    "id": 289104,
+    "name": "勇敢",
+    "desc": "携带的能耗大于3的技能，威力+40%。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200077.200077'"
+  },
+  {
+    "id": 289105,
+    "name": "生长",
+    "desc": "回合结束时，回复12%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200087.200087'"
+  },
+  {
+    "id": 289106,
+    "name": "腐植循环",
+    "desc": "每回复1能量，同时回复5%生命。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200083.200083'"
+  },
+  {
+    "id": 289107,
+    "name": "养分重吸收",
+    "desc": "回合结束时，回复3能量。",
+    "icon": "Texture2D'/Game/NewRoco/Modules/System/BattleUI/Raw/Atlas/FeatureIcon/200080.200080'"
   },
   {
     "id": 298001,
